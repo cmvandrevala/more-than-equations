@@ -2,6 +2,8 @@ import rehypeCitation from "rehype-citation"
 import { PluggableList } from "unified"
 import { visit } from "unist-util-visit"
 import { QuartzTransformerPlugin } from "../types"
+import { Element, Text, Root as HtmlRoot } from "hast"
+import { processNodes } from "../../util/foo"
 
 export interface Options {
   bibliographyFile: string
@@ -43,6 +45,51 @@ export const Citations: QuartzTransformerPlugin<Partial<Options>> = (userOpts) =
           visit(tree, "element", (node, _index, _parent) => {
             if (node.tagName === "a" && node.properties?.href?.startsWith("#bib")) {
               node.properties["data-no-popover"] = true
+            }
+          })
+        }
+      })
+
+      // Format external links correctly
+      plugins.push(() => {
+        return (tree: HtmlRoot, _file) => {
+          visit(tree, "element", (node: Element, index, parent) => {
+            if ((node.properties?.className as string[])?.includes("references")) {
+              const sectionChildren: Element[] = []
+              visit(node, "element", (entry) => {
+                if ((entry.properties?.className as string[])?.includes("csl-entry")) {
+                  sectionChildren.push({
+                    type: "element",
+                    tagName: "li",
+                    properties: {
+                      ...entry.properties,
+                    },
+                    children: processNodes(entry.children as (Element | Text)[], opts.prettyLinks!),
+                  })
+                }
+              })
+              parent!.children.splice(index as number, 1, {
+                type: "element",
+                tagName: "section",
+                properties: {
+                  "data-references": true,
+                  className: ["bibliography"],
+                },
+                children: [
+                  {
+                    type: "element",
+                    tagName: "h2",
+                    properties: { id: "reference-label" },
+                    children: [{ type: "text", value: "Bibliography" }],
+                  },
+                  {
+                    type: "element",
+                    tagName: "ul",
+                    properties: {},
+                    children: sectionChildren,
+                  },
+                ],
+              })
             }
           })
         }
