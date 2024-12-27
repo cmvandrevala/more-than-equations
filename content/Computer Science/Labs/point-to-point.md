@@ -1,7 +1,7 @@
 ---
 title: Point to Point
 date: 2024-12-17
-tags: [c++, csc-121, basic-math]
+tags: [c-plus-plus, csc-121, basic-math]
 description: In this lab you write a program that will calculate the midpoint of two points in a Cartesian coordinate system.
 ---
 

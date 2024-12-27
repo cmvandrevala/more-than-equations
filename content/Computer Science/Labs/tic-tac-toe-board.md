@@ -1,7 +1,7 @@
 ---
 title: Tic-Tac-Toe Board
 date: 2024-12-17
-tags: [c++, csc-121]
+tags: [c-plus-plus, csc-121]
 description: In this lab you write a program that displays a tic-tac-toe board on the console. Users will be able to mark the board with a single symbol, but there will be no rules or win conditions implemented just yet.
 ---
 

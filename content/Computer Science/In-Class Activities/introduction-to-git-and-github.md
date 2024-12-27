@@ -1,6 +1,6 @@
 ---
 title: Introduction to Git and GitHub
-tags: [c++, csc-122, git, github, version-control]
+tags: [c-plus-plus, csc-122, git, github, version-control]
 description: This activity will help you get set up with Git and GitHub on your workstations.
 ---
 

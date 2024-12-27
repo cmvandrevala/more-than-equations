@@ -1,6 +1,6 @@
 ---
 title: "ASCII Plot: Part 2"
-tags: [c++, csc-121, functions]
+tags: [c-plus-plus, csc-121, functions]
 description: This activity will expand on part one of the ASCII Plot activity and give you more practice encapsulating business logic in functions.
 ---
 

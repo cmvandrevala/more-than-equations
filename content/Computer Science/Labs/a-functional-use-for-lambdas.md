@@ -1,7 +1,7 @@
 ---
 title: A Functional Use for Lambdas
 date: 2024-12-27
-tags: [c++, csc-122, lambda-functions, stl]
+tags: [c-plus-plus, csc-122, lambda-functions, stl]
 description: The goal of this lab is to explore the sort function in the C++ Standard Template Library. You will test out how built-in C++ functions, custom lambda functions, and custom structs affect the output.
 ---
 

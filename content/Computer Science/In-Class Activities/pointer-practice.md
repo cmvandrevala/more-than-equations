@@ -1,6 +1,6 @@
 ---
 title: Pointer Practice
-tags: [c++, csc-122, pointers]
+tags: [c-plus-plus, csc-122, pointers]
 description: This activity will give you some practice working with pointers.
 ---
 
