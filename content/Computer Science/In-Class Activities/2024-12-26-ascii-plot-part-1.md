@@ -6,7 +6,7 @@ description: This activity will give you some practice encapsulating business lo
 
 ## 🔖 Background Information
 
-There is no Background Information for this activity.
+There is no background information for this activity.
 
 ## 🎯 Problem Statement
 

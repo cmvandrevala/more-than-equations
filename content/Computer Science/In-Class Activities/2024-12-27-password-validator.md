@@ -38,13 +38,13 @@ Your validation function should return a boolean response. Thus, you might test 
 
 using namespace std;
 
-bool validate_password(string password) {
+bool valid_password(string password) {
   // Your code goes here
 }
 
 int main() {
-  assert(!validate_password("some invalid password"));
-  assert(validate_password("some valid password"));
+  assert(!valid_password("some invalid password"));
+  assert(valid_password("some valid password"));
 }
 ```
 
