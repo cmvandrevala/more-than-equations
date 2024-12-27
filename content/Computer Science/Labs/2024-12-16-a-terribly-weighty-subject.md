@@ -1,5 +1,6 @@
 ---
 title: A Terribly Weighty Subject
+date: 2024-12-16
 tags: [c++, java, csc-121, csc-214, basic-math]
 description: In this lab you write a program that can convert weights between ounces and pounds. It will help you get started with some basic mathematical operations.
 ---

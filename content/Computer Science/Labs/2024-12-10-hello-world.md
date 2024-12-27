@@ -1,5 +1,6 @@
 ---
 title: Hello World!
+date: 2024-12-10
 tags: [c++, java, csc-121, csc-122, csc-214]
 description: This lab is a simple way to make sure that your local setup is working properly. It sets the stage to make sure that you can develop on your workstation.
 ---
