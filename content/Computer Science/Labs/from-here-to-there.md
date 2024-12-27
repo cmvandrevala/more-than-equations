@@ -159,3 +159,5 @@ Note, you do not have to calculate the cosine similarity for the 3D case if you 
 * [C++ Project Template](https://github.com/cmvandrevala/from-here-to-there-cpp-template)
 
 ## 📘 Works Cited
+
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
