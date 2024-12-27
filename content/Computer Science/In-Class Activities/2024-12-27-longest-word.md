@@ -27,7 +27,10 @@ Write a function that takes in a sentence as an argument and returns the number 
 Some tests that exercise the function might look something like this:
 
 ```cpp
+#include <cassert>
 #include <string>
+
+using namespace std;
 
 int longest_word(string sentence) {
   // Your code goes here
