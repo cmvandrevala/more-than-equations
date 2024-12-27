@@ -6,7 +6,7 @@ description: This activity will give you some practice creating a class in C++.
 
 ## 🔖 Background Information
 
-There is no Background Information for this lab.
+There is no Background Information for this activity.
 
 ## 🎯 Problem Statement
 
