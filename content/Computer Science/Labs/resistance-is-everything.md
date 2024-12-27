@@ -1,7 +1,7 @@
 ---
 title: Resistance is Everything
 date: 2024-12-17
-tags: [c++, csc-121, basic-math]
+tags: [c-plus-plus, csc-121, basic-math]
 description: In this lab you write a program that calculates the total resistance of a pair of resistors in series and parallel.
 ---
 

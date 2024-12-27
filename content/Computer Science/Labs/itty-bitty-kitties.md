@@ -1,7 +1,7 @@
 ---
 title: Itty Bitty Kitties
 date: 2024-12-27
-tags: [c++, csc-121, string-manipulation]
+tags: [c-plus-plus, csc-121, string-manipulation]
 description: In this lab you write a program that replaces substrings within a string.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "ASCII Plot: Part 1"
-tags: [c++, csc-121, functions]
+tags: [c-plus-plus, csc-121, functions]
 description: This activity will give you some practice encapsulating business logic in functions.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Longest Word
-tags: [c++, csc-121, strings, loops]
+tags: [c-plus-plus, csc-121, strings, loops]
 description: This activity will give you some practice working with strings and loops.
 ---
 

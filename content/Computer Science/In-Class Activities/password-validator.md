@@ -1,6 +1,6 @@
 ---
 title: Password Validator
-tags: [c++, csc-121, conditionals, functions, ping-pong-programming]
+tags: [c-plus-plus, csc-121, conditionals, functions, ping-pong-programming]
 description: This activity will give you some practice working with conditionals.
 ---
 

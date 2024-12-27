@@ -1,6 +1,6 @@
 ---
 title: Student Class
-tags: [c++, classes, constructors, csc-121, csc-122]
+tags: [c-plus-plus, classes, constructors, csc-121, csc-122]
 description: This activity will give you some practice creating a class in C++.
 ---
 
