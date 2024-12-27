@@ -11,7 +11,7 @@ A resistor is a piece of electronics equipment that resists the flow of electr
 
 Generally, a circuit will not have just one resistor. Rather, it will have two or more resistors in different configurations. The total resistance (a.k.a the equivalent resistance) of the circuit depends on how the resistors are connected together.
 
-This problem is available courtey of Professor Jason James[@jamesResistanceEverything2023].
+This problem is available courtey of Professor Jason James [@jamesResistanceEverything2023].
 
 ### Resistors In Series
 
@@ -143,7 +143,7 @@ Note: If you complete this challenge, you will automatically earn credit for "Mu
 
 ## 🔗 Useful Links
 
-* [C++ Project Template](https://github.com/cmvandrevala/a-terribly-weighty-subject-cpp-template)
+* [C++ Project Template](https://github.com/cmvandrevala/resistance-is-everything-cpp-template)
 
 ## 📘 Works Cited
 

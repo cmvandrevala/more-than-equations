@@ -19,7 +19,7 @@ $$
 y = \frac{3 + 7}{2} = 5
 $$
 
-This problem is available courtesy of Professor Jason James[@jamesPointPoint2017].
+This problem is available courtesy of Professor Jason James [@jamesPointPoint2017].
 
 ## 🎯 Problem Statement
 
@@ -136,7 +136,7 @@ The program should not change, otherwise.
 
 ## 🔗 Useful Links
 
-* [C++ Project Template](https://github.com/cmvandrevala/a-terribly-weighty-subject-cpp-template)
+* [C++ Project Template](https://github.com/cmvandrevala/point-to-point-cpp-template)
 
 ## 📘 Works Cited
 
