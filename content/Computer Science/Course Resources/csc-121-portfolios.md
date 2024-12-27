@@ -41,17 +41,17 @@ You will hand in your portfolios as an assignment on Blackboard, similar to how 
 
 The grade breakdown for each portfolios is as follows:
 
-| Part | Percent |
-|-----|------|
-| Mini-Project | 60% |
-| Self-Reflection | 20% |
-| Peer Review | 20% |
+| Part            | Percent |
+| --------------- | ------- |
+| Mini-Project    | 60%     |
+| Self-Reflection | 20%     |
+| Peer Review     | 20%     |
 
 You can complete add-ons for extra credit according to the following scale.
 
-| Number of Credits| Extra Percentage Points |
-|---|---|
-| 5 | 2% |
-| 10 | 3% |
-| 15 | 4% |
-| 20+ | 5% |
+| Number of Credits | Extra Percentage Points |
+| ----------------- | ----------------------- |
+| 5                 | 2%                      |
+| 10                | 3%                      |
+| 15                | 4%                      |
+| 20+               | 5%                      |
