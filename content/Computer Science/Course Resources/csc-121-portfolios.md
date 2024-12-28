@@ -15,7 +15,7 @@ Portfolios are an opportunity to pull together many different concepts learned i
 
 ### Mini Project (Required)
 
-I will assign you a problem to work on for each portfolio. These problems are more open-ended than the traditional labs that you complete during the semester, allowing you to add your own creative touch to the project. Your code will be graded in a [[2024-12-23-lab-grading-rubric|similar manner to the labs]], with points awarded for a working solution, rigorous tests, and clean code.
+I will assign you a problem to work on for each portfolio. These problems are more open-ended than the traditional labs that you complete during the semester, allowing you to add your own creative touch to the project. Your code will be graded in a [[lab-grading-rubric|similar manner to the labs]], with points awarded for a working solution, rigorous tests, and clean code.
 
 ### Self-Reflection (Required)
 
