@@ -17,7 +17,9 @@ This problem is available courtey of Professor Jason James [@jamesResistanceEver
 
 Two resistors can be placed in line with one another. This is called placing them "in series".
 
-![Series Resistors]({{ "/assets/series_resistors.png" | absolute_url }})
+<p align="center">
+  <img src="assets/series-resistors.svg" alt="Two resistors in series"/>
+</p>
 
 Two resistors in series will will have an equivalent resistance given by:
 
@@ -31,7 +33,9 @@ This is read: "the equivalent resistance of two resistors placed in series is eq
 
 On the other hand, two resistors can also be placed side by side. This is called placing them "in parallel".
 
-![Parallel Resistors]({{ "/assets/parallel_resistors.png" | absolute_url }})
+<p align="center">
+  <img src="assets/parallel-resistors.svg" alt="Two resistors in parallel"/>
+</p>
 
 In this configuration, the equivalent resistance is given by:
 
