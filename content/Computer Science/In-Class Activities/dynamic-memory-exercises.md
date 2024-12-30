@@ -1,7 +1,7 @@
 ---
 title: Dynamic Memory Exercises
 tags: [c-plus-plus, csc-122, dynamic-memory-management, stack, heap]
-description:
+description: These exercises will give you some practice with dynamic memory management in C++.
 ---
 
 ## 🔖 Background Information
