@@ -75,13 +75,12 @@ Thank you for using the RCP!
 
 ## 📝 Thought Provoking Questions
 
-1. How many `cin` statements did you end up using in this program? Could you have gotten away with fewer `cin` statements? What are the tradeoffs of using more or fewer `cin` statements?
-2. Does it matter what order the user types their two resistance values into your program? For example, would I get the same answer if I first typed in $$10 \: \Omega$$ and then $$20 \: \Omega$$ versus $$20 \: \Omega$$ then $$10 \: \Omega$$? Why or why not?
-3. Should the "welcome" message and the "enter" prompt be printed from the same `cout` statement? Why or why not?
-4. In the mathematical notation of the equivalent parallel resistance formula, the division bar acts as a grouping symbol. How do you ensure that the sum in the denominator of this [complex rational expression](http://www.wtamu.edu/academic/anns/mps/math/mathlab/col_algebra/col_alg_tut11_complexrat.htm) is treated as a single group when translating the formula into a C++ expression?
-5. Recall that domain restrictions can come from both the algebraic operations in an expression as well as real-world concerns. What values are not allowed mathematically for $$R_1$$ and $$R_2$$?
-6. What would happen if the user typed in a negative value for a resistance? Note, you do not need to write any code to handle this case.
-7. What would happen if the user typed in zero for a resistance? Note, you do not need to write any code to handle this case.
+1. How many `cin` statements did you use in your program? Could you have gotten away with fewer `cin` statements? What are the tradeoffs of using more or fewer `cin` statements?
+2. Does it matter what order the user types their two resistance values into your program? For example, would I get the same answer if I first typed in $$10 \: \Omega$$ then $$20 \: \Omega$$ versus $$20 \: \Omega$$ then $$10 \: \Omega$$? Why or why not?
+3. In the mathematical notation of the equivalent parallel resistance formula, the division bar acts as a grouping symbol. How do you ensure that the sum in the denominator of this complex rational expression [@marecekIntermediateAlgebra2017] is treated as a single group when translating the formula into a C++ expression?
+4. Recall that domain restrictions can come from both the algebraic operations in an expression as well as real-world concerns. What values are not allowed mathematically for $$R_1$$ and $$R_2$$?
+5. What happens if a user types in a negative value for one of the resistances? You do not need to write any code to handle this error case. Just try it out in your program and report what happens.
+6. What happens if a user types in zero for one of the resistances? You do not need to write any code to handle this error case. Just try it out in your program and report what happens.
 
 ## 💼 Add-Ons For the Portfolio
 
