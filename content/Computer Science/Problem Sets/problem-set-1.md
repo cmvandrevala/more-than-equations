@@ -34,7 +34,7 @@ $$
 2^x = 13
 $$
 
-2. Solve for x in each of the epressions using any calculators or tools at your disposal (e.g. Desmos, Wolfram, etc.). Write a sentence or two on the strategy you used to solve each problem.
+2. Solve for $x$ in each of the expressions using any calculators or tools at your disposal (e.g. Desmos, Wolfram, etc.). Write a sentence or two on the strategy you used to solve each problem.
 
 $$
 log_3(5x) + x = 7
