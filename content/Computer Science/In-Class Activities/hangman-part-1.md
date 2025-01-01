@@ -1,7 +1,7 @@
 ---
-layout: activity
 title: "Hangman: Part 1"
-draft: true
+tags: [c-plus-plus, csc-121, loops, strings]
+description: This activity will give you some practice with loops and string manipulation.
 ---
 
 ## 🔖 Background Information
@@ -35,7 +35,7 @@ The goal of this activity is to get a "full vertical slice" working - in other w
 
 Welcome to Hangman!
 
-Player one! Enter a word:  cactus
+Player one! Enter a word: cactus
 
 Player two! Guess a word with 6 letters:
 
