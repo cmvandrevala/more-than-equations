@@ -1,7 +1,7 @@
 ---
 title: Problem Set 1
-tags: [c-plus-plus, java, csc-216]
-description: something
+tags: [csc-216]
+description: This problem set is from week one of the course.
 ---
 
 1. Solve for $x$ in each of the expressions by hand. Show all of your work.

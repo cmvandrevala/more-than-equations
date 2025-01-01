@@ -59,10 +59,8 @@ Thank you for using the 2D Midpoint Program.
 
 ## 📝 Thought Provoking Questions
 
-1. How many variables are needed in this program? There are two points being provided by a user and a third point being output by the program.
-2. What is the formula that you use to calculate the midpoint between the two given points? How are the calculations done for the x-components similar to / different from the calculations done for the y-components?
-3. How are you going to test this program to make sure that it works as expected? Specifically, how many pairs of points do you think you need to check to make sure that everything is correct? Do you need to pick pairs of points with particular attributes (e.g. different quadrants, along different axes, etc)?
-4. What sorts of erroneous inputs might a user enter in your program? Reminder: you do not need to actually handle these inputs in your code.
+1. How did you test this program to ensure that it works as expected? Specifically, how many pairs of points do you need to check to make sure that everything is correct? Do you need to pick pairs of points with particular attributes (e.g. different quadrants, along different axes, etc)?
+2. What sorts of erroneous inputs might a user enter that would cause your program to crash? You do not need to actually handle these inputs in your code, I just want you to think about them for now.
 
 ## 💼 Add-Ons For the Portfolio
 
