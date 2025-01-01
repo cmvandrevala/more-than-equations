@@ -1,7 +1,7 @@
 ---
-layout: activity
 title: "Hangman: Part 2"
-draft: true
+tags: [c-plus-plus, csc-121, loops, strings]
+description: This activity will expand on the code from part one by adding validations. It will also hide the initial input from player one before having player two guess letters.
 ---
 
 ## 🔖 Background Information
@@ -10,7 +10,7 @@ Hangman is a two-player game where one player thinks of a word and another playe
 
 ## 🎯 Problem Statement
 
-The goal of this activity is to improve on the work that we completed in [Hangman: Part 1]({{ "/teaching/csc/121/activities/hangman-part-1.html" | absolute_url }}). We are going to add:
+The goal of this activity is to improve on the work that we completed in [[hangman-part-1 | Hangman: Part 1]]. We are going to add:
 
 * Validations to the input for player two
 * Blank space to hide the word that player one entered
