@@ -29,7 +29,7 @@ Write a function called `is_palindrome(...)` that determines if a string input i
 
 ## 📋 Dev Notes
 
-There are no additional dev notes for this lab.
+N/A
 
 ## 🖥️ Example Output
 

@@ -18,7 +18,7 @@ In this lab, we are going to simulate a one-dimensional random walk for a single
 Your goal is to simulate a one-dimensional random walk for a particle using either C++ or Java. You can use any techniques or language features available to you for this simulation. Here is a short rundown of how you can make this work:
 
 1. Determine the number of steps ($N$) you want your particle to take. I would recommend starting with $N = 10$ and then increasing it from there.
-2. Determine the number of trials ($M$) you want want to repeat for each value of $N$. I would recommend start with $M = 10$ and then increasing it from there.
+2. Determine the number of trials ($M$) you want want to repeat for each value of $N$. I would recommend starting with $M = 10$ and then increasing it from there.
 3. Start a particle at position zero. This might be as simple as creating a variable called `int currentPosition = 0`.
 4. Flip a coin (i.e. generate one of two random numbers with a 50-50 chance). If the coin comes up heads, the particle moves one space to the right (i.e. `currentPosition++`). If the coin comes up tails, the particle moves one space to the left (i.e. `currentPosition--`).
 5. Repeat the process of flipping the coin and updating the position $N$ times.

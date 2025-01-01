@@ -32,7 +32,7 @@ You might find it useful to create a few extra columns that allow you to break d
 
 ## 🖥️ Example Output
 
-There is no example output for this activity.
+N/A
 
 ## 📘 Works Cited
 

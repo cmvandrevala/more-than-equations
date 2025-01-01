@@ -7,7 +7,7 @@ description: In this lab, you will take two generic list data structures and int
 
 ## 🔖 Background Information
 
-There is no background information for this problem.
+N/A
 
 ## 🎯 Problem Statement
 
@@ -68,4 +68,4 @@ public static void main(String[] args) {
 
 ## 📘 Works Cited
 
-There are no works cited for this lab.
+N/A

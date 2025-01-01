@@ -2,11 +2,12 @@
 layout: lab
 title: After a String Argument, I End Up in Knots
 draft: true
+description: In this lab, we are going to explore the difference between passing arguments to a function by reference versus passing arguments by value.
 ---
 
 ## 🔖 Background Information
 
-In this lab, we are going to explore the difference between passing arguments to a function by reference versus passing arguments by value. There is no additional background information needed for this lab.
+N/A
 
 ## 🎯 Problem Statement
 
@@ -31,7 +32,7 @@ Refer to the Example Output section for what your program should look like.
 
 ## 📋 Dev Notes
 
-There are no dev notes for this lab.
+N/A
 
 ## 🖥️ Example Output
 
@@ -73,8 +74,8 @@ The following questions require a bit of imagination. You might reflect on them 
 
 ## 💼 Add-Ons For the Portfolio
 
-There are no add-ons available for this lab.
+N/A
 
 ## 📘 Works Cited
 
-There are no works cited for this lab.
+N/A

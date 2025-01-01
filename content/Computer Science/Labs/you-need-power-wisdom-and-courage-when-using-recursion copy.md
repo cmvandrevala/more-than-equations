@@ -89,4 +89,4 @@ Implement a method called `sequence(int n)` which returns a list of triangle num
 
 ## 📘 Works Cited
 
-There are no works cited for this lab.
+N/A

@@ -6,7 +6,7 @@ description: This activity will expand on part one of the ASCII Plot activity an
 
 ## 🔖 Background Information
 
-There is no background information for this activity.
+N/A
 
 ## 🎯 Problem Statement
 
@@ -74,4 +74,4 @@ X
 
 ## 📘 Works Cited
 
-There are no works cited for this activity.
+N/A

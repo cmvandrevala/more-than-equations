@@ -134,4 +134,4 @@ cout << gradebook.assignment_report("Lab 1");
 
 ## 📘 Works Cited
 
-There are no works cited for this lab.
+N/A

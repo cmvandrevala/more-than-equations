@@ -6,7 +6,7 @@ description: This activity will give you some practice writing classes.
 
 ## 🔖 Background Information
 
-There is no background information for this activity.
+N/A
 
 ## 🎯 Problem Statement
 
@@ -63,4 +63,4 @@ int main() {
 
 ## 📘 Works Cited
 
-There are no works cited for this activity.
+N/A

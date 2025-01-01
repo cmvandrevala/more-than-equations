@@ -53,7 +53,7 @@ int main()
 
 ## 📋 Dev Notes
 
-There are no dev notes for this activity.
+N/A
 
 ## 🖥️ Example Output
 
@@ -61,4 +61,4 @@ If you successfully complete this challenge, the assertion in `int main()` will 
 
 ## 📘 Works Cited
 
-There are no works cited for this activity.
+N/A

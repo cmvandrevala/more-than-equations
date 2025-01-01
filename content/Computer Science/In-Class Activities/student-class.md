@@ -6,7 +6,7 @@ description: This activity will give you some practice creating a class in C++.
 
 ## 🔖 Background Information
 
-There is no Background Information for this activity.
+N/A
 
 ## 🎯 Problem Statement
 
@@ -62,4 +62,4 @@ int main() {
 
 ## 📘 Works Cited
 
-There are no works cited for this activity.
+N/A

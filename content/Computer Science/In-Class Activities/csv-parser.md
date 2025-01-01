@@ -28,7 +28,7 @@ You do not need to write any code in this activity. However, it may be useful to
 
 ## 🖥️ Example Output
 
-There is no example output for this activity.
+N/A
 
 ## 📘 Works Cited
 
