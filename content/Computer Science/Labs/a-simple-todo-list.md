@@ -6,7 +6,7 @@ draft: true
 
 ## 🔖 Background Information
 
-There is no background information for this lab.
+N/A
 
 ## 🎯 Problem Statement
 
@@ -192,4 +192,4 @@ int main() {
 
 ## 📘 Works Cited
 
-There are no works cited for this lab.
+N/A

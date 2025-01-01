@@ -42,7 +42,7 @@ Write a function called `number_suffix(...)` which returns the suffix of an inte
 
 ## 📋 Dev Notes
 
-There are no dev notes for this lab.
+N/A
 
 ## 🖥️ Example Output
 

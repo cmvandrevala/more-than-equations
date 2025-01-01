@@ -52,11 +52,11 @@ Hello World!
 
 ## 📝 Thought Provoking Questions
 
-There are no thought provoking questions for this lab.
+N/A
 
 ## 💼 Add-Ons For the Portfolio
 
-There are no add-ons available for this lab.
+N/A
 
 ## 🔗 Useful Links
 
@@ -65,4 +65,4 @@ There are no add-ons available for this lab.
 
 ## 📘 Works Cited
 
-There are no works cited for this lab.
+N/A

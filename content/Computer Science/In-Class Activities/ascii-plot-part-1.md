@@ -6,7 +6,7 @@ description: This activity will give you some practice encapsulating business lo
 
 ## 🔖 Background Information
 
-There is no background information for this activity.
+N/A
 
 ## 🎯 Problem Statement
 
@@ -44,4 +44,4 @@ Enter the y-coordinate that you want to plot: 2
 
 ## 📘 Works Cited
 
-There are no works cited for this activity.
+N/A

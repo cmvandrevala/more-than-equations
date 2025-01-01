@@ -7,7 +7,7 @@ description: The goal of this lab is to explore the sort function in the C++ Sta
 
 ## 🔖 Background Information
 
-There is no background information for this problem.
+N/A
 
 ## 🎯 Problem Statement
 
@@ -74,8 +74,8 @@ For each of the cases listed in the acceptance criteria, answer the following qu
 
 ## 💼 Add-Ons For the Portfolio
 
-There are no add-ons for this lab.
+N/A
 
 ## 📘 Works Cited
 
-There are no works cited for this lab.
+N/A

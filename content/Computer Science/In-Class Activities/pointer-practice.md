@@ -51,12 +51,12 @@ If they pass each other without meeting (i.e. there are an even number of elemen
 
 ## 📋 Dev Notes
 
-There are no dev notes for this activity.
+N/A
 
 ## 🖥️ Example Output
 
-There is no example output for this activity.
+N/A
 
 ## 📘 Works Cited
 
-There are no works cited for this activity.
+N/A

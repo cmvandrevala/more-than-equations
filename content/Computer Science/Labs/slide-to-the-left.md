@@ -6,7 +6,7 @@ draft: true
 
 ## 🔖 Background Information
 
-There is no additional background information needed for this problem.
+N/A
 
 ## 🎯 Problem Statement
 

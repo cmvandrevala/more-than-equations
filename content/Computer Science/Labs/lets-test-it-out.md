@@ -58,12 +58,12 @@ If I follow the commands in your README file, I should see the output of the Cat
 
 ## 📝 Thought Provoking Questions
 
-There are no thought-provoking questions for this lab.
+N/A
 
 ## 💼 Add-Ons For the Portfolio
 
-There are no add-ons for this lab.
+N/A
 
 ## 📘 Works Cited
 
-There are no works cited for this lab.
+N/A

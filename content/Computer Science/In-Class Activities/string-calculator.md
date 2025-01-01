@@ -6,7 +6,7 @@ draft: true
 
 ## 🔖 Background Information
 
-There is no background information for this activity.
+N/A
 
 ## 🎯 Problem Statement
 

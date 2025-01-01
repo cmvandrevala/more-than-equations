@@ -76,4 +76,4 @@ Create a new `GeometricDynamicArray` class that has the same constructor as the 
 
 ## 📘 Works Cited
 
-There are no works cited for this lab.
+N/A

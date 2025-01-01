@@ -59,7 +59,7 @@ Given a user's input of two resistances, calculate the equivalent resistance of 
 
 ## 📋 Dev Notes
 
-There are no dev notes for this problem.
+N/A
 
 ## 🖥️ Example Output
 
