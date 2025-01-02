@@ -4,8 +4,14 @@ tags:
   - c-plus-plus
   - csc-121
 ---
-## Useful Resources
+## Course Resources
+
+* [[CSC 121 Portfolios]]
+* [[Lab Grading Rubric]]
 
 ## Labs
+
+* [[Hello World]]
+* [[Resistance is Everything]]
 
 ## In-Class Activities

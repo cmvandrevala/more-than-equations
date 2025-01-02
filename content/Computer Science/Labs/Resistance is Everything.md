@@ -7,7 +7,7 @@ description: In this lab you write a program that calculates the total resistanc
 
 ## 🔖 Background Information
 
-A resistor is a piece of electronics equipment that resists the flow of electricity in a circuit. Different resistors can resist electrical flow with different strengths. This strength of resistance is measured in units of ohms ($$\Omega$$).
+A resistor is a piece of electronics equipment that resists the flow of electricity in a circuit. Different resistors can resist electrical flow with different strengths. This strength of resistance is measured in units of ohms ($\Omega$).
 
 Generally, a circuit will not have just one resistor. Rather, it will have two or more resistors in different configurations. The total resistance (a.k.a the equivalent resistance) of the circuit depends on how the resistors are connected together.
 
@@ -80,9 +80,9 @@ Thank you for using the RCP!
 ## 📝 Thought Provoking Questions
 
 1. How many `cin` statements did you use in your program? Could you have gotten away with fewer `cin` statements? What are the tradeoffs of using more or fewer `cin` statements?
-2. Does it matter what order the user types their two resistance values into your program? For example, would I get the same answer if I first typed in $$10 \: \Omega$$ then $$20 \: \Omega$$ versus $$20 \: \Omega$$ then $$10 \: \Omega$$? Why or why not?
+2. Does it matter what order the user types their two resistance values into your program? For example, would I get the same answer if I first typed in $10 \: \Omega$ then $20 \: \Omega$ versus $20 \: \Omega$ then $10 \: \Omega$? Why or why not?
 3. In the mathematical notation of the equivalent parallel resistance formula, the division bar acts as a grouping symbol. How do you ensure that the sum in the denominator of this complex rational expression [@marecekIntermediateAlgebra2017] is treated as a single group when translating the formula into a C++ expression?
-4. Recall that domain restrictions can come from both the algebraic operations in an expression as well as real-world concerns. What values are not allowed mathematically for $$R_1$$ and $$R_2$$?
+4. Recall that domain restrictions can come from both the algebraic operations in an expression as well as real-world concerns. What values are not allowed mathematically for $R_1$ and $R_2$?
 5. What happens if a user types in a negative value for one of the resistances? You do not need to write any code to handle this error case. Just try it out in your program and report what happens.
 6. What happens if a user types in zero for one of the resistances? You do not need to write any code to handle this error case. Just try it out in your program and report what happens.
 
@@ -94,13 +94,13 @@ The formulae that were given above for the equivalent resistance calculations ar
 
 Rearrange the equation for the parallel configuration to require only one division and one multiplication instead of three divisions. Then, refactor your program to use the new formula. The program should run in the same way as before, besides the small optimization.
 
-Hint: Start with the equation $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$$ and solve for $$R_{eq}$$. Simplify the right side of the equation and then take the inverse of both sides.
+Hint: Start with the equation $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$$ and solve for $R_{eq}$. Simplify the right side of the equation and then take the inverse of both sides.
 
 ### (One Credit) Multiple Prompts
 
 It can be cumbersome for a user to enter two values in one prompt. Refactor your program to use two prompts instead of one:
 
-1. Ask users for the values of $$R_1$$ and $$R_2$$ with two separate `cin` statements.
+1. Ask users for the values of $R_1$ and $R_2$ with two separate `cin` statements.
 2. For each prompt, a user will enter a bare number, just like before.
 3. The rest of the program should run in the same way as before.
 
@@ -123,7 +123,7 @@ Thank you for using the RCP!
 
 Sometimes, people like to enter units of "ohms" as part of their input. Refactor the program to do the following:
 
-1. Ask users for the values of $$R_1$$ and $$R_2$$ with two separate `cin` statements.
+1. Ask users for the values of $R_1$ and $R_2$ with two separate `cin` statements.
 2. For each prompt, a user can either enter a bare number (e.g. `12`) or a number with units (e.g. `12 ohms`).
 3. The rest of the program should run in the same way as before.
 
