@@ -10,7 +10,7 @@ N/A
 
 ## 🎯 Problem Statement
 
-The goal of this activity is to expand on the code written in [[ascii-plot-part-1 | ASCII Plot: Part 1]]. Now, we are going to handle the situation where we want to plot points along the x and y axes.
+The goal of this activity is to expand on the code written in [[ASCII Plot - Part 1| ASCII Plot: Part 1]]. Now, we are going to handle the situation where we want to plot points along the x and y axes.
 
 ## ✅ Acceptance Criteria
 

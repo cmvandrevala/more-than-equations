@@ -10,4 +10,12 @@ tags:
 
 ## Labs
 
+* [[It's Raining Strings]]
+
 ## In-Class Activities
+
+* [[CSV Parser]]
+* [[Dynamic Memory Exercises]]
+* [[Introduction to Git and GitHub]]
+* [[Pointer Practice]]
+* [[Student Class]]
