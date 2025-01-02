@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: Just an Average Day
-draft: true
+date: 2025-01-02
+tags: [java, csc-214, streams]
+description: In this lab you will get some practice working with streams in Java. You will also compare solutions using streams to the more traditional solutions using `for` loops.
 ---
 
 ## 🔖 Background Information

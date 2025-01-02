@@ -13,4 +13,5 @@ tags:
 * [[A Terribly Weighty Subject]]
 * [[Am I a Muenster for Making Cheese Puns?]]
 * [[Hello World]]
+* [[Just an Average Day]]
 * [[Zip It]]
