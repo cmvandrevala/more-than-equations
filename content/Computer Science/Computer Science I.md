@@ -11,7 +11,28 @@ tags:
 
 ## Labs
 
+* [[A Terribly Weighty Subject]]
+* [[From Here to There]]
 * [[Hello World]]
+* [[Itty Bitty Kitties]]
+* [[It's Raining Strings]]
+* [[Point to Point]]
 * [[Resistance is Everything]]
 
 ## In-Class Activities
+
+* [[ASCII Plot - Part 1]]
+* [[ASCII Plot - Part 2]]
+* [[Hangman - Part 1]]
+* [[Hangman - Part 2]]
+* [[Happy Birthday]]
+* [[Longest Word]]
+* [[Marco Polo]]
+* [[Password Validator]]
+* [[Point of Sale]]
+* [[Student Class]]
+* [[Truth Table Exercises]]
+
+## Portfolio Projects
+
+* [[Choose Your Own Adventure Game]]
