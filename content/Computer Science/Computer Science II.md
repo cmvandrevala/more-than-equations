@@ -4,7 +4,9 @@ tags:
   - c-plus-plus
   - csc-122
 ---
-## Useful Resources
+## Course Resources
+
+* [[Lab Grading Rubric]]
 
 ## Labs
 
