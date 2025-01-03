@@ -6,15 +6,15 @@ draft: true
 
 ## 🔖 Background Information
 
-Suppose you want to roll some number of dice, each having some number of faces, and count up the total on all of the faces. Tabletop gamers will often use the phrase "NdS" where N is the number of dice and S is the number of sides on each die. For example, 4d6 would represent rolling 4 dice, each with 6 sides.
+Suppose you want to roll some number of dice, each having some number of faces, and count up the total on all of the faces. Tabletop gamers will often use the phrase "NdS" where $N$ is the number of dice and $S$ is the number of sides on each die. For example, 4d6 would represent rolling 4 dice, each with 6 sides.
 
-The minimum value achievable on such a roll is N since each die has a minimum value of one and there are N of them. The maximum value you can get on such a roll is NS since the maximum value on each die is S and there are N of them. The average of such a roll is the quantity:
+The minimum value achievable on such a roll is $N$ since each die has a minimum value of one and there are $N$ of them. The maximum value you can get on such a roll is $NS$ since the maximum value on each die is $S$ and there are $N$ of them. The average of such a roll is the quantity:
 
 $$
 avg = \frac{min + max}{2}
 $$
 
-This problem is available courtesy of {% cite jamesRollEmRoll2023 %}.
+This problem is available courtesy of Professor Jason James [@jamesRollEmRoll2023].
 
 ## 🎯 Problem Statement
 
@@ -216,4 +216,4 @@ Remember! I don't want you to return a random value between the maximum and mini
 
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
