@@ -18,4 +18,5 @@ tags:
 * [[Dynamic Memory Exercises]]
 * [[Introduction to Git and GitHub]]
 * [[Pointer Practice]]
+* [[String Calculator]]
 * [[Student Class]]

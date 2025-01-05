@@ -1,7 +1,7 @@
 ---
-layout: activity
 title: String Calculator
-draft: true
+tags: [c-plus-plus, csc-122, pair-programming, ping-pong-programming, strings]
+description: In this activity we are going to create a simple calculator that sums a list of numbers in a string. It is a nice review of some of the basic string operations in C++.
 ---
 
 ## 🔖 Background Information
@@ -29,7 +29,28 @@ Think about how you might break this problem down into tiny pieces so that you c
 
 ## 🖥️ Example Output
 
-N/A
+You might create a set of tests for your code as follows:
+
+```cpp
+#include <cassert>
+#include <string>
+
+using namespace std;
+
+int string_calculator(string str) {
+	// Your code goes here
+}
+
+int main() {
+	assert(string_calculator("") == 0);
+	assert(string_calculator("0") == 0);
+	assert(string_calculator("1") == 1);
+	assert(string_calculator("1,2") == 3);
+	assert(string_calculator("4,5,6") == 15);
+	
+	// And so on with more examples...
+}
+```
 
 ## 📘 Works Cited
 
