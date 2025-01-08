@@ -13,6 +13,18 @@ description: A positive charge (Q = +5.0 $$\mu C$$ and m = 0.5 kg) is fixed in p
 
 A positive charge (Q = +5.0 $\mu C$ and m = 0.5 kg) is fixed in place at the origin. Another positive charge (q = +1.0 $\mu C$ and m = 2.0 kg) is free to move and starts at rest at the point (1.0 m, 0.0 m). What is the speed of q when it is very far away from Q?
 
+<style>
+  .details-section {
+    margin-bottom: 10px;
+  }
+
+  .details-section-summary {
+    padding: 5px 10px;
+    font-size: 1.3em;
+    cursor: pointer;
+  }
+</style>
+
 <details class="details-section">
   <summary class="details-section-summary">I Need a Hint!</summary>
   <p>The Coulomb force between the two point charges will change as q moves away from Q. This is because the magnitude of the force is inversely proportional to the square of the distance between the particles. Solving this problem using electric force would involve some calculus to take this changing force into account.</p>
