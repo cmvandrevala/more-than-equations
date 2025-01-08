@@ -32,6 +32,7 @@ tags:
 * [[Password Validator]]
 * [[Point of Sale]]
 * [[Student Class]]
+* [[Triangular Numbers]]
 * [[Truth Table Exercises]]
 
 ## Portfolio Projects
