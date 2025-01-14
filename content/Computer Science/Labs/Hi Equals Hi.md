@@ -1,20 +1,23 @@
 ---
-layout: lab
-title: "\"Hi\" == \"hi\"?"
-draft: true
+title: "\"Hi\" Equals \"hi\"?"
+date: 2025-01-14
+tags: [c-plus-plus, csc-121, strings]
+description: This lab has you reimplement the strcmp function in C++ to allow for a case-insensitive comparison of values.
 ---
 
 ## 🔖 Background Information
 
-The `strcmp` function in the C programming language compares two strings, character by character. If the strings are equal to each other, the function returns zero. However, if the strings are different, it returns a value greater than zero or less than zero, depending on the ASCII codes of the characters {% cite programizStrcmpStandardLibrary %}.
+The `strcmp` function in the C programming language compares two strings, character by character. If the strings are equal to each other, the function returns zero. However, if the strings are different, it returns a value greater than zero or less than zero, depending on the ASCII codes of the characters [@programizStrcmpStandardLibrary].
 
-This problem is available courtey of {% cite jamesHiHi2021 %}.
+This problem is available courtesy of Professor Jason James [@jamesHiHi2021].
 
 ## 🎯 Problem Statement
 
 Write a function that allows case-insensitive comparison (a.k.a. ordering) of two strings. The return value should be analogous to that from `strcmp`:
 
 ```bash
+# Examples of the output from strcmp
+
 string_1 < string_2 returns something less than zero
 string_1 == string_2 returns something equal to zero
 string_1 > string_2 returns something greater than zero
@@ -22,27 +25,27 @@ string_1 > string_2 returns something greater than zero
 
 ## ✅ Acceptance Criteria
 
-* Write a function called `strcmp_case_insensitive` that does a case-insensitive comparison of two strings.
+* Write a function called `strcmp_case_insensitive` that does a case-insensitive comparison of two strings, similar to that of `strcmp`.
 * Write a driver program to test your function with a variety of values. You should set up your driver function so that it tests all of the expected edge cases that might be encountered when using your function.
-* You are not allowed to use the library functions `strcasecmp` or `stricmp` since they are not standard or portable.
-* You are not allowed to use the C function `strcmpi`.
-* The original strings should not be altered.
+* The original strings should not be altered in the `strcmp_case_insensitive` function.
 
 ## 📋 Dev Notes
 
 * You can decide what type you want to use for the return value for your function. Might I recommend integers or short integers?
-* You can put this function in a separate library file and `#include` it in the driver file for testing. Alternatively, you can write this function directly in the driver file (no library or `#include` needed). Your choice.
+* You can put this function in a separate library file and `#include` it in the driver file for testing. Alternatively, you can write this function directly in the driver file (no library or `#include` needed). You have some flexibility in how you want to structure everything.
+* You are not allowed to use the library functions `strcasecmp` or `stricmp` since they are not standard or portable.
+* You are not allowed to use the C functions `strcmp` or `strcmpi` since you are tasked with implementing this code from scratch.
 
 ## 🖥️ Example Output
 
 You should write a driver program that tests each case of your function. The output of the driver program might look something like this:
 
-```bash
+```text
 $ ./test_comparison.out
 
-The comparison of "string one" and "string two" returns -1.
-The comparison of "string one" and "string one" returns 0.
-The comparison of "string two" and "string one" returns 1.
+The comparison of "String one" and "string two" returns -1.
+The comparison of "String one" and "string one" returns 0.
+The comparison of "String two" and "string one" returns 1.
 ```
 
 ## 📝 Thought Provoking Questions
@@ -101,4 +104,4 @@ You might want to look at `isdigit` from `cctype` since that might be helpful fo
 
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)

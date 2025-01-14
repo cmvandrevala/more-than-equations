@@ -14,7 +14,7 @@ When the user is prompted to enter a value by a program, that value is often und
 
 Such input validation is easily done with a `while` loop. Consider the following pseudocode:
 
-```java
+```text
 prompt_and_read()
 while (!input_is_valid())
 {
@@ -58,12 +58,12 @@ Write a generalized input-validation function. This function should take in one 
 
 ## 🖥️ Example Output
 
-```bash
-# In this example, suppose we have a driver program called Menu.java that
-# tests a prompt(...) function that we wrote. When a user runs that code,
-# they might see the following output on the console.
+<details class="details-section">
+  <summary class="details-section-summary">C++ Example</summary>
+  <p>In this example, suppose we have a driver program called menu.cpp that tests a prompt(...) function that we wrote. When a user runs that code, they might see the following output on the console.</p>
 
-$ java Menu
+```bash
+$ ./menu.out
 Please enter a value
 500
 
@@ -78,10 +78,34 @@ Please enter a value
 The value chosen by the user is 45
 ```
 
+</details>
+
+<details class="details-section">
+  <summary class="details-section-summary">Java Example</summary>
+  <p>In this example, suppose we have a driver program called Menu.java that tests a prompt(...) function that we wrote. When a user runs that code, they might see the following output on the console.</p>
+
+```bash
+$ ./gradlew run
+Please enter a value
+500
+
+Your value is invalid
+Please enter a value
+-100
+
+Your value is invalid
+Please enter a value
+45
+
+The value chosen by the user is 45
+```
+
+</details>
+
 ## 📝 Thought Provoking Questions
 
-1. Why might it be difficult to test this particular function using automated tests (note: there are more advanced strategies for testing this function using automated tests which we may or may not see later in the semester).
-2. What arguments did you choose to pass into your function? Why?
+1. Why might it be difficult to test this particular function using automated tests? Note: there are advanced strategies for testing this function using automated tests. Unfortunately, we won't get to them in this introductory course.
+2. What types of arguments did you choose to pass into your function? Why?
 3. What type of value is returned by your function? Why?
 4. Are there any edge cases that you can think of that might make your program crash? What might they be?
 

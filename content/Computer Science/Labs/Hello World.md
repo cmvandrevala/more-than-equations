@@ -45,7 +45,7 @@ Hello World!
 Whereas in Java, you might utilize a build tool like Gradle:
 
 ```bash
-$ gradle run
+$ ./gradlew run
 
 Hello World!
 ```
