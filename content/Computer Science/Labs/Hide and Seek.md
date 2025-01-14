@@ -1,7 +1,12 @@
 ---
-layout: lab
 title: Hide and Seek
-draft: true
+date: 2025-01-14
+tags:
+  - java
+  - csc-214
+  - linear-search
+  - binary-search
+description: In this lab you will write two functions that search through a dataset using linear search and binary search.
 ---
 
 ## 🔖 Background Information
@@ -79,6 +84,10 @@ Cold pricklies have gotten into the list of warm fuzzies, and it is your job to 
 4. Update the `FuzzyListGenerator` to return a list of `Feeling` objects rather than tha list of `Fuzzy` objects. Update the generator functions to include one cold pricklies in addition to one golden fuzzy.
 5. Write a new search function that finds the index of the cold prickly instead of the golden fuzzy.
 6. Be sure to test your work using JUnit!
+
+## 🔗 Useful Links
+
+N/A
 
 ## 📘 Works Cited
 

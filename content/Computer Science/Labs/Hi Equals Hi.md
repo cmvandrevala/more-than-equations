@@ -102,6 +102,10 @@ Modify your function so that numbers at the start of the strings are compared / 
 
 You might want to look at `isdigit` from `cctype` since that might be helpful for this task.
 
+## 🔗 Useful Links
+
+N/A
+
 ## 📘 Works Cited
 
 [//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
