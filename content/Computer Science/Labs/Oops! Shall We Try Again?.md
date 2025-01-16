@@ -119,6 +119,10 @@ Thinking about the code above, we run into a bit of an issue with the output. If
 
 You get to choose what the program does if the user aborts the menu. After you implement the code, write a short paragraph explaining why you choose the return function that you did.
 
+## 🔗 Useful Links
+
+* [Java Project Template](https://github.com/cmvandrevala/oops-shall-we-try-again-java-template)
+
 ## 📘 Works Cited
 
 [//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
