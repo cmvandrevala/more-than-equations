@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: Oops! Shall We Try Again?
-draft: true
+date: 2025-01-15
+tags: [c-plus-plus, csc-121, csc-214, java, looping, validation]
+description: In this lab you write a program that will continuously prompt a user for some input until they enter a valid option. This lab will come in handy later in the semester when we write larger programs that involve different inputs from users.
 ---
 
 ## 🔖 Background Information
@@ -36,7 +37,7 @@ All of these can easily be parameterized using a function. There are many option
 1. The bounds, prompts, and messages could all be passed as arguments.
 2. The return value of the function could be the value of the variable.
 
-This problem is available courtey of {% cite jamesOopsShallWe2017 %}.
+This problem is available courtey of Professor Jason James [@jamesOopsShallWe2017].
 
 ## 🎯 Problem Statement
 
@@ -45,9 +46,9 @@ Write a generalized input-validation function. This function should take in one 
 ## ✅ Acceptance Criteria
 
 * You can assume that this function is prompting the user to enter an integer.
-* Someone utilizing the function should be able to specify:
-  * An optional lower bound for the integer
-  * An optional upper bound for the integer
+* Someone utilizing the function should specify:
+  * A lower bound for the integer
+  * An upper bound for the integer
   * The prompt that will be displayed that asks a user for input
   * The error message that will be displayed given an invalid input
 
@@ -58,12 +59,9 @@ Write a generalized input-validation function. This function should take in one 
 
 ## 🖥️ Example Output
 
-<details class="details-section">
-  <summary class="details-section-summary">C++ Example</summary>
-  <p>In this example, suppose we have a driver program called menu.cpp that tests a prompt(...) function that we wrote. When a user runs that code, they might see the following output on the console.</p>
+Your output might look something like this after you start your program.
 
 ```bash
-$ ./menu.out
 Please enter a value
 500
 
@@ -77,30 +75,6 @@ Please enter a value
 
 The value chosen by the user is 45
 ```
-
-</details>
-
-<details class="details-section">
-  <summary class="details-section-summary">Java Example</summary>
-  <p>In this example, suppose we have a driver program called Menu.java that tests a prompt(...) function that we wrote. When a user runs that code, they might see the following output on the console.</p>
-
-```bash
-$ ./gradlew run
-Please enter a value
-500
-
-Your value is invalid
-Please enter a value
--100
-
-Your value is invalid
-Please enter a value
-45
-
-The value chosen by the user is 45
-```
-
-</details>
 
 ## 📝 Thought Provoking Questions
 
@@ -116,7 +90,6 @@ The value chosen by the user is 45
 Sometimes, a user wants to accept a default value rather than specify something specific. Update your function to allow a caller to specify an optional default value. Additionally, update the prompt to give the user the option to use the default value. There are many ways to do this, but one idea might look something like:
 
 ```bash
-$ java Menu
 Please enter a value. Enter "default" to use the default value of 100.
 default
 
@@ -130,7 +103,6 @@ Otherwise, the output of the program should be identical to what you had beforeh
 Sometimes, a user decides that they want to exit out of a prompt rather than provide an input. Update your function to allow a user to abort from the menu without specifying any value. There are many ways to do this, but one idea might look something like:
 
 ```bash
-$ java Menu
 Please enter a value. Enter "exit" to leave the menu.
 exit
 
@@ -149,4 +121,4 @@ You get to choose what the program does if the user aborts the menu. After you i
 
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
