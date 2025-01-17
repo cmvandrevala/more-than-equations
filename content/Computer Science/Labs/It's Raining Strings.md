@@ -98,6 +98,10 @@ Thank you for using the Business Sorting Program!
 
 When completing this lab, you probably used c-strings or the C++ string class to store the business names. Refactor your code to use c-strings if you used the string class and vice versa. The output of the program should be identical to what you had before.
 
+## 🔗 Useful Links
+
+N/A
+
 ## 📘 Works Cited
 
 [//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
