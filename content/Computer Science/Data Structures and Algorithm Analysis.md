@@ -6,6 +6,7 @@ tags:
 
 ## Labs
 
+* [[I've Got the Power!]]
 * [[This Diffusion Joke is Pretty Random]]
 
 ## Problem Sets
