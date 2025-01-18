@@ -20,6 +20,7 @@ tags:
 ## Labs
 
 * [[A Terribly Weighty Subject]]
+* [[After a String Argument, I End Up in Knots]]
 * [[From Here to There]]
 * [[Hello World]]
 * [[Hi Equals Hi]]

@@ -1,13 +1,13 @@
 ---
-layout: lab
 title: After a String Argument, I End Up in Knots
-draft: true
+date: 2025-01-18
+tags: [c-plus-plus, csc-121, reference-versus-value]
 description: In this lab, we are going to explore the difference between passing arguments to a function by reference versus passing arguments by value.
 ---
 
 ## 🔖 Background Information
 
-N/A
+There are a few different ways to pass arguments to a function in the C++ programming language. Two of these methods are referred to as passing by argument and passing by value. In this lab, we are going to explore the differences between passing arguments in these two ways.
 
 ## 🎯 Problem Statement
 
@@ -23,7 +23,7 @@ Create two functions with the following names:
 In each of the functions, perform the following options in this order:
 
 1. Print the argument to the console using `cout` along with a new line.
-2. Append the string " This is the new part!" to the inputted string argument.
+2. Append " This is the new part!" to the inputted string argument.
 3. Print the argument to the console using `cout` along with a new line.
 
 Then, call these functions on a string with `cout` statements in between each call.
@@ -73,6 +73,10 @@ The following questions require a bit of imagination. You might reflect on them 
 2. What would be a real-world use case of passing by value?
 
 ## 💼 Add-Ons For the Portfolio
+
+N/A
+
+## 🔗 Useful Links
 
 N/A
 
