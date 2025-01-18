@@ -105,7 +105,7 @@ N/A
 
 ## 🔗 Useful Links
 
-N/A
+* [Java Project Template](https://github.com/cmvandrevala/ive-got-the-power-java-template)
 
 ## 📘 Works Cited
 
