@@ -69,7 +69,7 @@ N/A
 
 ## 🔗 Useful Links
 
-N/A
+* [Java Project Template](https://github.com/cmvandrevala/this-diffusion-joke-is-pretty-random-java-template)
 
 ## 📘 Works Cited
 
