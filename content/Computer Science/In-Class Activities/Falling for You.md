@@ -10,7 +10,7 @@ description: This activity will give you some practice working with the cmath li
 
 ## 🔖 Background Information
 
-Suppose I were to drop an object from a height $h$ above the ground. If I were to ignore air resistance and assume that it has no initial velocity, its speed right before it hits the ground it:
+Suppose I were to drop an object from a height $h$ above the ground. If I were to ignore air resistance and assume that it has no initial velocity, its speed right before it hits the ground is:
 
 $$
 v_f = \sqrt{2gh}
