@@ -1,34 +1,40 @@
 ---
-layout: lab
 title: I Get the Point!
-draft: true
+date: 2025-01-22
+tags:
+  - c-plus-plus
+  - csc-122
+  - basic-math
+  - cmath
+  - operator-overloading
+description: In this lab you will perform a number of calculations that will involve the cmath library. Rather than creating named methods for each calculation, you will overload some of the existing C++ operators.
 ---
 
 ## 🔖 Background Information
 
-In this lab, you will be performing a number of calculations on points in a 2D Cartesian coordinate system. A point in the 2D Cartesian coordinate system is an ordered pair \\( (x,y) \\) where x and y determine how far you travel horizontally and vertically in the plane.
+In this lab, you will be performing a number of calculations on points in a 2D Cartesian coordinate system. A point in the 2D Cartesian coordinate system is an ordered pair $(x,y)$ where $x$ and $y$ determine how far you travel horizontally and vertically in the plane.
 
-The distance between two points, \\( (x_1, y_1) \\) and \\( (x_2, y_2) \\) is given by:
+The distance between two points, $(x_1, y_1)$ and $(x_2, y_2)$ is given by:
 
 $$
 d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 $$
 
-The midpoint between two points, \\( (x_1, y_1) \\) and \\( (x_2, y_2) \\) is given by:
+The midpoint between two points, $(x_1, y_1)$ and $(x_2, y_2)$ is given by:
 
 $$
 p = \left ( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right )
 $$
 
-This problem is available courtesy of {% cite jamesOperateThis %}.
+This problem is available courtesy of Professor Jason James [@jamesOperateThis].
 
 ## 🎯 Problem Statement
 
-Create a class called `Point` that is initialized with the x- and y-coordinates of the point. Then, create the following overloaded operators on the class - distance, equality, inequality, midpoint, and output streaming.
+Create a class called `Point` that is initialized with the x- and y-coordinates of a point in a Cartesian coordinate plane. Then, create the following overloaded operators on the class - distance, equality, inequality, midpoint, and output streaming.
 
 ## ✅ Acceptance Criteria
 
-* Create a `Point` class that takes an x- and y-coordinate in its constructor.
+* Create a `Point` class that takes an $x$ and $y$ coordinate in its constructor.
 * Override the `-` operator on `Point` so that it calculates the distance between the two points.
 * Override the `==` operator on `Point` so that it determines if two points are the same coordinate or different coordinates.
 * Override the `!=` operator on `Point` so that it determines if two points are not the same coordinate or different coordinates.
@@ -38,7 +44,7 @@ Create a class called `Point` that is initialized with the x- and y-coordinates 
 
 ## 📋 Dev Notes
 
-There might be other methods that you want to implement to help you test this class like pretty print or a getter for the x and y coordinates. Feel free to implement those methods as needed.
+There might be other methods that you want to implement to help you test this class like pretty print or a getter for the $x$ and $y$ coordinates. Feel free to implement those methods as needed.
 
 ## 🖥️ Example Output
 
@@ -89,6 +95,10 @@ double my_y = p['y'];   // my_y should be 9.8
 
 Update your unit tests and / or driver program to test this new functionality.
 
+## 🔗 Useful Links
+
+N/A
+
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)

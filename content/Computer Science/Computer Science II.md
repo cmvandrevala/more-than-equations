@@ -43,6 +43,7 @@ tags:
 
 ## Labs
 
+* [[I Get the Point]]
 * [[It's Raining Strings]]
 
 ## In-Class Activities
