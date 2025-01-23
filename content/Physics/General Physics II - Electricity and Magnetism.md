@@ -7,4 +7,5 @@ tags:
 
 ## Lesson Plans
 
+- [[Electric Dipoles Lesson Plan]]
 - [[Electric Potential Energy Lesson Plan]]
