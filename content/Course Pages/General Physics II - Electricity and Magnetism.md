@@ -9,6 +9,7 @@ tags:
 
 ## Lesson Plans
 
+- [[Electric Dipoles Lesson Plan]]
 - [[Electric Potential Energy Lesson Plan]]
 - [[Ideal Lenses Lesson Plan]]
 - [[Ideal Mirrors Lesson Plan]]

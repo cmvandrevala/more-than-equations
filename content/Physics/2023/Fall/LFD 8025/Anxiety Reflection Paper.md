@@ -1,0 +1,37 @@
+# Introduction
+
+For my first reflection paper of the class, I would like to focus on anxiety. I am interested in reflecting on this particular issue because a number of people in my life suffer from anxiety or anxiety disorders of varying degrees. For some of those people, it is merely an inconvenience, and a few deep breaths is enough to resolve the negative feelings. For others, they regularly see medical professionals and have had their lives interrupted by anxiety to some degree.
+
+Anxiety in my classroom is, unfortunately, somewhat common. I teach introductory physics, and it is famous for being one of the tough "weed out" courses in college. I would hazard to guess that with an average class size of 10 - 25 students, I get at least 2 - 6 students with anxiety disorders of varying degrees each semester. Test anxiety is the most common form of anxiety that I come across, but there are many different types unique to each individual.
+
+For this reflection paper, I would like to think deeply about two students in my class who have displayed signs of anxiety. One of the students has openly told me that he suffers from an anxiety disorder and gets support from ADS. I have actually known him for two semesters, and we have had some great conversations about his interests and career goals. The second student, as far as I know, does not have any formal diagnosis of anxiety disorder. However, I have noticed behaviors in the classroom that suggest that he is, at the very least, exhibiting symptoms and might be advised to visit his doctor.
+
+# Student One - Anxiety Under Control
+
+The first student that I would like to reflect on is a veterinary student who I have known since January. He was in my mechanics class in the spring semester, and is now taking electromagnetism with me in the fall. This student has dealt with anxiety disorder for most of his life, and he has a well-developed support network to manage his condition. He works closely with medical professionals, ADS, and his family.
+
+I enjoy working with this student because he has fantastic metacognition about his anxiety and what he is able to do. More than that, we have been able to find workarounds to a lot of the in-class activities and occasionally push him outside his comfort zone (with his blessing). For example, I often like to have students present in front of the class. I know with this student, it is best to put him in a group first so he feels like he has a team when going up in front of the class. Also, it helps if I email him the topic he will be presenting beforehand so he has a couple of days to prepare. So far, it has worked out well.
+
+One thing that I find humorous about working with this student is that he is passionate about working as a vet for exotic animals and seems to be very comfortable around beasts of all shapes and sizes. He has told me about some of his experiences like working with large livestock and treating exotic pets. One of the most adorable things that he told me about was trying to get a tiny hedgehog to uncurl so they could give it medical attention. If you were to put me in those situations, I would be the one with anxiety! 
+
+What is it about the veterinary clinic that he finds familiar and comfortable? Why might the classroom be stressful? Anxiety is deeply connected with your history, so I wonder if situations in the classroom were stressful for some reason, but being around animals was not.
+
+# Student Two - Familial Pressure
+
+The second student I would like to reflect on is a pre-med student who is taking physics this semester. When I first met him, he seemed to be a very diligent and hardworking person who was always asking great questions in class. However, I did notice that his study habits depended on memorization, which does not work well for physics as there is a lot of problem solving. I did try to steer him away from memorization during exam preparation, but I don't know if my message stuck. He received a C+ on his first exam and he became fixated on the tests in the class. 
+
+His stress level seemed to increase overnight. Many of his questions now seemed to circle back to future exams - e.g. Will this concept be on the exam? Will you expect us to do it this way for the exam? I set up recurring office hours with him to review the material, but I am not sure how much they seemed to calm his nerves.
+
+A couple of weeks ago, I had a chance to speak with this student after he expressed that he felt like the expectations in the course were too high. I was taken aback by the comment at first, but it did give us a chance to chat about the course and his other school obligations. I learned that he is taking multiple in-person and online classes, doing research, and studying for the MCAT. In a word, he is completely and utterly overworked.
+
+He talked to me about his family and mentioned that everybody in his family is a successful doctor. There is this unspoken rule that you should be working at every hour of the day, otherwise you are wasting your time. He has certainly taken that to heart, and I expressed concern that working 13+ hour days with no break will burn him out before the MCAT. I gave him an additional week to turn in his current work in an effort to give him some breathing room, and suggested he rethink his schedule.
+
+The reason I included this student in this reflection is I realized that a lot of his actions around exams were aligned with the symptoms of anxiety. I don't know his history with exams, but he might have "failed" for the first time in my class (even though a C+ is definitely not a failing grade). All of a sudden, his plans for medical school and the future were thrown into question due to one bad grade. This caused him to fixate and stress out about this aspect of the class.
+
+This is a tricky situation. I am not a close friend, nor am I a trusted advisor. Even though I tried to reassure him that he is doing very well in the class, he is still feeling the anxiety about the upcoming exam next week. How do you get past the pressure put on you by your family and social circles? I have no doubt that his family is kind and loving, but he is certainly intimidated by their success. He is trying to measure himself to people who have a 20+ year head start on him.
+
+If there is one thing that I hope I can convey to this student is think about your studies like a marathon - not a sprint. It is better to study for eight hours a day and come back each day at 100% rather than spend 13+ hours per day studying at 50%.
+
+# Concluding Remarks
+
+One of the takeaways that I got from this reflection paper is that these two students exhibit similar behaviors at times, but they have vastly different backgrounds, interests, and goals. This reaffirms the idea that treatments for anxiety are not "one size fits all". From a holistic point of view, treating the first student involves working with his psychiatrist, communicating with the ADS team at Harper, figuring out a cadence for work and life, and setting expectations for due dates in class. On the other hand, treating the second student might involve finding a trusted friend or seeing a counselor to discuss his goals in medical school, the pressure he feels from his family, and working to lighten his course load. In both cases, professors are one part of a larger team that supports a person.
