@@ -65,4 +65,4 @@ Create a new function called `vector_shift(...)` which takes a C++ vector and a 
 
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+N/A
