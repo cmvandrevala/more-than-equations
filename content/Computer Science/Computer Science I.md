@@ -36,6 +36,7 @@ tags:
 
 * [[ASCII Plot - Part 1]]
 * [[ASCII Plot - Part 2]]
+* [[ASCII Shapes]]
 * [[Falling for You]]
 * [[Hangman - Part 1]]
 * [[Hangman - Part 2]]

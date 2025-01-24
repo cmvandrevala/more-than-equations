@@ -12,7 +12,7 @@ description: In this lab, you will work with a conditional statement to determin
 
 The maximum occupancy of a room is defined as the maximum number of people that are allowed to be in the room at a given time. If there are too many people in a room, it becomes difficult for everyone to get out in a timely manner in case of a fire.
 
-This problem is available courtey of Professor Jason James [@jamesMeetNotMeet2017].
+This problem is available courtesy of Professor Jason James [@jamesMeetNotMeet2017].
 
 ## 🎯 Problem Statement
 
