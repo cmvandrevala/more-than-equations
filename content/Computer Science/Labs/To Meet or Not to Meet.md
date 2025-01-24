@@ -1,14 +1,18 @@
 ---
-layout: lab
 title: To Meet or Not to Meet
-draft: true
+date: 2025-01-24
+tags:
+  - c-plus-plus
+  - csc-121
+  - conditionals
+description: In this lab, you will work with a conditional statement to determine what message gets printed to the console.
 ---
 
 ## 🔖 Background Information
 
 The maximum occupancy of a room is defined as the maximum number of people that are allowed to be in the room at a given time. If there are too many people in a room, it becomes difficult for everyone to get out in a timely manner in case of a fire.
 
-This problem is available courtey of {% cite jamesMeetNotMeet2017 %}.
+This problem is available courtey of Professor Jason James [@jamesMeetNotMeet2017].
 
 ## 🎯 Problem Statement
 
@@ -25,7 +29,7 @@ Write a program that determines whether a room being used for a meeting is in vi
 
 ## 📋 Dev Notes
 
-You do not need to handle random inputs from the user in your code in the initial solution to this problem. However, there are add-ons that have you validate user input.
+You do not need to handle invalid inputs from the user in your code in the initial solution to this problem. However, there are add-ons that have you validate user input.
 
 ## 🖥️ Example Output
 
@@ -63,10 +67,9 @@ Thank you for using the Room Capacity Program!
 
 ## 📝 Thought Provoking Questions
 
-1. What are the types you chose for maximum capacity and number of people who have arrived? What is the type that you chose for the percentage?
-2. How many branches are required for your branching structure?
-3. How many tests will be required to make sure your program works for all cases?
-4. Are there any edge cases where the code will crash or give a weird answer? Note, you do not need to fix these edge cases at this time. You just need to think through them here.
+1. How many if / else if / else statements are required for your program?
+2. How many tests would be required to make sure your program works for all cases?
+3. Are there any edge cases where the code will crash or give a weird output? Note, you do not need to fix these edge cases at this time. You just need to think through them here.
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -182,4 +185,4 @@ Thank you for using the Room Capacity Program!
 
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
