@@ -32,50 +32,50 @@ That being said, the final number of pounds might be a decimal number.
 
 ## 🖥️ Example Output
 
-### C++
+> [!tip]- C++
+>
+> ```text
+> ./ounces.out
+>
+> Welcome to the Ounce Conversion Program!
+>
+> How many ounces do you have? 62
+> Thank you! Converting ounces to pounds.
+>
+> 62 oz is equivalent to 3 lbs and 14 oz.
+> 62 oz is equivalent to 3.875 lbs.
+>
+> Thank you for using the OCP!
+> ```
 
-```bash
-$ ./ounces.out
-
-Welcome to the Ounce Conversion Program!
-
-How many ounces do you have? 62
-Thank you! Converting ounces to pounds.
-
-62 oz is equivalent to 3 lbs and 14 oz.
-62 oz is equivalent to 3.875 lbs.
-
-Thank you for using the OCP!
-```
-
-### Java
-
-Suppose we house our methods in a class called `Converter`. Some code that implements the converter might look like:
-
-```java
-Converter converter = new Converter();
-
-converter.toPounds(0); // will return the string "0.0000 lbs"
-converter.toPounds(16); // will return the string "1.0000 lb"
-converter.toPoundsAndOunces(18); // will return the string "1 lb 2 oz"
-converter.toPoundsAndOunces(36); // will return the string "2 lbs 4 oz"
-```
-
-And running the driver program might look like:
-
-```bash
-$ gradle run
-
-Welcome to the Ounce Conversion Program!
-
-How many ounces do you have? 62
-Thank you! Converting ounces to pounds.
-
-62 oz is equivalent to 3 lbs and 14 oz.
-62 oz is equivalent to 3.875 lbs.
-
-Thank you for using the OCP!
-```
+> [!tip]- Java
+>
+> Suppose we house our methods in a class called `Converter`. Some code that implements the converter might look like:
+>
+> ```text
+> Converter converter = new Converter();
+>
+> converter.toPounds(0); // will return the string "0.0000 lbs"
+> converter.toPounds(16); // will return the string "1.0000 lb"
+> converter.toPoundsAndOunces(18); // will return the string "1 lb 2 oz"
+> converter.toPoundsAndOunces(36); // will return the string "2 lbs 4 oz"
+> ```
+>
+> And running the driver program might look like:
+>
+> ```bash
+> $ gradle run
+>
+> Welcome to the Ounce Conversion Program!
+>
+> How many ounces do you have? 62
+> Thank you! Converting ounces to pounds.
+>
+> 62 oz is equivalent to 3 lbs and 14 oz.
+> 62 oz is equivalent to 3.875 lbs.
+>
+> Thank you for using the OCP!
+> ```
 
 ## 📝 Thought Provoking Questions
 
