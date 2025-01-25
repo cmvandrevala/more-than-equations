@@ -49,7 +49,7 @@ In this example, the prime factors method takes a single integer as an argument 
 
 ```java
 Factorizer factorizer = new Factorizer();
->
+
 factorizer.primeFactors(0); // will return the ArrayList []
 factorizer.primeFactors(1); // will return the ArrayList []
 factorizer.primeFactors(9); // will return the ArrayList [3, 3]
