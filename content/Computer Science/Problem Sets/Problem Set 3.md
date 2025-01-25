@@ -16,6 +16,7 @@ description: This problem set is from week three of the course.
     * The base case for our recursive algorithm will be the smallest Harmonic number in the series. In other words, the base case will be $H_1$. What is the value of $H_1$?
     * From the recurrence relation, we know that the nth Harmonic number can be found by taking the (n-1)th Harmonic number and adding $1/n$ to it. Write out the pseudocode for a recursive algorithm to calculate the nth Harmonic number.
     * Is your algorithm an example of linear, binary, or multiple recursion? Why?
+    * Sketch out a recursive trace of your function. Use $n = 4$ as the argument to the function.
 
 $$
 H_n = \sum_{k = 1}^n \frac{1}{k}
