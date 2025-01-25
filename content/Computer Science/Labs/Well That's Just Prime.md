@@ -1,12 +1,15 @@
 ---
-layout: lab
-title: Well, That's Just Prime
-draft: true
+title: Well That's Just Prime
+date: 2025-01-24
+tags:
+  - java
+  - csc-214
+description: In this lab you will write a program that calculates the prime factors of a number and returns the result as an array.
 ---
 
 ## 🔖 Background Information
 
-The prime factors of a number are all of the prime numbers that can be multiplied together to equal the original number {% cite piercePrimeFactorization2023 %}. Some examples of prime factorization are:
+The prime factors of a number are all of the prime numbers that can be multiplied together to equal the original number [@piercePrimeFactorization2023]. Some examples of prime factorization are:
 
 $$
 100 = 2 \times 2 \times 5 \times 5
@@ -24,16 +27,16 @@ $$
 17 = 17
 $$
 
-Note that we do not include the number one.
+Note that we do not include the number one in the list of prime factors for a number.
 
 ## 🎯 Problem Statement
 
-Write a function that calculates the prime factors of a given number, along with corresponding tests to ensure that the function works as expected.
+Write a function / method that calculates the prime factors of a given number, along with corresponding tests to ensure that it works as expected. Your function should return an `ArrayList` of integers.
 
 ## ✅ Acceptance Criteria
 
-* You get to decide the arguments and outputs of the prime factors function. For example, will you output a string of numbers? A list? Something else entirely?
-* If the user enters a number less than or equal to one, the function should return `null`.
+* If the user enters an integer less than or equal to one, the function / method should return an empty `ArrayList`.
+* If the user enters an integer greater than one, the function / method should return a list of prime factors for that number.
 * You cannot use any pre-built library functions to calculate the prime factors. You must implement a solution from scratch.
 
 ## 📋 Dev Notes
@@ -42,20 +45,21 @@ Write a function that calculates the prime factors of a given number, along with
 
 ## 🖥️ Example Output
 
-You get to decide what the output type of your prime factors function should be. For example, if I decided that I wanted the function to return a formatted string, I might expect the function to look like:
+In this example, the prime factors method takes a single integer as an argument and returns an `ArrayList` as per the Acceptance Criteria.
 
 ```java
 Factorizer factorizer = new Factorizer();
-
-factorizer.prime_factors(9); // will return the string "3,3"
-factorizer.prime_factors(10); // will return the string "2,5"
+>
+factorizer.primeFactors(0); // will return the ArrayList []
+factorizer.primeFactors(1); // will return the ArrayList []
+factorizer.primeFactors(9); // will return the ArrayList [3, 3]
+factorizer.primeFactors(10); // will return the ArrayList [2, 5]
 ```
 
 ## 📝 Thought Provoking Questions
 
-1. What was the output type of your function (e.g. string, list, etc.)? Why did you make that choice?
-2. What strategy did you use to test your function? Which test cases did you include?
-3. Where did you "draw the line" and stop writing tests? After all, you can't write tests for every integer. Why did you decide to stop there?
+1. What strategy did you use to test your function? Which test cases did you include?
+2. Where did you "draw the line" and stop writing tests? After all, you can't write tests for every integer. Why did you decide to stop there?
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -91,13 +95,13 @@ factorizer.isComposite(1) // Returns false
 factorizer.isComposite(0) // Returns false
 ```
 
-### (Two Credits) Simplifying Fractions
+### (Three Credits) Simplifying Fractions
 
-We can use prime factors to simplify fractions. For example, consider the fraction \\( 12/26 \\). We can factor the top of the fraction into \\( 12 = 2 \times 2 \times 3 \\) and the bottom of the fraction into \\( 26 = 2 \times 13 \\). Since there is a common value of \\( 2 \\) in the top and bottom, we can cancel it out and get a new fraction of \\( 6/13 \\).
+We can use prime factors to simplify fractions. For example, consider the fraction $12/26$. We can factor the top of the fraction into $12 = 2 \times 2 \times 3$ and the bottom of the fraction into $26 = 2 \times 13$. Since there is a common value of $2$ in the top and bottom, we can cancel it out and get a new fraction of $6/13$.
 
-Write a function called `reduce(...)` that takes two arguments - numerator and denominator - and returns a formatted string representing the reduced fraction. For example:
+Write a function called `reduce(...)` that takes two arguments - a numerator and a denominator - and returns a formatted string representing the reduced fraction. For example:
 
-```cpp
+```java
 Factorizer factorizer = new Factorizer();
 
 factorizer.reduce(36, 12) // Returns "3"
@@ -108,6 +112,10 @@ factorizer.reduce(12, 37) // Returns "12/37"
 
 The `reduce(...)` function must utilize your prime factors function. You are allowed to tweak your prime factors function so that it can be used for this add-on, but the original acceptance criteria must still be satisfied.
 
+## 🔗 Useful Links
+
+* [Java Project Template](https://github.com/cmvandrevala/well-thats-just-prime-java-template)
+
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)

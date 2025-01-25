@@ -183,6 +183,10 @@ How many people have arrived for the meeting? exit
 Thank you for using the Room Capacity Program!
 ```
 
+## 🔗 Useful Links
+
+N/A
+
 ## 📘 Works Cited
 
 [//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)

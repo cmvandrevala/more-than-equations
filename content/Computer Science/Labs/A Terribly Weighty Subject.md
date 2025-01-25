@@ -91,7 +91,7 @@ Currently, the program will output the word "lbs", whether or not your final uni
 
 The driver program for the program might look like:
 
-```bash
+```text
 Welcome to the Ounce Conversion Program!
 
 How many ounces do you have? 17
@@ -113,7 +113,7 @@ Currently, if a user enters an invalid input, the program will crash or display 
 
 The driver program for the program might look like:
 
-```bash
+```text
 Welcome to the Ounce Conversion Program!
 
 How many ounces do you have? Foobar
@@ -139,7 +139,7 @@ Thank you for using the OCP!
 
 ### (Two Credits) Convert to Ounces
 
-Create a function that takes two arguments - an integer number of pounds and an integer number of ounces. The function should return a string that calculates the total number of ounces from the arguments. Be sure to add additional test cases that cover this new function and include it in your driver program.
+Create a function / method that takes two arguments - an integer number of pounds and an integer number of ounces. The function should return a string that calculates the total number of ounces from the arguments. Be sure to add additional test cases that cover this new function and include it in your driver program.
 
 ## 🔗 Useful Links
 
