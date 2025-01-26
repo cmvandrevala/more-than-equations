@@ -37,6 +37,44 @@ Write a program that calculates the nth term in the Hofstadter G Sequence.
 * You are not required to write any optimzations for your recursive function. That being said, you will be asked to think about potential optimizations in the Thought-Provoking Questions.
 * In order to help you verify that your program is working properly, here are the first few terms of the sequence: 0, 1, 1, 2, 3, 3, 4, 4, 5, 6, 6, 7, ...
 
+### Sample Calculations
+
+I have written out a few example calculations here for your reference. First, I calculate $G(1)$.
+
+$$
+\begin{align}
+G(1) &= 1 - G(G(1-1)) \\
+&= 1 - G(G(0)) \\
+&= 1 - G(0) \\
+&= 1 - 0 \\
+&= 1
+\end{align}
+$$
+
+Then, I use that result to calculate $G(2)$.
+
+$$
+\begin{align}
+G(2) &= 2 - G(G(2-1)) \\
+&= 2 - G(G(1)) \\
+&= 2 - G(1) \\
+&= 2 - 1 \\
+&= 1
+\end{align}
+$$
+
+Then, I use that result to calculate $G(3)$ (and so on).
+
+$$
+\begin{align}
+G(3) &= 3 - G(G(3-1)) \\
+&= 3 - G(G(2)) \\
+&= 3 - G(1) \\
+&= 3 - 1 \\
+&= 2
+\end{align}
+$$
+
 ## 🖥️ Example Output
 
 Regardless of whether you use C++ or Java, I would expect to see a function or method that returns the nth number in the sequence. The first few terms might look like:
