@@ -7,6 +7,7 @@ tags:
 ## Labs
 
 * [[I've Got the Power!]]
+* [[The Hofstadter G Sequence]]
 * [[This Diffusion Joke is Pretty Random]]
 
 ## Problem Sets
