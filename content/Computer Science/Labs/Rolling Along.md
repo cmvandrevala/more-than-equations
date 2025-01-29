@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: Rolling Along
-draft: true
+date: 2025-01-29
+tags: [c-plus-plus, csc-121, random-numbers]
+description: In this lab you will write a program that simulates rolling one or more dice and calculating the net result.
 ---
 
 ## 🔖 Background Information
@@ -27,6 +28,7 @@ Write a program that prints out some of the statistics on a roll of multiple dic
 * The program should calculate the minimum, maximum, and average of the given dice roll and report them in a nicely formatted way.
 * After the program reports the statistics for a given roll, it should produce a sample roll of the dice.
 * Finally, the program should display an exit message and exit gracefully.
+* The sample roll should be randomized - it should not be the same every time I start the program.
 
 ## 📋 Dev Notes
 
@@ -61,7 +63,7 @@ Thank you for using the DSP!
 
 1. How is the `srand` function used in your code? What happens if you do not use it?
 2. What strategy did you use to make sure the seeded value for the random number generator was different every time the program was run?
-3. How did you use the random number generator to generate dice rolls with the correct statistics?
+3. Suppose you created a for loop which calls `rand()` on each iteration. Will the random numbers be the same or different from each other? Feel free to test this out in a short C++ program.
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -213,6 +215,10 @@ Thank you for using the DSP!
 ```
 
 Remember! I don't want you to return a random value between the maximum and minimum values. That corresponds to a uniform distribution of results. Instead, I want you to actually make the dice rolls using a random number generator and add up all of the individual roll results.
+
+## 🔗 Useful Links
+
+N/A
 
 ## 📘 Works Cited
 
