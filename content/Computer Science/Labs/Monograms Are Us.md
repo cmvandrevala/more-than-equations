@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: Monograms Are Us
-draft: true
+date: 2025-01-29
+tags: [c-plus-plus, csc-121, strings]
+description: In this lab you will write a program manipulates C++ strings.
 ---
 
 ## 🔖 Background Information
@@ -14,7 +15,7 @@ Consider a western-style full name including a middle name (i.e. first name, mid
 B.g.H
 ```
 
-This problem is available courtesy of {% cite jamesMonogramsUs2017 %}.
+This problem is available courtesy of Professor Jason James [@jamesMonogramsUs2017].
 
 ## 🎯 Problem Statement
 
@@ -47,10 +48,9 @@ Thank you for using the Monogram Program!
 
 ## 📝 Thought Provoking Questions
 
-1. What functions will you use from the standard libraries?
-2. Does it matter if the user types in the initials in uppercase or lowercase characters?
-3. How are you going to test this program to make sure that it works as expected? Specifically, how many sets of initials do you need to test?
-4. What sorts of erroneous inputs might a user enter in your program? Reminder: you do not need to actually handle these inputs in your code.
+1. Does it matter if the user types in the initials in uppercase or lowercase characters?
+2. How are you going to test this program to make sure that it works as expected? Specifically, how many sets of initials do you need to test?
+3. What sorts of erroneous inputs might a user enter in your program? Reminder: you do not need to actually handle these inputs in your code.
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -129,6 +129,10 @@ Thank you for using the Monogram Program!
 
 Remember, your whitespace matters! The first initial must be centered between the middle and last initials.
 
+## 🔗 Useful Links
+
+N/A
+
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
