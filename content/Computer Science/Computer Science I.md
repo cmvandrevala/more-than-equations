@@ -35,6 +35,7 @@ tags:
 
 ## In-Class Activities
 
+* [[And Bingo Was His Name-O!]]
 * [[ASCII Plot - Part 1]]
 * [[ASCII Plot - Part 2]]
 * [[ASCII Shapes]]
