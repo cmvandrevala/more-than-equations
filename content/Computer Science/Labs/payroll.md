@@ -1,12 +1,13 @@
 ---
-layout: lab
 title: Payroll
-draft: true
+date: 2025-01-30
+tags: [c-plus-plus, csc-121, csc-214, basic-math]
+description: In this lab you write a program that generates a payroll report based on some inputs from the user.
 ---
 
 ## 🔖 Background Information
 
-This problem is available courtesy of {% cite jamesPayrollUs2018 %}.
+This problem is available courtesy of Professor Jason James [@jamesPayrollUs2018].
 
 ## 🎯 Problem Statement
 
@@ -33,17 +34,13 @@ The following information will be useful when creating the report:
 
 ## 📋 Dev Notes
 
-1. Your output does not need to look exactly like the example output below. However, your output should be neat and organized with some formatting to the output. Dollar amounts should be aligned by either the decimal place or by the dollar sign. The entries in the report should either be left or right justified to make the report look nice and neat.
-
-2. There is a lot of business logic happening in this lab. Try to split each calculation in the payroll into a separate method with its own tests.
+Your output should be neat and organized with some formatting to the output. Dollar amounts should be aligned by either the decimal place or by the dollar sign. The entries in the report should either be left or right justified to make the report look nice and neat.
 
 ## 🖥️ Example Output
 
 Your output report does not have to match this format exactly. I simply want to see all of the relevant information in a well-organized report. This includes the hours worked, payrate, gross pay, expenses, and net pay. An example output is as follows:
 
-```bash
-$ gradle run
-
+```text
 Welcome to the Payroll Program!
 
 How many hours did you work this week? 30
@@ -68,7 +65,9 @@ Thank you for using the Payroll Program!
 
 ## 📝 Thought Provoking Questions
 
-1. What was your testing strategy for this lab? When were you able to use JUnit versus when did you have to do manual testing?
+1. What was your testing strategy for this lab? How did you make sure that all of the different calculations were working properly?
+2. Are there any inputs for the hours worked and / or number of dependents that would cause your program to crash?
+3. Are there any inputs for the hours worked and / or number of dependents that would cause your program to return an erroneous output?
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -97,8 +96,6 @@ The output of your program should not change otherwise.
 After taxes are deducted from an employee's paycheck, there could be a situation where there is not enough money left for union dues or insurance payments. In this situation, don't subtract union dues or insurance payments from the paycheck. Instead, print out how much the employee owes in dues / payments in addition to their payment. An example output looks like:
 
 ```bash
-$ gradle run
-
 Welcome to the Payroll Program!
 
 How many hours did you work this week? 2
@@ -139,8 +136,6 @@ Employees can now add a life insurance plan to their payroll calculation. The pa
 An example output is shown below:
 
 ```bash
-$ gradle run
-
 Welcome to the Payroll Program!
 
 How many hours did you work this week? 30
@@ -183,6 +178,10 @@ Payroll Stub:
 Thank you for using the Payroll Program!
 ```
 
+## 🔗 Useful Links
+
+* [Java Project Template](https://github.com/cmvandrevala/payroll-java-template)
+
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
