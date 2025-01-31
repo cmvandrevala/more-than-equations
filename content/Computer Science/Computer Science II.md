@@ -43,6 +43,7 @@ tags:
 
 ## Labs
 
+* [[A Functional Use for Lambdas]]
 * [[I Get the Point]]
 * [[It's Raining Strings]]
 
