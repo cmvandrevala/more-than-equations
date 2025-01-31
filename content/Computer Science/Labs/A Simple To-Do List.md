@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: A Simple Todo List
-draft: true
+date: 2025-01-31
+tags: [java, csc-122, object-oriented-design]
+description: In this lab you will create a small todo list program that allows users to keep track of tasks.
 ---
 
 ## 🔖 Background Information
@@ -189,6 +190,10 @@ int main() {
   list_two.all() // Only prints the four tasks originally associated with list_two
 }
 ```
+
+## 🔗 Useful Links
+
+N/A
 
 ## 📘 Works Cited
 

@@ -44,6 +44,7 @@ tags:
 ## Labs
 
 * [[A Functional Use for Lambdas]]
+* [[A Simple To-Do List]]
 * [[I Get the Point]]
 * [[It's Raining Strings]]
 
