@@ -11,6 +11,8 @@ description: This problem set is from week three of the course.
     * What is the runtime Big-$\theta$ value for your recursive algorithm?
     * What is the space Big-$\theta$ value for your recursive algorithm?
 
+---
+
 2. Consider the Harmonic numbers, given by the series and recursion relation shown below. Let's come up with a recursive algorithm for calculating the nth Harmonic number.
 
     * The base case for our recursive algorithm will be the smallest Harmonic number in the series. In other words, the base case will be $H_1$. What is the value of $H_1$?
@@ -26,4 +28,10 @@ $$
 H_n = H_{n-1} + \frac{1}{n}
 $$
 
-3. Describe a recursive algorithm that computes the sum of all the elements in a two-dimensional array of integers. You can either use pseudocode or write out a few sentences. Hint: it might be helpful to first think about how you would solve this problem using `for` loops. Then, take that solution and convert it to a recursive algorithm.
+---
+
+3. Describe a recursive algorithm that computes the sum of all the elements in a two-dimensional array of integers. You can either use pseudocode or write out a few sentences.
+
+> [!tip]- Hint!
+>
+> It might be helpful to first think about how you would solve this problem using `for` loops. Then, take that solution and convert it to a recursive algorithm.

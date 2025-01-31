@@ -34,6 +34,8 @@ $$
 2^x = 13
 $$
 
+---
+
 2. Solve for $x$ in each of the expressions using any calculators or tools at your disposal (e.g. Desmos, Wolfram, etc.). Write a sentence or two on the strategy you used to solve each problem.
 
 $$
@@ -52,6 +54,14 @@ $$
 2^x - x^2 = 10
 $$
 
-3. Write pseudocode for a function that finds the smallest number in a non-empty, unsorted array of integers. Hint: What kind of search algorithm can be used on an unsorted list of data?
+---
+
+3. Write pseudocode for a function that finds the smallest number in a non-empty, unsorted array of integers.
+
+> [!tip]- Hint!
+>
+> What kind of search algorithm can be used on an unsorted list of data?
+
+---
 
 4. Write pseudocode for a function that takes an integer as an argument and returns true if it is a power of two and false otherwise.
