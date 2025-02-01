@@ -38,6 +38,10 @@ $$
 
 > [!tip]- Hint!
 >
+> Suppose I have a 2D array called `arr` which represents a square matrix. The transpose of `arr` will take element `arr[i][j]` and move it to `arr[j][i]`. For example, `arr[2][1]` becomes `arr[1][2]`. For another example, `arr[3][3]` stays as `arr[3][3]`.
+
+> [!note]- Consider This!
+>
 > There are many ways to approach this problem, especially if you are not looking to create an especially efficient algorithm. However, for those of you who are interested, there is an algorithm called an "in-place matrix transposition" that can take the transpose with O(1) space. Feel free to look it up for this problem!
 
 ---
