@@ -9,6 +9,8 @@ description: In this lab, you will practice working with arrays by implementing 
 
 Let's pretend that we have an array of elements - they might be integers, characters, or cards in a 52-card playing deck. On [this website](https://bost.ocks.org/mike/shuffle/), Mike Bostock describes three algorithms that can be used to shuffle an array of elements (which can represent cards in a deck) [@bostockFisherYatesShuffle2012]. He claims that the first one is the worst performing algorithm, the second is a small improvement, and the third is the best performer. The third algorithm is known as the Fisher–Yates Algorithm.
 
+Note: technically, the current version of the Fisher-Yates algorithm that we are studying in this lab was an improvement of the original algorithm by Richard Durstenfeld and popularized by Donald E. Knuth [@durstenfeldAlgorithm235Random1964]. But I guess the original name stuck.
+
 ## 🎯 Problem Statement
 
 Test and comment on Mike Bostock's claim. Do you agree or disagree with his evaluation when you implement the algorithms yourself?
