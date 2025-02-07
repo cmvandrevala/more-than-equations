@@ -28,7 +28,7 @@ The following information will be useful when creating the report:
 
 3. Tax deductions from employees' pay include: 6% withheld for social security tax, 14% withheld for federal income tax, and 5% withheld for state income tax. All employees are also a part of the local union which takes $10.00 for union dues.
 
-4. Employees participate in a group insurance program so that they can get good rates on health insurance. The current package says that workers with three or more dependents must pay $35 per pay check whereas other employees need to pay $15 per paycheck.
+4. Employees participate in a group insurance program so that they can get good rates on health insurance. The current package says that workers with three or more dependents must pay \$35 per pay check whereas other employees need to pay \$15 per paycheck.
 
 5. Net pay is equal to gross pay minus all of the expenses. Note that net pay might be a negative number - we will fix that issue in one of the Add-Ons for the Portfolio.
 
@@ -95,7 +95,7 @@ The output of your program should not change otherwise.
 
 After taxes are deducted from an employee's paycheck, there could be a situation where there is not enough money left for union dues or insurance payments. In this situation, don't subtract union dues or insurance payments from the paycheck. Instead, print out how much the employee owes in dues / payments in addition to their payment. An example output looks like:
 
-```bash
+```text
 Welcome to the Payroll Program!
 
 How many hours did you work this week? 2
@@ -135,7 +135,7 @@ Employees can now add a life insurance plan to their payroll calculation. The pa
 
 An example output is shown below:
 
-```bash
+```text
 Welcome to the Payroll Program!
 
 How many hours did you work this week? 30
