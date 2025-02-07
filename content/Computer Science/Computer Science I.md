@@ -54,4 +54,4 @@ tags:
 
 ## Portfolio Projects
 
-* [[Choose Your Own Adventure Game]]
+* [[Choose Your Own Adventure Story]]
