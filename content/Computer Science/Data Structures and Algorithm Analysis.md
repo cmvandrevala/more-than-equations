@@ -8,6 +8,7 @@ tags:
 
 * [[Counting Cards]]
 * [[I've Got the Power!]]
+* [[Put a Hotel on Boardwalk]]
 * [[The Hofstadter G Sequence]]
 * [[This Diffusion Joke is Pretty Random]]
 
