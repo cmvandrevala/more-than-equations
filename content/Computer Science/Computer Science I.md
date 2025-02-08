@@ -48,6 +48,8 @@ tags:
 * [[Marco Polo]]
 * [[Password Validator]]
 * [[Point of Sale]]
+* [[Rock-Paper-Scissors - Part 1]]
+* [[Rock-Paper-Scissors - Part 2]]
 * [[Student Class]]
 * [[Triangular Numbers]]
 * [[Truth Table Exercises]]

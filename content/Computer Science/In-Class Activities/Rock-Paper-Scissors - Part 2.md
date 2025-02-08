@@ -1,7 +1,12 @@
 ---
-layout: activity
 title: Rock, Paper, Scissors - Part 2
-draft: true
+tags:
+  - c-plus-plus
+  - csc-121
+  - random-numbers
+  - conditionals
+  - loops
+description: This activity will give you some practice working with random numbers, conditionals, and loops. This is a continuation of the Rock / Paper / Scissors activity.
 ---
 
 ## 🔖 Background Information
@@ -15,7 +20,7 @@ Rock, paper, scissors is a two-player game in which each player simultaneously f
 
 ## 🎯 Problem Statement
 
-Update your code from the activity [Rock, Paper, Scissors: Part 1]({{ "/teaching/csc/121/activities/rock-paper-scissors-part-1.html" | absolute_url }}) to include another option for a computer player. This computer player should be a "cheating" computer player that always picks the winning move against whatever the user chooses.
+Update your code from the activity [[Rock-Paper-Scissors - Part 1]] to include another option for a computer player. This computer player should be a "cheating" computer player that always picks the winning move against whatever the user chooses.
 
 ## ✅ Acceptance Criteria
 
@@ -29,8 +34,8 @@ Update your code from the activity [Rock, Paper, Scissors: Part 1]({{ "/teaching
 
 ## 📋 Dev Notes
 
-* You do not need to handle erroneous input from the user. You can assume that the user will always choose one of the options that you specified.
-* As you write this code, think about how and where you can break up the code into functions. This will help organize your code and effectively convey the business logic.
+* You should handle erroneous input from the user. If the user enters an invalid option, your program should tell them that they made an error and prompt them again.
+* As you write this code, think about how and where you can break up the code into small pieces. This will help organize your code and effectively convey the business logic.
 
 ## 🖥️ Example Output
 
