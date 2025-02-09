@@ -10,6 +10,7 @@ tags:
 
 ## Labs
 
+* [[A Simple To-Do List]]
 * [[A Terribly Weighty Subject]]
 * [[Am I a Muenster for Making Cheese Puns?]]
 * [[Hello World]]

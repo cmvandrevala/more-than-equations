@@ -1,13 +1,13 @@
 ---
 title: A Simple Todo List
 date: 2025-01-31
-tags: [java, csc-122, object-oriented-design]
+tags: [c-plus-plus, java, csc-122, csc-214, object-oriented-design]
 description: In this lab you will create a small todo list program that allows users to keep track of tasks.
 ---
 
 ## 🔖 Background Information
 
-N/A
+A to-do list is a list of items that you would like to complete. You can easily create a to-do list by writing out a list of items on a piece of paper and crossing them off as you finish them. However, to-do apps allow you to organize and track your items in a myriad of ways.
 
 ## 🎯 Problem Statement
 
@@ -32,65 +32,91 @@ The class should also have a method to clear the todo list.
 
 * `clear()` which deletes all of the tasks in the todo list (both complete and incomplete)
 
-You MUST use C++ iterators for any `for` loops in this submission.
-
 ## 📋 Dev Notes
 
-* Be sure to include a little bit of documentation on how to use your `TodoList` class in the README.
-* Think about the best way to test this class. Should you use unit tests? A driver program? Both?
+* I am going to try to "break" your program by entering different types of invalid inputs. Be sure to handle unexpected inputs gracefully in your code.
+* Think about how you might want to test this class. If you build your app correctly, you might be able to write some focused unit tests that cover each of the methods outlined above and then put it all together in a driver program.
 
 ## 🖥️ Example Output
 
+You do not have to follow the exact format that I outline in the examples below. This is just to give you some inspiration for how your driver program might look.
+
 I might create a driver program that utilizes the `TodoList` class as follows:
 
-```cpp
-int main() {
-  TodoList list;
+> [!tip]- C++
+>
+> ```cpp
+> int main() {
+>  TodoList list;
+>
+>  list.add("Buy milk");
+>  list.add("Buy eggs");
+>  list.add("Prepare a lesson for CSC 122");
+>  list.add("Sow beet seeds");
+>
+>  list.complete("Buy eggs")
+>
+>   // Pretty prints a list of each of the four tasks above
+>   list.all();
+>
+>   // Pretty prints the task "Buy eggs"
+>   list.complete();
+>
+>   // Pretty prints the tasks "Buy milk",
+>   // "Prepare a lesson for CSC 122", and "Sow beet seeds"
+>   list.incomplete();
+>
+>   // Clears the to-do list
+>   list.clear();
+>
+>   // Pretty prints a message saying that the list is empty
+>   list.all();
+> }
+> ```
 
-  list.add("Buy milk");
-  list.add("Buy eggs");
-  list.add("Prepare a lesson for CSC 122");
-  list.add("Sow beet seeds");
-
-  list.complete("Buy eggs")
-
-  list.all(); // Pretty prints a list of each of the four tasks above
-  list.complete(); // Pretty prints the task "Buy eggs"
-  list.incomplete(); // Pretty prints the tasks "Buy milk",
-                     // "Prepare a lesson for CSC 122", and "Sow beet seeds"
-
-  list.clear();
-
-  list.all(); // Pretty prints a message saying that the list is empty
-}
-```
+> [!tip]- Java
+>
+> ```java
+> class Main {
+>   public static void main(String[] args) {
+>     TodoList list = new TodoList();
+>
+>     list.add("Buy milk");
+>     list.add("Buy eggs");
+>     list.add("Prepare a lesson for CSC 122");
+>     list.add("Sow beet seeds");
+>
+>     list.complete("Buy eggs")
+>
+>     // Pretty prints a list of each of the four tasks above
+>     list.all();
+>
+>     // Pretty prints the task "Buy eggs"
+>     list.complete();
+>
+>     // Pretty prints the tasks "Buy milk",
+>     // "Prepare a lesson for CSC 122", and "Sow beet seeds"
+>     list.incomplete();
+>
+>     // Clears the to-do list
+>     list.clear();
+>
+>     // Pretty prints a message saying that the list is empty
+>     list.all();
+>   }
+> }
+> ```
 
 ## 📝 Thought Provoking Questions
 
-1. What are some of the similarities between using an iterator versus a standard for loop with indexes when iterating over an array or vector in C++?
-2. What are some of the differences between using an iterator versus a standard for loop with indexes when iterating over an array or vector in C++?
-3. Which method do you prefer - iterators or for loops? Why?
+1. How did you handle invalid inputs to your program?
+2. What was your testing strategy for this code? What did you test and how?
 
 ## 💼 Add-Ons For the Portfolio
 
 ### (One Credit) Reject Blank Tasks
 
 Add a validation to your code that ensures that a user cannot enter a blank task. It is up to you to decide whether the method will reject the input silently or return an error message. Either way, the program should continue gracefully after the empty string input.
-
-Your driver program might look something like this:
-
-```cpp
-int main() {
-  TodoList list;
-
-  list.add(""); // May or may not return an error message,
-                // depending on what you decide
-
-  list.all(); // Pretty prints a message saying that the list is empty
-  list.complete(); // Pretty prints a message saying that the list is empty
-  list.incomplete(); // Pretty prints a message saying that the list is empty
-}
-```
 
 ### (Two Credits) Reject Duplicate Tasks
 
@@ -101,99 +127,76 @@ Add a validation to your code that ensures that the following conditions are met
 
 It is up to you whether the method will reject the input silently or return an error message. Either way, the program should continue gracefully after the input.
 
-Your driver program might look something like this:
+### (Three Credits) Tagged Tasks
 
-```cpp
-int main() {
-  TodoList list;
+Update your code so that users can associate one or more tags with a task. Then, a user should be able to filter tasks by tag.
 
-  list.add("Walk the dog");
-  list.add("Walk the dog"); // May or may not return an error message,
-                            // depending on what you decide
+Your driver program might look like this:
 
-  list.all(); // Pretty prints the task "Walk the dog"
-  list.complete(); // Pretty prints a message saying that the list is empty
-  list.incomplete(); // Pretty prints the task "Walk the dog"
+> [!tip]- C++
+>
+> ```cpp
+> int main() {
+>   TodoList list;
+>
+>   vector<string> milkTags = { "food" };
+>   list.add("Buy milk", milkTags);
+>
+>   vector<string> eggTags = { "food" };
+>   list.add("Buy eggs", eggTags);
+>
+>   // No tags for this item!
+>   list.add("Prepare a lesson for CSC 122");
+>
+>   vector<string> beetTags = { "food", "garden", "spring" };
+>   list.add("Sow beet seeds", beetTags);
+>
+>   // Pretty prints "Buy milk", "Buy eggs",
+>   // and "Sow beet seeds"
+>   list.taggedWith("food")
+>
+>   // Pretty prints a message saying that this list is empty
+>   list.taggedWith("music")
+> }
+> ```
 
-  list.complete("Walk the dog");
-  list.add("Walk the dog"); // This should now work
-
-  list.all(); // Pretty prints the task "Walk the dog" two times
-  list.complete(); // Pretty prints the task "Walk the dog"
-  list.incomplete(); // Pretty prints the task "Walk the dog"
-}
-```
-
-### (Two Credits) Tagged Tasks
-
-Update your class so that users can associate one or more tags with a task. Then, a user should be able to filter tasks by tag. Again, for this lab, you must use iterators rather than for loops whenever appropriate.
-
-Your driver program might include a section that looks like this:
-
-```cpp
-int main() {
-  TodoList list;
-
-  vector<string> milk_tags = { "food" };
-  list.add("Buy milk", milk_tags);
-
-  vector<string> egg_tags = { "food" };
-  list.add("Buy eggs", egg_tags);
-
-  // No tags for this one!
-  list.add("Prepare a lesson for CSC 122");
-
-  vector<string> beet_tags = { "food", "garden", "spring" };
-  list.add("Sow beet seeds", beet_tags);
-
-  list.tagged_with("food") // Pretty prints "Buy milk", "Buy eggs",
-                           // and "Sow beet seeds"
-  list.tagged_with("music") // Pretty prints a message saying that
-                            // the list is empty
-
-  list.complete("Buy eggs")
-
-  list.tagged_with("food") // Pretty prints "Buy milk", "Buy eggs",
-                           // and "Sow beet seeds" - no changes
-  list.tagged_with("music") // Pretty prints a message saying that
-                            // the list is empty - no changes
-}
-```
-
-### (Three Credits) Merging Two Lists
-
-Create a method called `TodoList#merge(TodoList list)` that takes another todo list as an argument and merges the tasks in that list into the original. It should leave the list that you passed in as an argument unchanged.
-
-If you completed the "Reject Duplicate Tasks" add-on, it should also make sure that there are no duplicate incomplete items.
-
-Your driver program might include a section that looks like this:
-
-```cpp
-int main() {
-  TodoList list_one;
-
-  list_one.add("Buy milk");
-  list_one.add("Buy eggs");
-  list_one.add("Prepare a lesson for CSC 122");
-  list_one.add("Sow beet seeds");
-
-  TodoList list_two;
-
-  list_two.add("Buy chicken");
-  list_two.add("Buy bread");
-  list_two.add("Prepare a lesson for CSC 121");
-  list_two.add("Sow carrot seeds");
-
-  list_one.merge(list_two);
-
-  list_one.all() // Pretty prints all eight tasks
-  list_two.all() // Only prints the four tasks originally associated with list_two
-}
-```
+> [!tip]- Java
+>
+> ```java
+> class Main {
+>   public static void main(String[] args) {
+>     TodoList list = new TodoList();
+>
+>     ArrayList<String> milkTags = new ArrayList<String>();
+>     milkTags.add("food");
+>     list.add("Buy milk", milkTags);
+>
+>     ArrayList<String> eggTags = new ArrayList<String>();
+>     eggTags.add("food");
+>     list.add("Buy eggs", eggTags);
+>
+>     // No tags for this item!
+>     list.add("Prepare a lesson for CSC 122");
+>
+>     ArrayList<String> beetTags = new ArrayList<String>();
+>     beetTags.add("food");
+>     beetTags.add("garden");
+>     beetTags.add("spring");
+>     list.add("Sow beet seeds", beetTags);
+>
+>     // Pretty prints "Buy milk", "Buy eggs",
+>     // and "Sow beet seeds"
+>     list.taggedWith("food")
+>
+>     // Pretty prints a message saying that this list is empty
+>     list.taggedWith("music")
+>   }
+> }
+> ```
 
 ## 🔗 Useful Links
 
-N/A
+* [Java Project Template](https://github.com/cmvandrevala/a-simple-todo-list-java-template)
 
 ## 📘 Works Cited
 
