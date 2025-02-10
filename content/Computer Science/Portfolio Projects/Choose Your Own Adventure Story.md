@@ -22,7 +22,7 @@ Create a choose your own adventure story that asks the user a series of question
 
 ## 📋 Dev Notes
 
-* You do not need to handle erroneous input from the user. You can assume that the user will always choose one of the options that you specified.
+* You must handle erroneous input from the user. Users of your program might enter an invalid option when prompted!
 
 ## 🖥️ Example Output
 
