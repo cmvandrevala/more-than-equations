@@ -25,7 +25,7 @@ Write a program that prints out the monogram of some initials provided by a user
 
 * When I execute the program, I should see a welcome prompt.
 * Then, the program should ask me to enter my three initials corresponding to my first, middle, and last name. This can be done on one line or separately via multiple prompts.
-* Then, the program should print out the monogram of the initials, formatted with correct case and punctuation.
+* Then, the program should print out the monogram of the initials, formatted with the correct case and punctuation (shown in the Example Output).
 * Finally, I should see an exit message as the program gracefully exits.
 
 ## 📋 Dev Notes
