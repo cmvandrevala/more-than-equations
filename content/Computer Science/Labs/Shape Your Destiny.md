@@ -84,7 +84,11 @@ N/A
 
 ### (Two Credits) Parallelogram
 
-A rectangle is a type of parallelogram and a parallelogram is a type of polygon. Update your classes and interfaces to include a parallelogram in the structure. Be sure to unit test where appropriate!
+A rectangle is a type of parallelogram, and a parallelogram is a type of polygon. Update your classes and interfaces to include a parallelogram in the structure. Be sure to unit test where appropriate!
+
+## 🔗 Useful Links
+
+* [Java Project Template](https://github.com/cmvandrevala/shape-your-destiny-java-template)
 
 ## 📘 Works Cited
 
