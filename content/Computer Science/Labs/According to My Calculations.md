@@ -51,7 +51,7 @@ Thus, mathematical software will often take infix expressions, convert them to p
 
 ## 🎯 Problem Statement
 
-Build me a calculator! I want you to implement a console calculator that takes an infix mathematical expression and evaluates it. The strategy we will use is:
+Write me a calculator! I want you to implement a console calculator that takes an infix mathematical expression and evaluates it. The strategy we will use is:
 
 1. Use the Shunting Yard Algorithm to convert the infix expression to a postfix expression.
 2. Evaluate the postfix expression using a stack
@@ -71,11 +71,11 @@ A full implementation of an infix expression calculator which takes into account
 * You do __NOT__ need to implement your own stacks / queues from scratch. Feel free to use the stacks and queues from the C++ and Java libraries.
 * You do __NOT__ need to handle different types of whitespace. Do whatever is easiest for you - for example, you assume that there are no spaces between each character in the string and code accordingly.
 
-You __ARE__ allowed to make assumptions / simplifications when implementing this calculator to get a prototype working. You can tell me what those are in the Thought-Provoking Questions.
+You __ARE__ allowed to make assumptions / simplifications when implementing this calculator to get a prototype working. You can tell me what those are when you answer the Thought-Provoking Questions.
 
 ## 🖥️ Example Output
 
-In your driver program / unit tests, I might expect to see something like this:
+I might expect to see the `Calculator` class used like this:
 
 > [!tip]- C++
 >
@@ -124,6 +124,8 @@ In your driver program / unit tests, I might expect to see something like this:
 ## 📝 Thought Provoking Questions
 
 1. What assumptions / simplifications did you make to get a prototype of the calculator working?
+2. How would you implement exponential expressions in your calculator? Note: you do not have to actually implement them, just tell me what you think you would have to do.
+3. One way to think about certain computer science problems is that you are taking some data and passing it through a series of transformations. For example, you might take some initial input from a user, then mark it as "raw", then clean up whitespace, then check it for errors, etc. How does this program fit that model of a series of data transformations?
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -131,7 +133,7 @@ N/A
 
 ## 🔗 Useful Links
 
-* [Java Project Template](https://github.com/cmvandrevala/counting-cards-java-template)
+* [Java Project Template](https://github.com/cmvandrevala/according-to-my-calculations-java-template)
 
 ## 📘 Works Cited
 
