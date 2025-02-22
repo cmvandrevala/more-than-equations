@@ -22,3 +22,7 @@ tags:
 * [[Payroll]]
 * [[Shape Your Destiny]]
 * [[Zip It]]
+
+## Portfolio Projects
+
+* [[Tic-Tac-Toe]]
