@@ -1,6 +1,6 @@
 ---
 title: Tic-Tac-Toe
-tags: [c-plus-plus, csc-214]
+tags: [java, csc-214]
 description: This portfolio has you build your own console-based tic-tac-toe game that supports human versus human play.
 ---
 
@@ -138,6 +138,10 @@ Would you like to play again (yes/no)? no
 
 Goodbye!
 ```
+
+## 🔗 Useful Links
+
+* [Java Project Template](https://github.com/cmvandrevala/tic-tac-toe-java-template)
 
 ## 📘 Works Cited
 
