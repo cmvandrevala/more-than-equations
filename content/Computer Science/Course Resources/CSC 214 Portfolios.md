@@ -43,7 +43,7 @@ The grade breakdown for each portfolios is as follows:
 
 | Part            | Percent |
 | --------------- | ------- |
-| Mini-Project    | 70%     |
+| Semester-Long Project    | 70%     |
 | Self-Reflection | 15%     |
 | Peer Review     | 15%     |
 
