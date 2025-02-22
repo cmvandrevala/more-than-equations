@@ -145,4 +145,4 @@ Goodbye!
 
 ## 📘 Works Cited
 
-N/A
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
