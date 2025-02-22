@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: Out in the Middle of Space
-draft: true
+date: 2025-02-22
+tags: [c-plus-plus, csc-121, functions]
+description: In this lab you write a program that converts between rectangular and spherical coordinates. This will give you practice working with functions.
 ---
 
 ## 🔖 Background Information
@@ -12,11 +13,13 @@ $$
 p = (x, y, z)
 $$
 
-However, this is not the only way that we could define a point in space. In some problems, it makes sense to use spherical coordinates. With a spherical coordinate system, you measure a point in space by its distance from the origin (r), the angle that you rotate around the z-axis (\\( \\theta \\)), and the distance you rotate down from the z-axis (\\( \\phi \\)).
+However, this is not the only way that we could define a point in space. In some problems, it makes sense to use spherical coordinates. With a spherical coordinate system, you measure a point in space by its distance from the origin (r), the angle that you rotate around the z-axis ($\theta$), and the distance you rotate down from the z-axis ($\phi$).
 
-![Spherical Coordinate System]({{ "/assets/spherical-coordinate-system.png" | absolute_url }})
+<p align="center">
+  <img src="assets/spherical-coordinate-system.png" alt="An image of a spherical coordinate system"/>
+</p>
 
-Image courtesy of {% cite byjuSphericalCoordinatesDefinitionConversions %}.
+This image comes courtesy of Byju [@byjuSphericalCoordinatesDefinitionConversions].
 
 There is nothing special about one system or another. It's like measuring a distance in miles versus kilometers - as long as you are consistent with your system, you will get the same answer at the end of the day.
 
@@ -139,6 +142,10 @@ Cartesian Coordinates: (12, 10, 0)
 Thank you for using the Point Conversion Program!
 ```
 
+## 🔗 Useful Links
+
+N/A
+
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
