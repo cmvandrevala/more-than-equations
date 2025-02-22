@@ -4,6 +4,7 @@ tags:
   - c-plus-plus
   - csc-121
 ---
+
 ## Course Resources
 
 * [[CSC 121 Portfolios]]

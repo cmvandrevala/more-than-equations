@@ -4,8 +4,10 @@ tags:
   - csc-214
   - java
 ---
+
 ## Course Resources
 
+* [[CSC 214 Portfolios]]
 * [[Lab Grading Rubric]]
 
 ## Labs

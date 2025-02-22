@@ -1,26 +1,21 @@
 ---
-title: CSC 121 Portfolios
-tags: [csc-121]
-description: This document describes the different portions of a portfolio in CSC 121.
+title: CSC 214 Portfolios
+tags: [csc-214]
+description: This document describes the different portions of a portfolio in CSC 214.
 ---
 
 ## Overview
 
 Portfolios are an opportunity to pull together many different concepts learned in class and create a single larger application. Each portfolio is divided into a few parts.
 
-* Complete a “mini project” coding assignment (required)
-* Complete an ideation assignment (required)
+* Complete a semester-long coding assignment (required)
 * Complete a self-reflection (required)
 * Complete a peer code review (required)
 * Complete one or more add-ons that expand on existing lab problems (optional)
 
-### Mini Project (Required)
+### Semester-Long Project (Required)
 
-I will assign you a problem to work on for each portfolio. These problems are more open-ended than the traditional labs that you complete during the semester, allowing you to add your own creative touch to the project. Your code will be graded in a [[Lab Grading Rubric|similar manner to the labs]], with points awarded for a working solution, rigorous tests, and clean code.
-
-### Ideation (Required)
-
-The ideation assignment is an opportunity to come up with a plan to tackle the portfolio. You will break the project down into manageable pieces and think about how you will accomplish each part of the assignment.
+I will assign you a problem that you will work on in each of the portfolios over the semester. This problem is more open-ended than the traditional labs that you complete during the semester, allowing you to add your own creative touch to the project. Your code will be graded in a [[Lab Grading Rubric|similar manner to the labs]], with points awarded for a working solution, rigorous tests, and clean code.
 
 ### Self-Reflection (Required)
 
@@ -49,9 +44,8 @@ The grade breakdown for each portfolios is as follows:
 | Part            | Percent |
 | --------------- | ------- |
 | Mini-Project    | 70%     |
-| Ideation        | 10%     |
-| Self-Reflection | 10%     |
-| Peer Review     | 10%     |
+| Self-Reflection | 15%     |
+| Peer Review     | 15%     |
 
 You can complete add-ons for extra credit according to the following scale.
 
