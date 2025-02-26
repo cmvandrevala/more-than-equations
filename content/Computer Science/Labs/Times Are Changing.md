@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: Times Are Changing
-draft: true
+date: 2025-02-25
+tags: [c-plus-plus, csc-121]
+description: In this lab you write a program that calculates the difference between two times in 24 hour format.
 ---
 
 ## 🔖 Background Information
@@ -12,7 +13,7 @@ In 24 hour time notation (a.k.a. military time):
 * The last minute of the day begins at 23:59
 * When the clock strikes 24:00, the day changes. Thus, 24:00 and 00:00 are equivalent.
 
-This lab is available courtest of {% cite jamesTimesTheyAre2023 %}.
+This lab is available courtest of Professor Jason James [@jamesTimesTheyAre2023].
 
 ## 🎯 Problem Statement
 
@@ -194,4 +195,4 @@ Thank you for using the Time Interval Calculation Program.
 
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)

@@ -34,6 +34,7 @@ tags:
 * [[Resistance is Everything]]
 * [[Rolling Along]]
 * [[Tic-Tac-Toe Board]]
+* [[Times Are Changing]]
 * [[To Meet or Not to Meet]]
 
 ## In-Class Activities
