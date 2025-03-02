@@ -14,7 +14,7 @@ There are lots of examples of this:
 * I might create an array of numbers, save that data to the disk, and then read it back into the program at a later time.
 * I might create a User class with the attributes of "firstName" and "lastName", save that data to a database, and then retrieve it at a later time.
 * I might create a hashmap of key-value pairs, format the data as [JSON](https://www.json.org/json-en.html), and then transmit it to a website [@IntroducingJSON2025].
-* I might take a plaintext string which represents somebody's password, hash it using the [bcrypt](https://en.wikipedia.org/wiki/Bcrypt) protocol, and then store the output in a database alongside a salt to protect the information.
+* I might take a plaintext string which represents somebody's password, hash it using the [bcrypt](https://en.wikipedia.org/wiki/Bcrypt) protocol, and then store the output in a database alongside a salt to protect the information [@Bcrypt2025].
 * And much more!
 
 The process of converting a structure to a byte stream or string is called "serialization". The process of converting a byte stream or string back to the original object is called "deserialization".
@@ -49,8 +49,8 @@ You are welcome to implement other methods that might help you implement the one
 
 * You can assume that we are only going to store integers in this tree. You do NOT have to implement a generic AVL tree.
 * There are a number of resources that might help you with this lab. Consider the following:
-  * [AVL Tree Source Code](https://www.youtube.com/watch?v=tqFZzXkbbGY)
-  * [Serialize and Deserialize a Binary Tree](https://www.youtube.com/watch?v=suj1ro8TIVY)
+  * [AVL Tree Source Code](https://www.youtube.com/watch?v=tqFZzXkbbGY) [@fisetAVLTreeSource2017]
+  * [Serialize and Deserialize a Binary Tree](https://www.youtube.com/watch?v=suj1ro8TIVY) [@backtobacksweSerializeDeserializeBinary2019]
 * Before you start any problem, think about how you might be able to break it down into smaller pieces. The first thing you might consider doing is implementing a regular binary search tree with no rebalancing. You can implement all of the methods listed in the Acceptance Criteria without any balancing needed. Then, once that is done, add in the balancing to the `insert` and `delete` methods to create the AVL tree.
 
 ## 🖥️ Example Output
