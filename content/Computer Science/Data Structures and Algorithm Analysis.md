@@ -12,6 +12,7 @@ tags:
 * [[Put a Hotel on Boardwalk]]
 * [[The Hofstadter G Sequence]]
 * [[This Diffusion Joke is Pretty Random]]
+* [[We Can Rebuild Them]]
 
 ## Problem Sets
 
