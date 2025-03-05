@@ -1,0 +1,75 @@
+---
+title: Slide to the Left
+date: 2025-03-04
+tags: [c-plus-plus, csc-122, arrays]
+description: In this lab you will create a function to rotate entries in an array.
+---
+
+## 🔖 Background Information
+
+N/A
+
+## 🎯 Problem Statement
+
+Write a function called `arrayShift(...)` that takes in an array of integers, the size of the array, and a number of shifts. The function should update the array by shifting the values to the left by that number of shifts.
+
+## ✅ Acceptance Criteria
+
+* Put the `arrayShift(...)` function in a library and import it into another file with a `main()` function.
+* Test your `arrayShift(...)` function using assert statements.
+* The first integer in the array should get moved to the last spot. In other words, the array should rotate around itself.
+
+## 📋 Dev Notes
+
+* You should use a C-style array for this lab. Do NOT use a C++ array object.
+
+## 🖥️ Example Output
+
+Suppose I included my `arrayShift(...)` function in my `main()` program. The behavior might look like this:
+
+```cpp
+int main() {
+  int arr1[] = {1, 2, 3, 4, 5};
+  arrayShift(arr1, 5, 1); // This would update arr1 to [2, 3, 4, 5, 1]
+  arrayShift(arr1, 5, 1); // This would update arr1 to [3, 4, 5, 1, 2]
+  arrayShift(arr1, 5, 1); // This would update arr1 to [4, 5, 1, 2, 3]
+
+  int arr2[] = {1, 2, 3, 4, 5};
+  arrayShift(arr2, 5, 3); // This would update arr2 to [4, 5, 1, 2, 3]
+  arrayShift(arr2, 5, 3); // This would update arr2 to [2, 3, 4, 5, 1]
+  arrayShift(arr2, 5, 3); // This would update arr2 to [5, 1, 2, 3, 4]
+
+  int arr3[] = {1, 2, 3};
+  arrayShift(arr3, 3, 3); // This would update arr3 to [1, 2, 3] (back to where it began)
+
+  int arr3[] = {1, 2, 3};
+  arrayShift(arr3, 3, 4); // This would update arr3 to [2, 3, 1]
+
+  return 0;
+}
+```
+
+## 📝 Thought Provoking Questions
+
+1. What happens when the number of shifts is equal to the size of the array?
+2. Why must we pass in the size of the int array into the `arrayShift(...)` function?
+3. How did you test arrays of values using assert statements?
+4. What strategy might you use to make this function work with arrays of characters as well as arrays of integers?
+
+## 💼 Add-Ons For the Portfolio
+
+### (One Credit) Shift Left and Right
+
+Rename the function `arrayShift(...)` to `arrayShiftLeft(...)`. Then, add a second function called `arrayShiftRight(...)` to the library. It should take the same arguments as `arrayShiftLeft(...)`, but it rotates the values in the array to the right. Be sure to test this function using assert statements in your `main()` program.
+
+### (Two Credits) Rotating C++ Vectors
+
+Create a new function called `vectorShift(...)` which takes a C++ vector and a number of shifts as arguments (notice that it does not take the size of the vector since you can use the built-in methods on vector to figure that out). This function should update the vector in the same way that `arrayShift(...)` updated arrays. Be sure to test your function in your `main()` program using assert statements.
+
+## 🔗 Useful Links
+
+N/A
+
+## 📘 Works Cited
+
+N/A
