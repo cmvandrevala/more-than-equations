@@ -1,7 +1,8 @@
 ---
-layout: lab
-title: You Get an A!
-draft: true
+title: You Get an A
+date: 2025-03-07
+tags: [c-plus-plus, csc-122, object-oriented-design]
+description: In this lab, we will implement a simple gradebook.
 ---
 
 ## 🔖 Background Information
@@ -131,6 +132,10 @@ cout << gradebook.assignment_report("Lab 1");
 //
 // Average score: 24.5 / 50
 ```
+
+## 🔗 Useful Links
+
+N/A
 
 ## 📘 Works Cited
 

@@ -49,6 +49,7 @@ tags:
 * [[I Get the Point]]
 * [[It's Raining Strings]]
 * [[Slide to the Left]]
+* [[You Get an A]]
 
 ## In-Class Activities
 
