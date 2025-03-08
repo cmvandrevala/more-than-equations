@@ -1,7 +1,12 @@
 ---
-layout: lab
 title: Growing Pains
-draft: true
+date: 2025-03-07
+tags:
+  - c-plus-plus
+  - csc-122
+  - dynamic-arrays
+  - heap
+description: In this lab you will implement a dynamic array data structure.
 ---
 
 ## 🔖 Background Information
@@ -73,6 +78,10 @@ Create a new `ArithmeticDynamicArray` class that is almost identical to the orig
 Not all dynamic arrays are created equal! There are different strategies that you can use to determine how much the array grows when it runs out of space as well as when you should actually resize the array. Each of these implementations has different pros and cons.
 
 Create a new `GeometricDynamicArray` class that has the same constructor as the original with no arguments. When the dynamic array runs out of space, double its current size. To the end user, the behavior of the array should look pretty much the same as the original. But under the hood, your array will not be resizing itself on every call to `append_element(int element)`.
+
+## 🔗 Useful Links
+
+N/A
 
 ## 📘 Works Cited
 
