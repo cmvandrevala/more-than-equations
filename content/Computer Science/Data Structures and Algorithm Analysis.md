@@ -7,6 +7,7 @@ tags:
 ## Labs
 
 * [[A Tree Made of Files]]
+* [[According to My Calculations]]
 * [[Counting Cards]]
 * [[I've Got the Power!]]
 * [[Put a Hotel on Boardwalk]]
