@@ -6,6 +6,7 @@ tags:
 
 ## Labs
 
+* [[A Map in a Tree]]
 * [[A Tree Made of Files]]
 * [[According to My Calculations]]
 * [[Counting Cards]]
