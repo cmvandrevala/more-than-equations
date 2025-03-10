@@ -37,6 +37,7 @@ tags:
 * [[Times Are Changing]]
 * [[To Meet or Not to Meet]]
 * [[What a Complex Problem]]
+* [[Why Isn't the Word Palindrome One]]
 
 ## In-Class Activities
 

@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: Why Isn't the Word Palindrome One?
-draft: true
+date: 2025-03-10
+tags: [c-plus-plus, csc-121, functions, strings]
+description: In this lab, we will implement a function that checks to see whether a given string is a palindrome.
 ---
 
 ## 🔖 Background Information
@@ -15,17 +16,17 @@ A palindrome is word that is read the same backwards and forwards. For example, 
 * racecar
 * radar
 
-This problem is available courtesy of {% cite jamesWhyIsnWord2018 %}.
+This problem is available courtesy of Professor Jason James [@jamesWhyIsnWord2018].
 
 ## 🎯 Problem Statement
 
-Write a function called `is_palindrome(...)` that determines if a string input is a palindrome.
+Write a function called `is_palindrome(...)` that determines if a string is a palindrome.
 
 ## ✅ Acceptance Criteria
 
-* Create a function named `is_palindrome` that takes one string argument. It should return a boolean describing whether the string is a palindrome or not.
+* Write a function named `is_palindrome` that takes one string argument. It should return a boolean value describing whether the string is a palindrome or not.
 * Ignore the capitalization of letters when determining whether a string is a palindrome.
-* Test the `is_palindrome` function using `assert` statements in the `main()` program. Consider which edge cases you need to test.
+* Carefully consider which edge cases you need to test to ensure that your function is working correctly.
 
 ## 📋 Dev Notes
 
@@ -33,7 +34,7 @@ N/A
 
 ## 🖥️ Example Output
 
-You can test the `is_palindrome` function using `assert` statements in your `main()` file. It might look something like this:
+The unit tests for your program might look something like this:
 
 ```cpp
 #include <cassert>
@@ -58,10 +59,6 @@ int main() {
 
 ## 💼 Add-Ons For the Portfolio
 
-### (One Credit) Header File
-
-Move your `is_palindrome` function into a separate file from `main()` and create a corresponding header file. Then, `#include` the header file for your function in `main()`. This should not change the functionality of your code.
-
 ### (Two Credits) Phrase Palindromes
 
 A phrase palindrome is a palindrome that ignores punctuation and whitespace in addition to capitalization. Some examples of phrase palindromes are:
@@ -80,6 +77,10 @@ Many solutions involve copying the string argument, reversing it, and then compa
 
 Refactor your code so that you eliminate any duplication of the original string. Your new code must not change the original string in any way as you analyze it.
 
+## 🔗 Useful Links
+
+N/A
+
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
