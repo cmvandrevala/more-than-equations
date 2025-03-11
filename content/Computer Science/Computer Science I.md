@@ -61,4 +61,5 @@ tags:
 
 ## Portfolio Projects
 
+* [[Battle Boats]]
 * [[Choose Your Own Adventure Story]]
