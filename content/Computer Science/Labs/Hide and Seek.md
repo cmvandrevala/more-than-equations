@@ -87,7 +87,7 @@ Cold pricklies have gotten into the list of warm fuzzies, and it is your job to 
 
 ## 🔗 Useful Links
 
-N/A
+* [Java Project Template](https://github.com/cmvandrevala/hide-and-seek-java-template)
 
 ## 📘 Works Cited
 
