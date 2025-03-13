@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: You Need Power, Wisdom, and Courage When Using Recursion
-draft: true
+date: 2025-03-11
+tags: [c-plus-plus, java csc-122, csc-214, recursion]
+description: In this lab, we will implement a program that calculates triangular numbers.
 ---
 
 ## 🔖 Background Information
@@ -40,31 +41,50 @@ Create a class called `TriangleNumberCalculator` with the following methods:
 * `int add(int n, int m)` which adds the nth and mth triangular numbers
 * `int subtract(int n, int m)` which subtracts the nth and mth triangular numbers
 
-Be sure to test all of your methods!
-
 ## 📋 Dev Notes
 
-* You must use recursion to calculate the triangular numbers. Yes, you could use a for loop to solve these problems, but the theme of this week is recursion 🙂
+* You must use recursion to calculate the triangular numbers. Yes, you could use a for loop to solve these problems, but the theme of this lab is recursion 🙂
 
 ## 🖥️ Example Output
 
 Here is an example of how you might use the `TriangleNumberCalculator` class.
 
-```cpp
-TriangleNumberCalculator calculator;
+> [!tip]- C++
+>
+> ```cpp
+> TriangleNumberCalculator calculator;
+>
+> cout << calculator.value(1); // This should print out 1
+> cout << calculator.value(2); // This should print out 3
+> cout << calculator.value(4); // This should print out 10
+>
+> cout << calculator.add(1, 1); // This should print out 2
+> cout << calculator.add(2, 3); // This should print out 9
+> cout << calculator.add(4, 2); // This should print out 13
+>
+> cout << calculator.subtract(1, 1); // This should print out 0
+> cout << calculator.subtract(2, 3); // This should print out -3
+> cout << calculator.subtract(4, 2); // This should print out 7
+> ```
 
-cout << calculator.value(1); // This should print out 1
-cout << calculator.value(2); // This should print out 3
-cout << calculator.value(4); // This should print out 10
-
-cout << calculator.add(1, 1); // This should print out 2
-cout << calculator.add(2, 3); // This should print out 9
-cout << calculator.add(4, 2); // This should print out 13
-
-cout << calculator.subtract(1, 1); // This should print out 0
-cout << calculator.subtract(2, 3); // This should print out -3
-cout << calculator.subtract(4, 2); // This should print out 7
-```
+> [!tip]- Java
+>
+> ```java
+>
+> TriangleNumberCalculator calculator = new TriangleNumberCalculator();
+>
+> System.out.println(calculator.value(1)); // This should print out 1
+> System.out.println(calculator.value(2)); // This should print out 3
+> System.out.println(calculator.value(4)); // This should print out 10
+>
+> System.out.println(calculator.add(1, 1)); // This should print out 2
+> System.out.println(calculator.add(2, 3)); // This should print out 9
+> System.out.println(calculator.add(4, 2)); // This should print out 13
+>
+> System.out.println(calculator.subtract(1, 1)); // This should print out 0
+> System.out.println(calculator.subtract(2, 3)); // This should print out -3
+> System.out.println(calculator.subtract(4, 2)); // This should print out 7
+> ```
 
 ## 📝 Thought Provoking Questions
 
@@ -86,6 +106,10 @@ Implement a method called `double divide(int n, int m)` which divides the nth an
 ### (Two Credits) Sequence
 
 Implement a method called `sequence(int n)` which returns a list of triangle numbers up to the Nth number: $T_1, T_2, T_3, ..., T_N$. Be sure to test your method!
+
+## 🔗 Useful Links
+
+* [Java Project Template](https://github.com/cmvandrevala/you-need-power-wisdom-and-courage-when-using-recursion-java-template)
 
 ## 📘 Works Cited
 

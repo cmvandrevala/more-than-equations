@@ -21,6 +21,7 @@ tags:
 * [[Oops! Shall We Try Again?]]
 * [[Payroll]]
 * [[Shape Your Destiny]]
+* [[You Need Power Wisdom and Courage When Using Recursion]]
 * [[Zip It]]
 
 ## Portfolio Projects
