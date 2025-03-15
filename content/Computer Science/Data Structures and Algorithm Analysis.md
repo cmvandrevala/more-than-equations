@@ -10,6 +10,7 @@ tags:
 * [[A Tree Made of Files]]
 * [[According to My Calculations]]
 * [[Counting Cards]]
+* [[Cutting in Queue]]
 * [[I've Got the Power!]]
 * [[Put a Hotel on Boardwalk]]
 * [[The Hofstadter G Sequence]]
