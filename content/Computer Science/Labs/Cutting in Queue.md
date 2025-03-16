@@ -92,7 +92,7 @@ This quote comes directly from the documentation on the batch ops job priority:
 
 > You can assign each Amazon S3 Batch Operations job a numeric priority, which can be any positive integer. S3 Batch Operations prioritizes jobs according to the assigned priority. Jobs with a higher priority (or a higher numeric value for the priority parameter) are evaluated first. Priority is determined in descending order. For example, a job queue with a priority value of 10 is given scheduling preference over a job queue with a priority value of 1.
 
-This sounds like a priority queue! We literally just implemented one of those! So S3 Batch Operations is probably a glorified priority queue which stores jobs, and each job has a priority value between 1 and 10. Neat!
+This sounds like a priority queue! We literally just implemented one of those! So S3 Batch Operations is probably a glorified priority queue which stores jobs, and each job has a priority value which ranks them. Neat!
 
 But reading onwards...
 
