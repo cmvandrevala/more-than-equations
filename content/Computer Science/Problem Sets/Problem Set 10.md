@@ -8,7 +8,7 @@ description: This problem set is from week ten of the course.
 
 ---
 
-2. If I perform a preorder traversal of a binary search tree, the elements will be listed in ascending order. Is this true for a heap data structure? Why or why not?
+2. If I perform an inorder traversal of a binary search tree, the elements will be listed in ascending order. Is this true for a heap data structure? Why or why not?
 
 ---
 
