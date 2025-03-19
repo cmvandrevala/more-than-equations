@@ -22,9 +22,12 @@ Write a class that allows a user to do the following:
 
 | Name               | Code  | Price    |
 | ------------------ | ----- | -------- |
+| Cucumber           | 00295 | 15 cents |
 | Granny Smith Apple | 10342 | 50 cents |
 | Banana             | 10557 | 45 cents |
+| Apricot            | 11221 | 90 cents |
 | Peach              | 12151 | 75 cents |
+| Celery             | 12157 | 80 cents |
 
 ## 📋 Dev Notes
 
