@@ -1,5 +1,5 @@
 ---
-title: Tic-Tac-Toe
+title: Human vs. Human Tic-Tac-Toe
 tags: [java, csc-214]
 description: This portfolio has you build your own console-based tic-tac-toe game that supports human versus human play.
 ---
