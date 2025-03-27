@@ -26,4 +26,7 @@ tags:
 
 ## Portfolio Projects
 
-* [[Tic-Tac-Toe]]
+### Tic-Tac-Toe
+
+* [[Human vs Human]]
+* [[Game Log]]
