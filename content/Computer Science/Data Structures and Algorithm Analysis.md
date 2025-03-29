@@ -12,6 +12,7 @@ tags:
 * [[Counting Cards]]
 * [[Cutting in Queue]]
 * [[I've Got the Power!]]
+* [[Magazine Clippings]]
 * [[Put a Hotel on Boardwalk]]
 * [[The Hofstadter G Sequence]]
 * [[This Diffusion Joke is Pretty Random]]
