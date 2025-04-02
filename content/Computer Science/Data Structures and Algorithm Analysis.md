@@ -4,6 +4,10 @@ tags:
   - csc-216
 ---
 
+## Course Resources
+
+* [[CSC 216 Final Project]]
+
 ## Labs
 
 * [[A Map in a Tree]]
