@@ -53,6 +53,7 @@ Note that I start indexing words from zero.
 
 1. Describe your algorithm for implementing the inverted file index.
 2. Estimate the time complexity of your solution. Explain your reasoning.
+3. Estimate the space complexity of your solution. Explain your reasoning.
 
 ## 💼 Add-Ons For the Portfolio
 
