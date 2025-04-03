@@ -18,6 +18,7 @@ tags:
 * [[I've Got the Power!]]
 * [[Magazine Clippings]]
 * [[Put a Hotel on Boardwalk]]
+* [[Searching for the Answer]]
 * [[The Hofstadter G Sequence]]
 * [[This Diffusion Joke is Pretty Random]]
 * [[We Can Rebuild Them]]
