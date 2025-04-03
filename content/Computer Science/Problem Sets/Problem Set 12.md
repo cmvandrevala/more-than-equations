@@ -17,5 +17,3 @@ Suppose I create a perfect skip list with the values 3, 4, 7, 12, 13, 14, 17.
 4. Sketch the path that would be taken through the skip list if you are searching for the number 12.
 5. Sketch a diagram (or set of diagrams) that show how you would insert the number 15 into the skip list.
 6. Sketch a diagram (or set of diagrams) that show how you would remove the number 7 from the skip list.
-
----
