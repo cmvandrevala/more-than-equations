@@ -1,7 +1,11 @@
 ---
 title: Electric Potential Energy Lesson Plan
-tags: [phy-202, electric-potential-energy, calculus]
+tags:
+  - phy-202
+  - electric-potential-energy
+  - calculus
 description: We will talk about electric potential energy, its use in the law of conservation of energy, and how it relates to electric force, electric field, and electric potential.
+date: 2025-04-08
 ---
 
 ## 🔖 Topics
@@ -19,6 +23,7 @@ description: We will talk about electric potential energy, its use in the law of
 ## 📋 Sequence
 
 - Definition of electric potential energy
+- [[Speed of a Point Charge Repelled from Another]]
 - Speed of a particle after it accelerates through a potential difference
 - Speed of two particles after they repel each other from rest
 
@@ -28,7 +33,11 @@ N/A
 
 ## 📝 Practice Problems
 
-1. [[Speed of a Point Charge Repelled from Another]]
+N/A
+
+## ✅ Partial Solutions
+
+N/A
 
 ## 📘 Connected Resources
 

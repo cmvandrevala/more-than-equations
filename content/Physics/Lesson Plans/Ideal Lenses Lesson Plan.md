@@ -1,26 +1,35 @@
 ---
-layout: lesson-plan
 title: Ideal Lenses
-topics:
-  - Ideal lenses
-  - Lens makers equation
-  - Focal length
-  - Object distance and image distance
-  - Magnification
-objectives:
-  - Describe the properties of an ideal mirror
-  - Calculate the properties of images formed by an ideal mirror
-draft: true
+tags:
+  - phy-122
+  - phy-202
+  - ideal-lenses
+  - algebra
+description: We will talk about the properties of images formed by ideal lenses.
+date: 2025-04-08
 ---
+
+## 🔖 Topics
+
+- Ideal lenses
+- Lens makers equation
+- Focal length
+- Object distance and image distance
+- Magnification
+
+## 🎯 Objectives
+
+- Describe the properties of an ideal lens
+- Calculate the properties of images formed by an ideal lens
 
 ## 📋 Sequence
 
 We will cover converging and diverging lenses, touching on the following details:
 
-* Positive / negative conventions
-* Object further out than the focal point
-* Object closer in than the focal point
-* Object at the focal point
+- Positive / negative conventions
+- Object further out than the focal point
+- Object closer in than the focal point
+- Object at the focal point
 
 ## 🖥️ Animations, Simulations, Activities
 
@@ -40,5 +49,4 @@ N/A
 
 ## 📘 Connected Resources
 
-* {% reference giambattistaCollegePhysicsIntegrated2020 %}
-* {% reference tiplerPhysicsScientistsEngineers2008 %}
+N/A
