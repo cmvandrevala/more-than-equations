@@ -15,6 +15,7 @@ tags:
 * [[According to My Calculations]]
 * [[Counting Cards]]
 * [[Cutting in Queue]]
+* [[Heads I Win, Tails You Lose]]
 * [[I've Got the Power!]]
 * [[Magazine Clippings]]
 * [[Put a Hotel on Boardwalk]]
@@ -37,3 +38,4 @@ tags:
 * [[Problem Set 10]]
 * [[Problem Set 11]]
 * [[Problem Set 12]]
+* [[Problem Set 13]]
