@@ -20,8 +20,16 @@ description: This problem set is from week thirteen of the course.
 
 ---
 
-For each of the following recurrences, give an expression for the runtime $T(n)$ if the recurrence can be solved with the Master Theorem. Otherwise, indicate that the Master Theorem does not apply.
+5. For each of the following recurrences, give an expression for the runtime $T(n)$ if the recurrence can be solved with the Master Theorem. Otherwise, indicate that the Master Theorem does not apply.
 
-5. $T(n) = 3 T(n/2) + n^2$
-6. $T(n) = 4 T(n/2) + n^2$
-7. $T(n) = T(n/2) + 2^n$
+$$
+T(n) = 3 T(n/2) + n^2
+$$
+
+$$
+T(n) = 4 T(n/2) + n^2
+$$
+
+$$
+T(n) = T(n/2) + 2^n
+$$
