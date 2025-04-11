@@ -54,7 +54,6 @@ Your goal for this lab is to simulate biased coin flips to determine if the resu
 
 ## 📋 Dev Notes
 
-* You can use whatever language features you want to write this simulation (i.e. classes, functions, etc).
 * Automate everything! You don't need to manually update and record values for $m$, $p$, and $n$. Instead, set up the simulation to run all of your trials ($m$) for all of your step numbers ($n$) for a given probability of heads ($p$). Might I suggest some nested `for` loops?
 * This lab is very similar to [[This Diffusion Joke is Pretty Random]]. You can use your work from that lab as a reference.
 
