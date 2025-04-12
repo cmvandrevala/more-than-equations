@@ -1,14 +1,18 @@
 ---
-layout: lab
 title: File Away Those Details
-draft: true
+date: 2025-04-12
+tags:
+  - c-plus-plus
+  - csc-121
+  - file-io
+description: In this lab you will calculate some basic statistics from a set of numbers in a file.
 ---
 
 ## 🔖 Background Information
 
 This lab focuses on a simple data processing problem. We want to calculate some basic statistics for some data in a file. However, the catch is that you don't know the amount of information in the file ahead of time.
 
-This problem is available courtey of {% cite jamesEm2022 %}.
+This problem is available courtey of Professor Jason James [@jamesEm2022].
 
 ### Mean
 
@@ -22,7 +26,7 @@ In other words, we sum up all of the data points and then divide by the total nu
 
 ### Variance
 
-The traditional formula for variance is the square root of the standard deviation:
+The traditional formula for sample variance (v) is given by:
 
 $$
 v = \frac{1}{n - 1} \sum_{i = 1}^n (x_i - \bar{x})^2
@@ -142,11 +146,9 @@ Thank you for using the Number Statistics Program!
 
 ## 📝 Thought Provoking Questions
 
-1. How did you handle the spaces between each number when reading in values?
-2. Do the numbers in the file have to be in a specific order in order to calculate the mean, standard deviation, maximum, and minimum?
-3. What type(s) did you use to store your numbers? Why?
-4. What strategies might you use to make sure that your program does not run out of memory space as you read a large data file?
-5. When finding the largest or smallest item in a list, what value should you start with as your assumed value?
+1. Do the numbers in the file have to be in a specific order in order to calculate the mean, standard deviation, maximum, and minimum?
+2. What strategies might you use to make sure that your program does not run out of memory space as you read a large data file?
+3. When finding the largest or smallest item in a list, what value should you start with as your assumed value?
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -170,4 +172,4 @@ Update your program so that it can handle files with newlines between numbers. T
 
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)

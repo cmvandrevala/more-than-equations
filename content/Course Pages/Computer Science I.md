@@ -22,6 +22,7 @@ tags:
 
 * [[A Terribly Weighty Subject]]
 * [[After a String Argument, I End Up in Knots]]
+* [[File Away Those Details]]
 * [[From Here to There]]
 * [[Hello World]]
 * [[Hi Equals Hi]]
