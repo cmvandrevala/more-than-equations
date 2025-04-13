@@ -20,6 +20,7 @@ date: 2025-04-08
 ## 📋 Sequence
 
 - Dimensional Analysis
+- [[How Many Fingers Are There in Houston?]]
 
 ## 🖥️ Animations, Simulations, Activities
 
