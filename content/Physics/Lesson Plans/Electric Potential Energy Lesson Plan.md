@@ -24,7 +24,7 @@ date: 2025-04-08
 
 - Definition of electric potential energy
 - [[Speed of a Point Charge Repelled from Another]]
-- Speed of a particle after it accelerates through a potential difference
+- [[Speed of a Proton After it Accelerates Through a Potential Difference]]
 - Speed of two particles after they repel each other from rest
 
 ## 🖥️ Animations, Simulations, and Activities
