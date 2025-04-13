@@ -9,6 +9,7 @@ tags:
 
 ## Lesson Plans
 
+- [[Coulombs Law for Continuous Charge Distributions]]
 - [[Electric Potential Energy Lesson Plan]]
 - [[Ideal Lenses Lesson Plan]]
 - [[Ideal Mirrors Lesson Plan]]
