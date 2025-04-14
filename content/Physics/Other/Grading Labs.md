@@ -19,5 +19,5 @@ I spend around ten minutes grading a single student’s lab report. If I have 30
 > We can solve this problem using dimensional analysis. The number of minutes grading labs is:
 >
 > $$
-> (30 \: students) \left ( \frac{15 \: labs}{1 \: student} \right ) \left ( \frac{10 \: minutes}{1 \: lab} \right ) = 4500 minutes
+> (30 \: students) \left ( \frac{15 \: labs}{1 \: student} \right ) \left ( \frac{10 \: minutes}{1 \: lab} \right ) = 4500 \: minutes
 > $$
