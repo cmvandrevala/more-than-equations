@@ -46,6 +46,7 @@ tags:
 
 * [[A Functional Use for Lambdas]]
 * [[A Simple To-Do List]]
+* [[A Stack of Dishes]]
 * [[Growing Pains]]
 * [[I Get the Point]]
 * [[It's Raining Strings]]
