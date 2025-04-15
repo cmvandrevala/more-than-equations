@@ -1,6 +1,8 @@
 ---
 title: A Stack of Dishes
-draft: true
+tags: [c-plus-plus, java, csc-122, csc-214, stacks]
+description: In this lab, you will write a stack data structure.
+date: 2025-04-15
 ---
 
 ## 🔖 Background Information
