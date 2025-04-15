@@ -1,7 +1,11 @@
 ---
-layout: lab
 title: For the Nth Time
-draft: true
+date: 2025-04-15
+tags:
+  - c-plus-plus
+  - csc-121
+  - strings
+description: In this lab you will determine the correct suffix that should be added to a given number.
 ---
 
 ## 🔖 Background Information
@@ -28,17 +32,16 @@ The pattern for suffixes is:
 
 Note how most numbers have a suffix of "th", but those that end in 1, 2, and 3 differ slightly. Also note that "1st" and "11th" differ as well.
 
-This problem is available courtesy of {% cite jamesNthTime2017 %}.
+This problem is available courtesy of Professor Jason James [@jamesNthTime2017].
 
 ## 🎯 Problem Statement
 
-Write a function called `number_suffix(...)` which returns the suffix of an integer.
+Write a function called `string number_suffix(int n)` which returns the suffix of a given integer.
 
 ## ✅ Acceptance Criteria
 
 * Create a function named `number_suffix` that takes a single integer argument. It should return a string which contains the two letter suffix of the number.
 * The function should return an empty string if the inputted number is less than or equal to zero.
-* Test the `number_suffix` function using `assert` statements in the `main()` program. Consider which edge cases you need to test.
 
 ## 📋 Dev Notes
 
@@ -46,7 +49,7 @@ N/A
 
 ## 🖥️ Example Output
 
-You can test the `number_suffix` function using `assert` statements in your `main()` file. It might look something like this:
+Your unit tests for your function might look something like this:
 
 ```cpp
 #include <cassert>
@@ -67,10 +70,6 @@ int main() {
 
 ## 💼 Add-Ons For the Portfolio
 
-### (One Credit) Header File
-
-Move your `number_suffix` function into a separate file from `main()` and create a corresponding header file. Then, `#include` the header file for your function in `main()`. This should not change the functionality of your code.
-
 ### (Two Credits) Number and Suffix Together
 
 Update your function to pass in another argument called `include_number`. If the argument is set to true, the output will be the number prepended to the suffix. If the argument is set to false, the output will be just the suffix, as it was before. For example:
@@ -86,6 +85,10 @@ We don't want to change any existing behavior or break any existing tests. Thus,
 number_suffix(1) // This should still return "st"
 ```
 
+## 🔗 Useful Links
+
+N/A
+
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
