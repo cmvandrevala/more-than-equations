@@ -8,5 +8,6 @@ tags:
 
 ## Lesson Plans
 
+- [[Capacitors in Circuits]]
 - [[Ideal Lenses Lesson Plan]]
 - [[Ideal Mirrors Lesson Plan]]
