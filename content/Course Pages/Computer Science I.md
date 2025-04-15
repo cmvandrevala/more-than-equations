@@ -52,6 +52,8 @@ tags:
 * [[Happy Birthday]]
 * [[Longest Word]]
 * [[Marco Polo]]
+* [[Old Faithful - Part 1]]
+* [[Old Faithful - Part 2]]
 * [[Password Validator]]
 * [[Point of Sale]]
 * [[Rock-Paper-Scissors - Part 1]]
