@@ -6,6 +6,7 @@ tags:
   - dimensional-analysis
   - algebra
 description: As of 2023, the population of Houston, Texas was estimated to be 2,314,157 people. If we assume that each person has two hands and each hand has five fingers, how many fingers are there in Houston? The two hands and five fingers for every person is certainly not true in real life, but it gives us a nice order of magnitude answer.
+articleType: example-problem
 ---
 
 ## Problem Statement

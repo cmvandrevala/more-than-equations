@@ -7,6 +7,7 @@ tags:
   - light
   - algebra
 description: Astronomical distances are sometimes described in terms of light years. As you might guess, a light year is the distance that light in a vacuum will travel in one year. How many meters is one light year? The speed of light in a vacuum is $c = 299,792,458 m/s$.
+articleType: example-problem
 ---
 
 ## Problem Statement

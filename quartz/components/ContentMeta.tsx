@@ -29,6 +29,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
+      const articleType = fileData.frontmatter?.articleType
+      if (articleType === "example-problem") {
+        segments.push(<span>🟣 Example Problem</span>)
+      }
+
       if (fileData.dates) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }

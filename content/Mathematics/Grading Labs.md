@@ -6,6 +6,7 @@ tags:
   - dimensional-analysis
   - algebra
 description: I spend around ten minutes grading a single student’s lab report. If I have 30 students this semester and we do 15 labs over the semester, how many minutes will I spend grading lab reports?
+articleType: example-problem
 ---
 
 ## Problem Statement

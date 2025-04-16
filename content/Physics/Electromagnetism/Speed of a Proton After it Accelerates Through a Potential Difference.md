@@ -7,6 +7,7 @@ tags:
   - electromagnetism
   - algebra
 description: A proton is accelerated over a potential difference of 100 V. What is the final speed of the proton?
+articleType: example-problem
 ---
 
 ## Problem Statement
