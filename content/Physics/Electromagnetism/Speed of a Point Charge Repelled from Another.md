@@ -8,6 +8,7 @@ tags:
   - algebra
 description: A positive charge (Q = +5.0 $$\mu C$$ and m = 0.5 kg) is fixed in place at the origin. Another positive charge (q = +1.0 $$\mu C$$ and m = 2.0 kg) is free to move and starts at rest at the point (1.0 m, 0.0 m). What is the speed of q when it is very far away from Q?
 articleType: example-problem
+date: 2024-12-15
 ---
 
 ## Problem Statement
