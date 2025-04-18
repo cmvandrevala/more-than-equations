@@ -8,3 +8,5 @@ tags:
 
 - [[Dimensional Analysis]]
 - [[Introduction to Vectors]]
+- [[Error Analysis]]
+- [[Linearization]]

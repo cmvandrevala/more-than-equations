@@ -8,6 +8,8 @@ tags:
 
 ## Lesson Plans
 
+- [[Error Analysis]]
+- [[Linearization]]
 - [[Capacitors in Circuits]]
 - [[Ideal Lenses Lesson Plan]]
 - [[Ideal Mirrors Lesson Plan]]
