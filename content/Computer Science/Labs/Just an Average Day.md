@@ -65,6 +65,10 @@ Write a function that takes an array of integers and returns a new array of inte
 
 Write a function that takes an array of integers and returns a new array of integers where all of the numbers have been squared. You must use the Java Stream API for this solution and test it using JUnit.
 
+## 🔗 Useful Links
+
+* [Java Project Template](https://github.com/cmvandrevala/just-an-average-day-java-template)
+
 ## 📘 Works Cited
 
 N/A
