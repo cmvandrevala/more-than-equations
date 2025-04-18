@@ -21,6 +21,7 @@ tags:
 * [[Just an Average Day]]
 * [[Oops! Shall We Try Again?]]
 * [[Payroll]]
+* [[Queue-Tee Pie]]
 * [[Shape Your Destiny]]
 * [[You Need Power Wisdom and Courage When Using Recursion]]
 * [[Zip It]]
