@@ -33,3 +33,4 @@ tags:
 
 * [[Human vs Human]]
 * [[Game Log]]
+* [[Opportunistic Computer Player]]
