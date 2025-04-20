@@ -23,6 +23,7 @@ tags:
 * [[The Hofstadter G Sequence]]
 * [[This Diffusion Joke is Pretty Random]]
 * [[We Can Rebuild Them]]
+* [[What is a Dinosaur's Favorite Form of Compression?]]
 
 ## Problem Sets
 
