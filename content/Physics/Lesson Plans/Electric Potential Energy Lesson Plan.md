@@ -5,6 +5,7 @@ tags:
   - electric-potential-energy
   - calculus
 description: We will talk about electric potential energy, its use in the law of conservation of energy, and how it relates to electric force, electric field, and electric potential.
+articleType: lesson-plan
 date: 2025-04-08
 ---
 

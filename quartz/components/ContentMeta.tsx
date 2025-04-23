@@ -32,6 +32,8 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const articleType = fileData.frontmatter?.articleType
       if (articleType === "example-problem") {
         segments.push(<span>🟣 Example Problem</span>)
+      } else if (articleType === "lesson-plan") {
+        segments.push(<span>🟠 Lesson Plan</span>)
       }
 
       if (fileData.dates) {

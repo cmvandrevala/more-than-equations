@@ -8,6 +8,7 @@ tags:
   - error-anslysis
   - algebra
 description: We will talk about the linearization of different types of polynomials.
+articleType: lesson-plan
 date: 2025-04-18
 ---
 

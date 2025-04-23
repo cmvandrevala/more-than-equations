@@ -6,6 +6,7 @@ tags:
   - circuits
   - algebra
 description: This lesson focuses on networks of capacitors in electric circuits.
+articleType: lesson-plan
 date: 2025-04-15
 ---
 

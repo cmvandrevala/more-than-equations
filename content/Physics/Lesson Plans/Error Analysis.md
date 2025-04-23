@@ -8,6 +8,7 @@ tags:
   - error-anslysis
   - algebra
 description: We will talk about the different types of errors that are encountered in physics labs and how we might be able to address them.
+articleType: lesson-plan
 date: 2025-04-18
 ---
 

@@ -6,6 +6,7 @@ tags:
   - dimensional-analysis
   - algebra
 description: Physics equations must have balanced units on either side of the equals sign. In this lesson, we will explore dimensional analysis as a tool to verify the validity of equations.
+articleType: lesson-plan
 date: 2025-04-08
 ---
 

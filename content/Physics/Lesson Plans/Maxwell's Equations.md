@@ -5,6 +5,7 @@ tags:
   - maxwells-equations
   - calculus
 description: We go through Maxwell's equations and derive an expression for the speed of light in a vacuum.
+articleType: lesson-plan
 date: 2025-04-14
 ---
 

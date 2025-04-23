@@ -6,6 +6,7 @@ tags:
   - vectors
   - algebra
 description: Vectors are a foundational structure in the study of physics. In this lesson, we will discuss some common operations on vectors.
+articleType: lesson-plan
 date: 2025-04-08
 ---
 

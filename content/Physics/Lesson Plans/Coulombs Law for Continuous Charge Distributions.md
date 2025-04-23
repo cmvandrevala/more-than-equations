@@ -5,6 +5,7 @@ tags:
   - coulombs-law
   - calculus
 description: We can calculate the electric field from a continuous charge distribution by utilizing Coulomb's law and some concepts from calculus.
+articleType: lesson-plan
 date: 2025-04-12
 ---
 

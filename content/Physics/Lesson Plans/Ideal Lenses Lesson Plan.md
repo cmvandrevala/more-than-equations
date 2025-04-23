@@ -6,6 +6,7 @@ tags:
   - ideal-lenses
   - algebra
 description: We will talk about the properties of images formed by ideal lenses.
+articleType: lesson-plan
 date: 2025-04-08
 ---
 
