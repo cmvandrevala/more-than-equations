@@ -1,26 +1,38 @@
 ---
-layout: lesson-plan
 title: Conceptual Notion of Fields
-topics:
-  - Conceptual notion of fields
-  - Scalar fields
-  - Vector fields
-  - Higher-order (tensor) fields
-  - Superposition
-objectives:
-  - Describe the idea of a field, conceptually
-  - Calculate the magnitude and direction of a field at a given point in space
-  - Calculate the net result of two or more fields at a given point in space
-draft: true
+tags:
+  - phy-122
+  - phy-202
+  - fields
+  - algebra
+description: This lesson introduces the idea of a field in physics.
+articleType: lesson-plan
+date: 2025-04-15
 ---
+
+## 🔖 Topics
+
+- Conceptual notion of fields
+- Scalar fields
+- Vector fields
+- Higher-order (tensor) fields
+- Time independent vs. time dependent fields
+- Superposition
+
+## 🎯 Objectives
+
+- Describe the idea of a field, conceptually
+- Calculate the magnitude and direction of a field at a given point in space
+- Calculate the net result of two or more fields at a given point in space
 
 ## 📋 Sequence
 
-* Conceptual idea of a field
-* Scalar fields
-* Vector fields
-* Higher-order fields
-* Superposition
+- Conceptual notion of fields
+- Scalar fields
+- Vector fields
+- Higher-order (tensor) fields
+- Time independent vs. time dependent fields
+- Superposition
 
 ## 🖥️ Animations, Simulations, Activities
 

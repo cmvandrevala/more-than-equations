@@ -8,6 +8,7 @@ tags:
 
 ## Lesson Plans
 
+- [[Conceptual Notion of Fields]]
 - [[Error Analysis]]
 - [[Linearization]]
 - [[Capacitors in Circuits]]

@@ -9,6 +9,7 @@ tags:
 
 ## Lesson Plans
 
+- [[Conceptual Notion of Fields]]
 - [[Error Analysis]]
 - [[Linearization]]
 - [[Coulombs Law for Continuous Charge Distributions]]
