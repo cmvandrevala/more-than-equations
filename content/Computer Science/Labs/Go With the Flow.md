@@ -1,7 +1,12 @@
 ---
-layout: lab
 title: Go With the Flow
-draft: true
+date: 2025-04-23
+tags:
+  - c-plus-plus
+  - csc-122
+  - heat-flow
+  - arrays
+description: In this lab you will implement a dynamic array data structure.
 ---
 
 ## 🔖 Background Information
@@ -16,9 +21,9 @@ $$
 T^{n+1}_i = T^n_i + K \left ( T_{i+1}^n - 2T^n_i + T^n_{i-1} \right )
 $$
 
-In this equation, the superscript \\( n \\) represents the time step and the subscript \\( i \\) represents the section. The constant \\( K \\) is a constant that you can choose (generally less than one).
+In this equation, the superscript $ n $ represents the time step and the subscript $ i $ represents the section. The constant $ K $ is a constant that you can choose (generally less than one).
 
-For example, suppose I create a rod where each section starts at \\( 10^\circ \\) C and I choose a value of 0.1 for my constant \\( K \\):
+For example, suppose I create a rod where each section starts at $10^\circ$ C and I choose a value of 0.1 for my constant $ K $:
 
 ```text
 +------+------+------+------+------+------+------+------+
@@ -26,7 +31,7 @@ For example, suppose I create a rod where each section starts at \\( 10^\circ \\
 +------+------+------+------+------+------+------+------+
 ```
 
-Then, I specify that there is a single heat source at the far left of the rod at \\( 100^\circ \\) C:
+Then, I specify that there is a single heat source at the far left of the rod at $100^\circ$ C:
 
 $$
 T_1^0 = 100
@@ -38,7 +43,7 @@ $$
 +------+------+------+------+------+------+------+------+
 ```
 
-If I move forward one step in time, the temperature at the far left would remain at \\( 100^\circ \\) C since that is my source.
+If I move forward one step in time, the temperature at the far left would remain at $100^\circ$ C since that is my source.
 
 $$
 T_1^1 = 100
@@ -84,9 +89,9 @@ And so on...
 +------+--------+--------+------+------+------+------+------+
 ```
 
-After infinitely many time steps have passed, the temperature of this rod would be \\( 100^\circ \\) C uniformly throughout.
+After infinitely many time steps have passed, the temperature of this rod would be $100^\circ$ C uniformly throughout.
 
-This lab is available courtesy of {% cite jamesWhewItGetting2018 %}.
+This lab is available courtesy of Professor Jason James [@jamesWhewItGetting2018].
 
 ## 🎯 Problem Statement
 
@@ -165,12 +170,16 @@ $$
 T^{n+1}_i = T^n_i + \kappa \Delta t \left ( \frac{T_{i+1}^n - 2T^n_i + T^n_{i-1}}{(\Delta x)^2} \right )
 $$
 
-where \\( \kappa \\) is the thermal conductivity of the material \\( \Delta x \\) is the distance between each section of the rod, and \\( \Delta t \\) is the length of time between each time step in the simulation. Update your code to replace the single constant K with \\( \kappa \\), \\( \Delta x \\), and \\( \Delta t \\).
+where $ \kappa $ is the thermal conductivity of the material $ \Delta x $ is the distance between each section of the rod, and $ \Delta t $ is the length of time between each time step in the simulation. Update your code to replace the single constant K with $ \kappa $, $ \Delta x $, and $ \Delta t $.
 
 ### (Three Credits) Insulating Layer
 
-We are often curious about how heat moves between layers of material with different thermal conductivities. Update your code so that you can specify a thermal conductivity \\( \kappa \\) for each section, individually. Then, write a simulation that shows how heat flows between two metal rods with large \\( \kappa \\), separated by a small insulating layer with small \\( \kappa \\).
+We are often curious about how heat moves between layers of material with different thermal conductivities. Update your code so that you can specify a thermal conductivity $ \kappa $ for each section, individually. Then, write a simulation that shows how heat flows between two metal rods with large $ \kappa $, separated by a small insulating layer with small $ \kappa $.
+
+## 🔗 Useful Links
+
+N/A
 
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
