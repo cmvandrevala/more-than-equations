@@ -1,31 +1,38 @@
 ---
-layout: lesson-plan
-title: Electric Fields
-topics:
-  - Electric field
-  - Motion of a point charge in an electric field
-objectives:
-  - Describe the electric field around different charge configurations
-  - Calculate the electric force on a point charge due to an electric field
-  - Determine the motion of an point charge within a uniform electric field
-draft: true
+title: Point Charges in Uniform Electric Fields
+tags:
+  - phy-122
+  - phy-202
+  - electric-fields
+  - algebra
+description: We go through the motion of a point charge in a uniform electric field.
+articleType: lesson-plan
+date: 2025-04-24
 ---
+
+## 🔖 Topics
+
+- Electric field
+- Motion of a point charge in an electric field
+
+## 🎯 Objectives
+
+- Describe the electric field around different charge configurations
+- Calculate the electric force on a point charge due to an electric field
+- Determine the motion of an point charge within a uniform electric field
 
 ## 📋 Sequence
 
-* Definition of electric field
-* Sketching electric field lines
-  * Point charge
-  * Ball of charge
-  * Plane of charge (direction only)
-* Electric field examples
-  * Practice problem 2
-  * Practice problem 3
-  * Practice problem 4
+- Definition of electric field
+- Sketching electric field lines
+  - Point charge
+  - Ball of charge
+  - Plane of charge (direction only)
+- Electric field examples
 
 ## 🖥️ Animations, Simulations, Activities
 
-* [Electric Field Hockey](https://phet.colorado.edu/en/simulations/electric-hockey)
+- [Electric Field Hockey](https://phet.colorado.edu/en/simulations/electric-hockey)
 
 ## 📝 Practice Problems
 
@@ -46,5 +53,4 @@ draft: true
 
 ## 📘 Connected Resources
 
-* {% reference dubsonElectricFieldHockey %}
-* {% reference tiplerPhysicsScientistsEngineers2008 %}
+N/A

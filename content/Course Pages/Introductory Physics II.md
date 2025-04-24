@@ -11,6 +11,7 @@ tags:
 - [[Conceptual Notion of Fields]]
 - [[Error Analysis]]
 - [[Linearization]]
+- [[Point Charges in Uniform Electric Fields]]
 - [[Capacitors in Circuits]]
 - [[Ideal Lenses Lesson Plan]]
 - [[Ideal Mirrors Lesson Plan]]
