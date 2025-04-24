@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "More Than Equations",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: {
       provider: null,
     },
