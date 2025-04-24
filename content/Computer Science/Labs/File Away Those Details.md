@@ -32,7 +32,7 @@ $$
 v = \frac{1}{n - 1} \sum_{i = 1}^n (x_i - \bar{x})^2
 $$
 
-But this formula has a problem in that it requires us to work out the average ($$\bar{x}$$) first and then run back through the data to find the variance. This might not be feasible or desired if the data set is very large.
+But this formula has a problem in that it requires us to work out the average ($\bar{x}$) first and then run back through the data to find the variance. This might not be feasible or desired if the data set is very large.
 
 Thus, we often use a reworked version of the formula:
 
@@ -48,13 +48,13 @@ $$
 (n - 1)v = \sum_{i = 1}^n x_i^2 + \sum_{i = 1}^n \bar{x}^2 - \sum_{i = 1}^n 2\bar{x}x_i
 $$
 
-Since $$\bar{x}$$ has no dependence on $$i$$, we can pull it out of each expression:
+Since $\bar{x}$ has no dependence on $i$, we can pull it out of each expression:
 
 $$
 (n - 1)v = \sum_{i = 1}^n x_i^2 + \bar{x}^2 \sum_{i = 1}^n 1 - 2 \bar{x} \sum_{i = 1}^n x_i
 $$
 
-From the definition of the mean, the sum over all $$x_i$$ can be rewritten in terms of $$\bar{x}$$.
+From the definition of the mean, the sum over all $x_i$ can be rewritten in terms of $\bar{x}$.
 
 $$
 (n - 1)v = \sum_{i = 1}^n x_i^2 + \bar{x}^2(n) - 2 \bar{x} (n\bar{x})

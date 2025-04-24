@@ -94,7 +94,7 @@ The formulae that were given above for the equivalent resistance calculations ar
 
 Rearrange the equation for the parallel configuration to require only one division and one multiplication instead of three divisions. Then, refactor your program to use the new formula. The program should run in the same way as before, besides the small optimization.
 
-Hint: Start with the equation $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$$ and solve for $R_{eq}$. Simplify the right side of the equation and then take the inverse of both sides.
+Hint: Start with the equation $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ and solve for $R_{eq}$. Simplify the right side of the equation and then take the inverse of both sides.
 
 ### (One Credit) Multiple Prompts
 

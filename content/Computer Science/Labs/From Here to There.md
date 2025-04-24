@@ -7,7 +7,7 @@ description: In this lab, you will calculate the distance between two points in 
 
 ## 🔖 Background Information
 
-The distance between two points, $$ (x_1, y_1) $$ and $$ (x_2, y_2) $$, in the 2D Cartesian coordinate system is given by the Pythagorean Theorem:
+The distance between two points, $(x_1, y_1)$ and $(x_2, y_2)$, in the 2D Cartesian coordinate system is given by the Pythagorean Theorem:
 
 $$
 d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}

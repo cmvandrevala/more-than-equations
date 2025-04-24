@@ -15,6 +15,7 @@ tags:
 * [[According to My Calculations]]
 * [[Counting Cards]]
 * [[Cutting in Queue]]
+* [[Get There as Fast as Possible]]
 * [[Heads I Win, Tails You Lose]]
 * [[I've Got the Power!]]
 * [[Magazine Clippings]]
