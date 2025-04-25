@@ -1,27 +1,37 @@
 ---
-layout: lesson-plan
 title: Coulomb's Law for Discrete Charge Distributions
-topics:
-  - Electric charge
-  - Coulomb's law
-  - Superposition
-objectives:
-  - Describe the two types of electric charge
-  - Calculate the forces on point charges using Coulomb's law
-  - Utilize superposition to calculate the net force from multiple point charges
-draft: true
+tags:
+  - phy-122
+  - phy-202
+  - coulombs-law
+  - algebra
+description: We calculate the electric field from discrete charge distributions by utilizing Coulomb's law and superposition.
+articleType: lesson-plan
+date: 2025-04-24
 ---
+
+## 🔖 Topics
+
+- Electric charge
+- Coulomb's law
+- Superposition
+
+## 🎯 Objectives
+
+- Describe the two types of electric charge
+- Calculate the forces on point charges using Coulomb's law
+- Utilize superposition to calculate the net force from multiple point charges
 
 ## 📋 Sequence
 
-* Electric charge
-  * Elementary charge $$e = 1.6 \times 10^{-19} \: C$$
-* Coulomb's law examples
-  * Force between two point charges along the x-axis
-  * Force between two point charges positioned at arbitrary points in the xy-plane
-  * Force on a point charge from two other point charges
-  * Net force on a point charge at the center of a square
-  * Net force on a point charge at the center of an equilateral triangle
+- Electric charge
+  - Elementary charge $$e = 1.6 \times 10^{-19} \: C$$
+- Coulomb's law examples
+  - Force between two point charges along the x-axis
+  - Force between two point charges positioned at arbitrary points in the xy-plane
+  - Force on a point charge from two other point charges
+  - Net force on a point charge at the center of a square
+  - Net force on a point charge at the center of an equilateral triangle
 
 ## 🖥️ Animations, Simulations, Activities
 
@@ -43,4 +53,4 @@ N/A
 
 ## 📘 Connected Resources
 
-* {% reference tiplerPhysicsScientistsEngineers2008 %}
+N/A

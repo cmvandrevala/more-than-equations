@@ -13,6 +13,7 @@ tags:
 - [[Error Analysis]]
 - [[Linearization]]
 - [[Point Charges in Uniform Electric Fields]]
+- [[Coulombs Law for Discrete Charge Distributions]]
 - [[Coulombs Law for Continuous Charge Distributions]]
 - [[Electric Potential Energy Lesson Plan]]
 - [[Capacitors in Circuits]]
