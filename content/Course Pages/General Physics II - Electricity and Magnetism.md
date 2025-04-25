@@ -19,5 +19,6 @@ tags:
 - [[Coulombs Law for Continuous Charge Distributions]]
 - [[Electric Potential Energy Lesson Plan]]
 - [[Capacitors in Circuits]]
+- [[Polarization]]
 - [[Ideal Lenses Lesson Plan]]
 - [[Ideal Mirrors Lesson Plan]]

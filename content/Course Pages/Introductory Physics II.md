@@ -16,5 +16,6 @@ tags:
 - [[Point Charges in Uniform Electric Fields]]
 - [[Coulombs Law for Discrete Charge Distributions]]
 - [[Capacitors in Circuits]]
+- [[Polarization]]
 - [[Ideal Lenses Lesson Plan]]
 - [[Ideal Mirrors Lesson Plan]]
