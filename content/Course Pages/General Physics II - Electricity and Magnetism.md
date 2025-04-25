@@ -12,6 +12,8 @@ tags:
 - [[Conceptual Notion of Fields]]
 - [[Error Analysis]]
 - [[Linearization]]
+- [[Electric Charge]]
+- [[Coulombs Law]]
 - [[Point Charges in Uniform Electric Fields]]
 - [[Coulombs Law for Discrete Charge Distributions]]
 - [[Coulombs Law for Continuous Charge Distributions]]
