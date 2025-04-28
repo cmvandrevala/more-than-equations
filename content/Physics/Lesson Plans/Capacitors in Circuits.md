@@ -13,6 +13,7 @@ date: 2025-04-15
 ## 🔖 Topics
 
 - The ideal capacitor (circuit element)
+- 🟣 [[Capacitor Plate Separation Versus Energy]]
 - The ideal battery (circuit element)
 - Capacitors in series
 - Capacitors in parallel
