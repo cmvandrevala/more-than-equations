@@ -26,6 +26,7 @@ date: 2025-04-24
 
 - Electric charge
   - Elementary charge $e = 1.6 \times 10^{-19} \: C$
+- 🟣 [[Charge of Electrons in a Copper Sample]]
 - "Ideal" conductors and insulators
 - Charging a material
   - Rubbing
