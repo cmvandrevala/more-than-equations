@@ -36,7 +36,7 @@ We are going to implement a single player game where a human player plays agains
     * The same rules for hit and miss apply to the computer player.
 4. When the game ends, the program should print out the final state of the grid as well as who is the winner.
 
-### Optional Attributes (Complete Two)
+### Extra Attributes (Complete Two)
 
 #### Less Challenging
 
