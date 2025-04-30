@@ -19,7 +19,7 @@ Schedule a 10 - 15 minute meeting with me with the goal of finalizing the detail
 
 You should prepare for the meeting by doing the following:
 
-1. Select a potential topic that you want to complete. It is ok to come to the meeting with two ideas in mind, and we can narrow it down to one.
+1. Select a potential topic that you want to complete. You can come up with your own topic or select one from the [[CSC 216 Final Project Options]] document. It is ok to come to the meeting with two ideas in mind, and we can narrow it down to one.
 2. Find an online tutorial that you will follow to reproduce something that has already been done. It is ok to have a few resources in mind, and we can narrow them down.
 3. Come up with one or two ideas on how you want to expand on your topic. See the "Expand on Your Work With Your Own Ideas" section for details. We will narrow them down to one, together.
 4. Reflect on the analysis of your code.
