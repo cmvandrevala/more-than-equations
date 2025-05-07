@@ -15,6 +15,7 @@ flowchart TB
     4 --> 8
     4 --> 9
     5 --> 10
+    5 --> 11
 ```
 
 Use the binary tree shown above to answer the following questions.
