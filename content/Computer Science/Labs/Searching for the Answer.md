@@ -18,8 +18,11 @@ Write a program that reads a text file from disk and then writes an inverted fil
 * Your program should read a text file from disk and create an inverted file index based on the contents of the file.
 * Your program should save the inverted file index to the disk.
 * The inverted file index should contain all of the unique words in the document as well as every index where they appear.
-* You do NOT need to index so called "common words" - a, and, the, to, for, they, etc.
+* You do NOT need to index so called "common words" - a, and, the, they, to, for, they, you, your, etc.
 * You should ignore punctuation like periods and commas when you index the words.
+* You should ignore capitalization - the words Apple and apple should be counted as the same word.
+* Hyphenated words like well-known or high-quality count as one word.
+* Your inverted index should list terms in alphabetical order.
 
 ## 📋 Dev Notes
 
