@@ -5,7 +5,7 @@ tags:
   - phy-202
   - charge
   - algebra
-description: We introduce the idea of electric charge.
+description: We introduce the concept of electric charge.
 articleType: lesson-plan
 date: 2025-04-24
 ---
@@ -27,12 +27,12 @@ date: 2025-04-24
 - Electric charge
   - Elementary charge $e = 1.6 \times 10^{-19} \: C$
 - 🟣 [[Charge of Electrons in a Copper Sample]]
-- "Ideal" conductors and insulators
-- Charging a material
-  - Rubbing
-  - Contact
-  - Grounding
-  - Induction
+- Ideal Conductors and Insulators
+- Charging by Rubbing
+- Charging by Contact
+- Charging by Grounding
+- Charging by Induction
+- 🟣 [[Charging a Balloon]]
 
 ## 🖥️ Animations, Simulations, Activities
 
