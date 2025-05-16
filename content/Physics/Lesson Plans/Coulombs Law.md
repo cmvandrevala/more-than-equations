@@ -20,15 +20,11 @@ date: 2025-04-24
 
 ## 📋 Sequence
 
-- Electric charge
-  - Elementary charge $e = 1.6 \times 10^{-19} \: C$
-- "Ideal" conductors and insulators
-- Charging a material
-  - Rubbing
-  - Contact
-  - Grounding
-  - Induction
-- Coulomb's law
+- 🟢 Definition of Coulomb's law
+- 🟣 Attraction of Two Opposite Charges
+- 🟣 Repulsion of Two Like Charges
+- 🟣 Point of No Force Between Two Charges
+- 🟢 Comparison of electric force to gravitational force
 
 ## 🖥️ Animations, Simulations, Activities
 
@@ -42,12 +38,16 @@ N/A
 
 1. A charge of 10 $\mu C$ is positioned at the origin while another charge of -30 $\mu C$ is positioned at the point (5 cm, 0 cm). Where around the two points (if anywhere) is the net electric force on a positive point charge equal to zero?
 
+1. If the electrical force of repulsion between a pair of one Coulomb charges is 10 N, how far apart
+are they [@sahaElectricChargeForce2015]?
+
 ## ✅ Partial Solutions
 
 1. 612.48 N, Repel
 1. 0.0405 N, $81.87^\circ$
 1. (-6.83 cm, 0 cm)
+1. 30,000 m
 
 ## 📘 Connected Resources
 
-N/A
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
