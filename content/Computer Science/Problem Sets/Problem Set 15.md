@@ -24,7 +24,7 @@ graph TB
 5. Write out an adjacency list for this graph.
 6. Write out an adjacency map for this graph.
 7. Write out an adjacency matrix for this graph.
-8. Compute a topological ordering for this graph.
+8. Can you compute a topological ordering for this graph? If so, what is it? If not, why is it not possible?
 9. Write out the transitive closure for this graph.
 10. What are the incoming neighbors of node 3?
 11. What are the outgoing neighbors of node 1?
