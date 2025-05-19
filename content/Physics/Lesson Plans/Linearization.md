@@ -5,7 +5,7 @@ tags:
   - phy-122
   - phy-201
   - phy-202
-  - error-anslysis
+  - linearization
   - algebra
 description: We will talk about the linearization of different types of polynomials.
 articleType: lesson-plan
@@ -20,7 +20,7 @@ date: 2025-04-18
 
 ## 🎯 Objectives
 
-- Describe some of the types of mathematical models
+- Describe some of the types of mathematical models that will be used in the class
 - Discuss why linearization is useful, even when we are able to get equations of best fit that are non-linear
 - Transform polynomial datasets so that they are linearized
 - Transform exponential datasets so that they are linearized
@@ -28,19 +28,14 @@ date: 2025-04-18
 
 ## 📋 Sequence
 
-- Background on linearization
-  - Easier analysis
-  - More rigorous interpretation
-- How do we do it?
-  - There are lots of different techniques that we use
-  - Logarithmic transformations
-  - Power transformations
-  - Polynomial regressions
-  - Box-Cox transformations
-  - Exponential transformations
-- Example of polynomial data set (quadratic)
-- Example of exponential data set
-- Example of logarithmic data set
+- 🟢 Discussion of why we use linearization
+- 🟢 Logarithmic transformations
+- 🟢 Power transformations
+- 🟢 Polynomial regressions
+- 🟢 Exponential transformations
+- 🟣 Example of quadratic data set
+- 🟣 Example of exponential data set
+- 🟣 Example of logarithmic data set
 
 ## 🖥️ Animations, Simulations, Activities
 

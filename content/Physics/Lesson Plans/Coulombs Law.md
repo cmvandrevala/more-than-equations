@@ -38,8 +38,7 @@ N/A
 
 1. A charge of 10 $\mu C$ is positioned at the origin while another charge of -30 $\mu C$ is positioned at the point (5 cm, 0 cm). Where around the two points (if anywhere) is the net electric force on a positive point charge equal to zero?
 
-1. If the electrical force of repulsion between a pair of one Coulomb charges is 10 N, how far apart
-are they [@sahaElectricChargeForce2015]?
+1. If the electrical force of repulsion between a pair of one Coulomb charges is 10 N, how far apart are they [@sahaElectricChargeForce2015]?
 
 ## ✅ Partial Solutions
 

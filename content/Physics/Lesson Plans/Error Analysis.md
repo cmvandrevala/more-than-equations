@@ -29,18 +29,10 @@ date: 2025-04-18
 
 ## 📋 Sequence
 
-- Accuracy vs. precision
-- Gross / human errors
-  - Errors that come from human oversight / mistakes (e.g. I forgot to read the directions)
-  - Not an acceptable error in the lab
-  - If you report these as errors, I will not count them as correct 😓
-- Random errors
-  - Mainly affect precision, not accuracy
-  - Relatively easy to spot compared to systemic errors
-  - Relatively easy to overcome compared to systemic errors (e.g. repeated measurements, larger sample size, control extraneous variables)
-- Systemic errors
-  - Mainly affect accuracy, not precision
-  - Can be difficult to spot
+- 🟢 Accuracy vs. precision
+- 🟢 Gross / human errors
+- 🟢 Random errors
+- 🟢 Systemic errors
 
 ## 🖥️ Animations, Simulations, Activities
 
