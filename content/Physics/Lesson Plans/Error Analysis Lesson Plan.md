@@ -1,5 +1,5 @@
 ---
-title: Error Analysis
+title: Error Analysis Lesson Plan
 tags:
   - phy-121
   - phy-122
