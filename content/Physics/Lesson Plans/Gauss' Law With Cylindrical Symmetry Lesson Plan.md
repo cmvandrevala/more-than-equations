@@ -1,5 +1,5 @@
 ---
-title: Gauss' Law With Cylindrical Symmetry
+title: Gauss' Law With Cylindrical Symmetry Lesson Plan
 tags:
   - phy-202
   - electric-field

@@ -1,5 +1,5 @@
 ---
-title: Ideal Lenses
+title: Ideal Lenses Lesson Plan
 tags:
   - phy-122
   - phy-202

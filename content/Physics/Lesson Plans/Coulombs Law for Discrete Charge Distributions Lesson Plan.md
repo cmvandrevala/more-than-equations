@@ -1,5 +1,5 @@
 ---
-title: Coulomb's Law for Discrete Charge Distributions
+title: Coulomb's Law for Discrete Charge Distributions Lesson Plan
 tags:
   - phy-122
   - phy-202

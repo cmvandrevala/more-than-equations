@@ -1,5 +1,5 @@
 ---
-title: Dimensional Analysis
+title: Dimensional Analysis Lesson Plan
 tags:
   - phy-121
   - phy-201

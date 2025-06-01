@@ -1,5 +1,5 @@
 ---
-title: Ideal Mirrors
+title: Ideal Mirrors Lesson Plan
 tags:
   - phy-122
   - phy-202

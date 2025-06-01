@@ -1,5 +1,5 @@
 ---
-title: Point Charges in Uniform Electric Fields
+title: Point Charges in Uniform Electric Fields Lesson Plan
 tags:
   - phy-122
   - phy-202

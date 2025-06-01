@@ -1,5 +1,5 @@
 ---
-title: Electric Charge
+title: Electric Charge Lesson Plan
 tags:
   - phy-122
   - phy-202

@@ -1,5 +1,5 @@
 ---
-title: Gauss' Law With Spherical Symmetry
+title: Gauss' Law With Spherical Symmetry Lesson Plan
 tags:
   - phy-202
   - electric-field

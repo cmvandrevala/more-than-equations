@@ -1,5 +1,5 @@
 ---
-title: Polarization
+title: Polarization Lesson Plan
 tags:
   - phy-122
   - phy-202

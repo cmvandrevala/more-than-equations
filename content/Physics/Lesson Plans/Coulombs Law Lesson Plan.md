@@ -1,5 +1,5 @@
 ---
-title: Coulomb's Law
+title: Coulomb's Law Lesson Plan
 tags:
   - phy-122
   - phy-202

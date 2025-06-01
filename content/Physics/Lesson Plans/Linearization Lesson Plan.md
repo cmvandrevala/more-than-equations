@@ -1,5 +1,5 @@
 ---
-title: Linearization
+title: Linearization Lesson Plan
 tags:
   - phy-121
   - phy-122
