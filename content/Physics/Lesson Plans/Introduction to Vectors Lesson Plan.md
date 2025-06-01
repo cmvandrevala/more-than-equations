@@ -1,5 +1,5 @@
 ---
-title: Introduction to Vectors
+title: Introduction to Vectors Lesson Plan
 tags:
   - phy-121
   - phy-201

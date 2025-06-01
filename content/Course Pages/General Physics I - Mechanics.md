@@ -7,6 +7,6 @@ tags:
 ## Lesson Plans
 
 - [[Dimensional Analysis Lesson Plan]]
-- [[Introduction to Vectors]]
-- [[Error Analysis]]
+- [[Introduction to Vectors Lesson Plan]]
+- [[Error Analysis Lesson Plan]]
 - [[Linearization Lesson Plan]]

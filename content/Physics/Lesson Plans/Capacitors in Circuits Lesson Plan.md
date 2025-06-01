@@ -12,11 +12,10 @@ date: 2025-04-15
 
 ## 🔖 Topics
 
-- The ideal capacitor (circuit element)
-- 🟣 [[Capacitor Plate Separation Versus Energy]]
-- The ideal battery (circuit element)
-- Capacitors in series
-- Capacitors in parallel
+- Ideal capacitors
+- Ideal batteries
+- Charge, voltage, and energy across an ideal capacitor
+- Circuit diagrams
 - Networks of capacitors
 
 ## 🎯 Objectives
@@ -25,11 +24,17 @@ date: 2025-04-15
 - Sketch out different configurations of capacitors in circuits
 - Identify capacitors in series and parallel in a circuit
 - Calculate the net capacitance of a circuit
-- Calculate the net energy stored in capacitors in a circuit
+- Calculate the net energy, charge, and voltage stored in capacitors in a circuit
 
 ## 📋 Sequence
 
-N/A
+- 🟢 The ideal capacitor
+- 🟢 The ideal battery
+- 🟣 [[Capacitor Plate Separation Versus Energy]]
+- 🟢 Circuit elements
+- 🟣 Capacitors in series
+- 🟣 Capacitors in parallel
+- 🟢 Networks of capacitors
 
 ## 🖥️ Animations, Simulations, Activities
 

@@ -16,7 +16,7 @@ tags:
 * [[Counting Cards]]
 * [[Cutting in Queue]]
 * [[Get There as Fast as Possible]]
-* [[Heads I Win, Tails You Lose]]
+* [[Heads I Win Tails You Lose]]
 * [[I've Got the Power!]]
 * [[Magazine Clippings]]
 * [[Put a Hotel on Boardwalk]]

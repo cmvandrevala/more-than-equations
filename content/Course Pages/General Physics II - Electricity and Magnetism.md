@@ -9,7 +9,7 @@ tags:
 
 ## Lesson Plans
 
-- [[Conceptual Notion of Fields]]
+- [[Conceptual Notion of Fields Lesson Plan]]
 - [[Error Analysis Lesson Plan]]
 - [[Linearization Lesson Plan]]
 - [[Electric Charge Lesson Plan]]
@@ -23,6 +23,8 @@ tags:
 - [[Gauss' Law With Cylindrical Symmetry Lesson Plan]]
 - [[Electric Potential Energy Lesson Plan]]
 - [[Capacitors in Circuits Lesson Plan]]
+- [[Resistors in Circuits Lesson Plan]]
+- [[Maxwell's Equations Lesson Plan]]
 - [[Polarization Lesson Plan]]
 - [[Ideal Lenses Lesson Plan]]
 - [[Ideal Mirrors Lesson Plan]]

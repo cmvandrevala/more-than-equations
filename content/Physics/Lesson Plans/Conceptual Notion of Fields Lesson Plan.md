@@ -1,5 +1,5 @@
 ---
-title: Conceptual Notion of Fields
+title: Conceptual Notion of Fields Lesson Plan
 tags:
   - phy-122
   - phy-202

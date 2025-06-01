@@ -1,5 +1,5 @@
 ---
-title: Maxwell's Equations
+title: Maxwell's Equations Lesson Plan
 tags:
   - phy-202
   - maxwells-equations
