@@ -15,6 +15,7 @@ tags:
 - [[Coulombs Law Lesson Plan]]
 - [[Point Charges in Uniform Electric Fields Lesson Plan]]
 - [[Coulombs Law for Discrete Charge Distributions Lesson Plan]]
+- [[Electric Potential for Discrete Charge Distributions Lesson Plan]]
 - [[Capacitors in Circuits Lesson Plan]]
 - [[Polarization Lesson Plan]]
 - [[Ideal Lenses Lesson Plan]]
