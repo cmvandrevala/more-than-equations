@@ -17,6 +17,7 @@ tags:
 * [[A Stack of Dishes]]
 * [[A Terribly Weighty Subject]]
 * [[Am I a Muenster for Making Cheese Puns?]]
+* [[Count'em Up]]
 * [[Hello World]]
 * [[Hide and Seek]]
 * [[Just an Average Day]]
