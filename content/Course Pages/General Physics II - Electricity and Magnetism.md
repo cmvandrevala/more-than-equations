@@ -29,6 +29,7 @@ tags:
 - [[Resistors in Circuits Lesson Plan]]
 - [[RC Circuits Lesson Plan]]
 - [[Point Charges in Uniform Magnetic Fields Lesson Plan]]
+- [[Biot-Savart Law Lesson Plan]]
 - [[Magnetic Forces on Wires Lesson Plan]]
 - [[Magnetic Dipoles Lesson Plan]]
 - [[Maxwell's Equations Lesson Plan]]

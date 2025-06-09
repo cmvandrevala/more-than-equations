@@ -1,5 +1,5 @@
 ---
-title: Capacitors in Circuits
+title: Capacitors in Circuits Lesson Plan
 tags:
   - phy-202
   - capacitors
