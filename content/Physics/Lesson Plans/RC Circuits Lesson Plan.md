@@ -1,5 +1,5 @@
 ---
-title: RC Circuits
+title: RC Circuits Lesson Plan
 tags:
   - phy-202
   - rc-circuits
