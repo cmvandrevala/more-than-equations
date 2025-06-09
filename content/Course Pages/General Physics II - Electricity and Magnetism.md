@@ -28,6 +28,7 @@ tags:
 - [[Capacitors in Circuits Lesson Plan]]
 - [[Resistors in Circuits Lesson Plan]]
 - [[RC Circuits Lesson Plan]]
+- [[Point Charges in Uniform Magnetic Fields Lesson Plan]]
 - [[Maxwell's Equations Lesson Plan]]
 - [[Polarization Lesson Plan]]
 - [[Ideal Lenses Lesson Plan]]
