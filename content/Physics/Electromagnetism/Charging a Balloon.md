@@ -14,9 +14,10 @@ date: 2025-04-27
 
 An electrically neutral balloon is rubbed with fur until it acquires a net charge of 0.60 nC. How many electrons were transferred in the process?
 
-> [!example]- Solution
-> Each electron has a charge of $1.602 \times 10^{-19} \: C$. Thus, the total number of electrons that were transferred is:
->
-> $$
-> N = \frac{0.60 \times 10^{-9} \: C}{1.602 \times 10^{-19} \: C} = 3.7 \times 10^9 \: e^-
-> $$
+## Solution
+
+Each electron has a charge of $1.602 \times 10^{-19} \: C$. Thus, the total number of electrons that were transferred is:
+
+$$
+N = \frac{0.60 \times 10^{-9} \: C}{1.602 \times 10^{-19} \: C} = 3.7 \times 10^9 \: e^-
+$$
