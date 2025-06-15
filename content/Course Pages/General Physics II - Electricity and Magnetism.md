@@ -32,6 +32,7 @@ tags:
 - [[Biot-Savart Law Lesson Plan]]
 - [[Magnetic Forces on Wires Lesson Plan]]
 - [[Magnetic Dipoles Lesson Plan]]
+- [[Gauss' Law for Magnetic Fields Lesson Plan]]
 - [[Maxwell's Equations Lesson Plan]]
 - [[Polarization Lesson Plan]]
 - [[Ideal Lenses Lesson Plan]]
