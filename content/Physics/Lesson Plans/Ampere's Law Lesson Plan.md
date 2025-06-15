@@ -1,18 +1,18 @@
 ---
-title: Biot-Savart Law Lesson Plan
+title: Ampere's Law Lesson Plan
 tags:
   - phy-202
-  - biot-savart-law
+  - amperes-law
   - calculus
-description: This lesson focuses on the Biot-Savart law. We derive the magnetic field from a number of current distributions.
+description: This lesson focuses on Ampere's law. We derive the magnetic field from a number of current distributions.
 articleType: lesson-plan
-date: 2025-06-09
+date: 2025-06-15
 ---
 
 ## 🔖 Topics
 
 - Magnetic fields from currents
-- Biot-Savart law
+- Ampere's law
 
 ## 🎯 Objectives
 
@@ -20,8 +20,8 @@ date: 2025-06-09
 
 ## 📋 Sequence
 
-- 🟣 Loop of wire
 - 🟣 Straight segment of wire
+- 🟣 Solenoid
 
 ## 🖥️ Animations, Simulations, Activities
 
