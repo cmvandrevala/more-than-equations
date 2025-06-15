@@ -33,6 +33,7 @@ tags:
 - [[Magnetic Forces on Wires Lesson Plan]]
 - [[Magnetic Dipoles Lesson Plan]]
 - [[Gauss' Law for Magnetic Fields Lesson Plan]]
+- [[Faraday's Law of Induction Lesson Plan]]
 - [[Maxwell's Equations Lesson Plan]]
 - [[Polarization Lesson Plan]]
 - [[Ideal Lenses Lesson Plan]]

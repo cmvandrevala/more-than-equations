@@ -23,9 +23,9 @@ date: 2025-06-15
 
 ## 📋 Sequence
 
-- Magnetic flux
-- Gauss' law for magnetic fields
-- Comparison of Gauss' laws for electric and magnetic fields
+- 🟢 Magnetic flux
+- 🟢 Gauss' law for magnetic fields
+- 🟢 Comparison of Gauss' laws for electric and magnetic fields
 
 ## 🖥️ Animations, Simulations, Activities
 
