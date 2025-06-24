@@ -34,6 +34,10 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(<span>🟣 Example Problem</span>)
       } else if (articleType === "lesson-plan") {
         segments.push(<span>🟠 Lesson Plan</span>)
+      } else if (articleType === "derivation") {
+        segments.push(<span>🟢 Derivation</span>)
+      } else if (articleType === "definition") {
+        segments.push(<span>🔵 Definition</span>)
       }
 
       if (fileData.dates) {
