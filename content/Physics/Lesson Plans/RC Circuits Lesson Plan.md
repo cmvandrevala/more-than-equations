@@ -17,8 +17,8 @@ date: 2025-06-01
 
 - Calculate the charge on a capacitor as a function of time in a simple charging RC circuit
 - Calculate the charge on a capacitor as a function of time in a simple discharging RC circuit
-- Calculate the current and current as functions of time in a simple charging RC circuit
-- Calculate the current and current as functions of time in a simple discharging RC circuit
+- Calculate the current as a function of time in a simple charging RC circuit
+- Calculate the current as a function of time in a simple discharging RC circuit
 
 ## 📋 Sequence
 
