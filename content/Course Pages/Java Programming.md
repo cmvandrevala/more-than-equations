@@ -24,6 +24,7 @@ tags:
 * [[Oops! Shall We Try Again?]]
 * [[Payroll]]
 * [[Queue-Tee Pie]]
+* [[Set Yourself Up for Success]]
 * [[Shape Your Destiny]]
 * [[You Need Power Wisdom and Courage When Using Recursion]]
 * [[Zip It]]
