@@ -2,7 +2,7 @@
 title: A Tree Made of Files
 date: 2025-02-23
 tags: [csc-216, trees]
-description: In this lab, you will read an implementation of the tree command, run it locally on your computer, and analyze the code.
+description: In this lab, you will read an implementation of the tree command, run it locally on your computer, and analyze the code. Then, you will then customize the code to return a new view of the files.
 ---
 
 ## 🔖 Background Information
@@ -25,17 +25,21 @@ path/to/folder/
 
 The `tree` command treats the files and folders on your disk as a tree data structure. The name of the command makes sense!
 
-A robust implementation of `tree` can be a bit complicated, but a GitHub user named Kevin Newton implements a simplified version of `tree` whenever they want to learn a new programming language [@newtonKddnewtonTree2025]. We will analyze their code in this lab.
+A robust implementation of `tree` can be a bit complicated, but a GitHub user named Kevin Newton implements a simplified version of `tree` whenever they want to learn a new programming language [@newtonKddnewtonTree2025]. We will analyze and expand upon their code in this lab.
 
 ## 🎯 Problem Statement
 
-Read through the C++ or Java implementation of the tree function as written by Newton in his [tree repository](https://github.com/kddnewton/tree) [@newtonKddnewtonTree2025]. Then, run his code on your computer and capture the output in a screenshot. Finally, answer the Thought Provoking Questions.
+Complete the following tasks:
+
+1. Read through the C++ or Java implementation of the tree function as written by Newton in their [tree repository](https://github.com/kddnewton/tree) [@newtonKddnewtonTree2025].
+2. Make sure that you can run Newton's original code locally on your computer.
+3. Update the implementation of tree to list the directories / files in *reverse* alphabetical order.
 
 ## ✅ Acceptance Criteria
 
-* Read through the code in the [tree repository](https://github.com/kddnewton/tree), taking time to understand it fully.
-* Clone the repository and run one of the implementations of `tree` on your computer. Take a snapshot of your output and submit that for your lab assignment.
-* Answer the Thought-Provoking Questions
+* The tree function should work in exactly the same way as before. However, the output should be different.
+* Child directories should be listed in reverse alphabetical order.
+* Files within each directory should be listed in reverse alphabetical order.
 
 ## 📋 Dev Notes
 
@@ -43,7 +47,37 @@ N/A
 
 ## 🖥️ Example Output
 
-N/A
+Suppose the original tree function listed files and directories like so:
+
+```bash
+$ ./tree.out
+
+.
+|- folder_a/
+|---- file_a.txt
+|---- file_b.txt
+|---- file_c.txt
+|- folder_b/
+|---- file_a.txt
+|---- file_b.txt
+|---- file_c.txt
+```
+
+I now expect to see the following output:
+
+```bash
+$ ./tree.out
+
+.
+|- folder_b/
+|---- file_c.txt
+|---- file_b.txt
+|---- file_a.txt
+|- folder_a/
+|---- file_c.txt
+|---- file_b.txt
+|---- file_a.txt
+```
 
 ## 📝 Thought Provoking Questions
 
@@ -51,9 +85,7 @@ N/A
 2. Is the filesystem displayed by the `tree` command an example of a binary tree or a general tree?
 3. What is the root node of the tree displayed by the `tree` command?
 4. What are the leaf nodes of the tree displayed by the `tree` command?
-5. What does it mean if two files are sibling nodes in the tree displayed by the `tree` command?
-6. How might you generate a tree with the largest possible depth via the `tree` command?
-7. In Unix-like operating systems, all the files on all the devices generally exist in a single hierarchy. In other words, there is one root directory called `/`, and every file on the system is located under it somewhere. How does this relate to the idea of a tree data structure?
+5. How might you generate a tree with the largest possible depth via the `tree` command on a given filesystem?
 
 ## 💼 Add-Ons For the Portfolio
 
