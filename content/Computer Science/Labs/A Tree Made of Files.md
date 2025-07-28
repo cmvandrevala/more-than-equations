@@ -93,7 +93,7 @@ N/A
 
 ## 🔗 Useful Links
 
-N/A
+* [Java Project Template](https://github.com/cmvandrevala/a-tree-made-of-files-java-template)
 
 ## 📘 Works Cited
 
