@@ -9,7 +9,7 @@ description: In this lab, we will practice writing recursive functions by calcul
 
 An integer sequence is a list of integers that follow some property or pattern. Mathematicians are interested in studying the properties of integer sequences because they are useful in a variety of fields including engineering, physics, cybersecurity, and data science.
 
-In this lab, we are going to write a function that calculates terms in the "Hofstadter G Sequence". This is a sequence of integers given by the following relation:
+In this lab, we are going to write a few functions that calculate terms in the "Hofstadter G Sequence". This is a sequence of integers given by the following relation:
 
 $$
 G(n) = n - G(G(n-1))
@@ -25,16 +25,21 @@ This series comes from "Gödel, Escher, Bach: An Eternal Golden Braid" - a book
 
 ## 🎯 Problem Statement
 
-Write a program that calculates the nth term in the Hofstadter G Sequence.
+Write a program that calculates the nth term in the Hofstadter G Sequence in a few different ways:
+
+1. A naive recursive method that uses the recurrence relation described in the Background Information section.
+2. An improved recursive method that memoizes the output of the recurrence relation.
 
 ## ✅ Acceptance Criteria
 
-* Your program should calculate the nth term in the Hofstadter G Sequence using recursion.
+* Write a program that calculates the nth term in the Hofstadter G Sequence using the two methods described in the Problem Statement.
+* Ensure that your functions work either through unit tests or a driver program.
+* Run the functions with a variety of inputs and record the average times of each run. I recommend starting with ten different values for the argument with ten trials apiece for each of the functions. You might need more data to see a clear trend!
+* Use your results to answer the Thought-Provoking Questions.
 
 ## 📋 Dev Notes
 
-* It is helpful to calculate the first few terms of the sequence on paper before attempting to write a recursive function.
-* You are not required to write any optimzations for your recursive function. That being said, you will be asked to think about potential optimizations in the Thought-Provoking Questions.
+* It is helpful to calculate the first few terms of the sequence on paper before attempting to write a recursive function (just to see how it works).
 * In order to help you verify that your program is working properly, here are the first few terms of the sequence: 0, 1, 1, 2, 3, 3, 4, 4, 5, 6, 6, 7, ...
 
 ### Sample Calculations
@@ -91,9 +96,12 @@ gSequence(6) == 4
 
 ## 📝 Thought Provoking Questions
 
-1. Is your function an example of linear, binary, or multiple recursion? Why?
-2. How large of an index can you pass to your function before it takes more than ten seconds to run?
-3. How might you optimize this function to make it more efficient? Note: you don't have to actually make these changes in code. I just want you to brainstorm some ideas an discuss them with your classmates.
+1. Create a scatterplot showing the time it takes each function to run as a function of input. Then, plot a curve of best fit to each of the datasets along with their equations and $R^2$ values. Be sure to distinguish the two functions on your plot so that we can see how they relate. Post your plot for everyone to see.
+1. Sketch out a recursive trace for your naive implementation with an initial input value of 5. Use the convention from your textbook for your diagram.
+1. Are your functions examples of linear, binary, or multiple recursion? Why?
+1. Did the memoized implementation outperform the naive implementation? Why or why not?
+1. How large of an argument can you pass to each of your functions before they take more than ten seconds to run?
+1. Was there a large input that caused either of your functions to hang indefinitely or crash? If so, what was it?
 
 ## 💼 Add-Ons For the Portfolio
 
