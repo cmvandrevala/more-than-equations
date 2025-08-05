@@ -7,6 +7,7 @@ tags:
 
 ## Course Resources
 
+* [[CSC 122 Portfolios]]
 * [[Lab Grading Rubric]]
 
 ## Code Examples
