@@ -2,7 +2,7 @@
 title: I've Got the Power!
 date: 2025-01-17
 tags: [c-plus-plus, java, csc-216, algorithmic-analysis]
-description: In this lab you are going to implement a pair of algorithms that compute the power of a number. Each of these algorithms has a different complexity.
+description: In this lab you are going to implement a pair of algorithms that compute the power of a number. Each of these algorithms has a different time complexity.
 ---
 
 ## 🔖 Background Information
@@ -27,7 +27,7 @@ In this lab, we are going to write and analyze three different ways of calculati
 
 ## 🎯 Problem Statement
 
-Write three functions that calculate the power of a number in the different ways outlined below. Then, answer the Thought-Provoking Questions based on your implementations.
+Write three functions that calculate the power of a number in the different ways outlined below. You should run these functions with a variety of inputs and collect information on how long each of them took to run. Then, answer the Thought-Provoking Questions based on your implementations.
 
 1. Use recursion to multiply a number by itself some number of times. The pseudocode for this approach is:
 
@@ -74,7 +74,8 @@ def optimizedDCPower(int x, int n):
 
 * Implement the three algorithms listed in the Problem Statement using either C++ or Java.
 * Ensure that your functions work either through unit tests or a driver program.
-* Use these functions to answer the Thought-Provoking Questions.
+* Run the functions with a variety of inputs and record the average times of each run. I recommend starting with ten values for `x` and ten values for `n`, with ten trials apiece. You might need more data to see a clear trend!
+* Use your results to answer the Thought-Provoking Questions.
 
 ## 📋 Dev Notes
 
@@ -92,12 +93,13 @@ optimizedDCPower(2, 3) == 8;
 
 ## 📝 Thought Provoking Questions
 
-1. Which of the inputs (`x` or `n`) seems to have a larger effect on the runtime of the three algorithms?
-1. Which of the three algorithms seem to run the fastest for large values of `x`?
-1. Which of the three algorithms seem to run the fastest for large values of `n`?
-1. Do you notice a difference in performance between the divide and conquer algorithms, with an without a temporary variable? If so, what do you notice? Note: you may or may not see a difference here! It truly depends on what your compiler is doing behind the scenes to help optimize these functions.
-1. What do you think the Big-O value for each of these algorithms might be?
-1. Which of these functions do you think has the largest memory footprint. Why do you think this?
+1. Create a [heatmap](https://www.atlassian.com/data/charts/heatmap-complete-guide) of your results. Plot the number (`x`) on the vertical axis and the power (`n`) on the horizontal axis. Color each cell with the average time it takes to do the computation. Post this chart in the discussion board for everyone to see. You are allowed to use software to create the heatmap, if you would like.
+1. Does `x` or `n` seem to have a larger effect on the runtime of the three algorithms? Why do you think that is?
+1. Which of the three algorithms seem to run the fastest for large values of `x`? Why do you think that is?
+1. Which of the three algorithms seem to run the fastest for large values of `n`? Why do you think that is?
+1. Do you notice a difference in performance between the divide and conquer algorithms, with and without a temporary variable? If so, what do you notice?
+1. What is the Big-O value for each of these algorithms? Does your data support this?
+1. Which of these functions has the largest memory footprint. Why do you think this?
 
 ## 💼 Add-Ons For the Portfolio
 
