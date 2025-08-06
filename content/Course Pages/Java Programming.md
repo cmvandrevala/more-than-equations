@@ -26,6 +26,7 @@ tags:
 * [[Queue-Tee Pie]]
 * [[Set Yourself Up for Success]]
 * [[Shape Your Destiny]]
+* [[Well That's Just Prime]]
 * [[You Need Power Wisdom and Courage When Using Recursion]]
 * [[Zip It]]
 
