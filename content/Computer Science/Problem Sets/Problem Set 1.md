@@ -4,64 +4,37 @@ tags: [csc-216]
 description: This problem set is from week one of the course.
 ---
 
-1. Solve for $x$ in each of the expressions by hand. Show all of your work.
-
-$$
-8x - 1 = 6
-$$
-
-<div style="margin-bottom:2rem;"></div>
-
-$$
-x^2 + 13x + 1 = 10
-$$
-
-<div style="margin-bottom:2rem;"></div>
-
-$$
-\frac{x^2 + 8x + 15}{x + 5} = 0
-$$
-
-<div style="margin-bottom:2rem;"></div>
-
-$$
-log_2(4x) = 6
-$$
-
-<div style="margin-bottom:2rem;"></div>
-
-$$
-2^x = 13
-$$
+1. Write the pseudocode for a function that takes a string as its argument and returns a new string with the characters reversed. You can assume that the characters of the string are indexed starting with zero.
 
 ---
 
-2. Solve for $x$ in each of the expressions using any calculators or tools at your disposal (e.g. Desmos, Wolfram, etc.). Write a sentence or two on the strategy you used to solve each problem.
-
-$$
-log_3(5x) + x = 7
-$$
-
-<div style="margin-bottom:2rem;"></div>
-
-$$
-\frac{x - 5}{log_2(x - 4) + 1} = 35
-$$
-
-<div style="margin-bottom:2rem;"></div>
-
-$$
-2^x - x^2 = 10
-$$
+2. Write the pseudocode for a function that takes the x and y coordinates of two points in the Cartesian plane and returns the slope of the line which passes through them.
 
 ---
 
-3. Write pseudocode for a function that finds the smallest number in a non-empty, unsorted array of integers.
-
-> [!tip]- Hint!
->
-> What kind of search algorithm can be used on an unsorted list of data?
+3. Write pseudocode for a function that finds the smallest number in a non-empty, unsorted array of integers using linear search.
 
 ---
 
-4. Write pseudocode for a function that takes an integer as an argument and returns true if it is a power of two and false otherwise.
+4. Write pseudocode for a function that takes an integer as its argument and returns true if it is a power of two or false otherwise.
+
+---
+
+5. Write the pseudocode for a function that takes the coefficients of a polynomial as an array argument. It should return the coefficients of the first derivative of that polynomial. Recall that the derivative of $x^n$ is given by:
+
+$$
+\frac{d}{dx} x^n = n x^{n-1}
+$$
+
+Here are some examples of the function output:
+
+```cpp
+derivative([1]) == [0]
+derivative([4, 8]) == [4]
+derivative([3, 4, 5]) == [6, 4]
+derivative([7, 0, 1, 2]) == [21, 0, 1]
+```
+
+---
+
+6. Many modern compilers have optimizers that can detect simple cases when it is logically impossible for certain statements in a program to ever be executed. In such cases, the compiler warns the programmer about the useless code or even removes it entirely for optimized builds. How might this optimization affect benchmarking operations in your codebase?
