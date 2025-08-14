@@ -13,8 +13,11 @@ tags:
 ## Code Examples
 
 * [ASCII Plot](https://github.com/cmvandrevala/csc_121_ascii_plot)
+* [Casting](https://github.com/cmvandrevala/csc_121_casting)
 * [Encapsulation](https://github.com/cmvandrevala/csc_121_encapsulation)
 * [Files](https://github.com/cmvandrevala/csc_121_files)
+* [Getline](https://github.com/cmvandrevala/csc_121_getline)
+* [Header Files](https://github.com/cmvandrevala/csc_121_header_files)
 * [Standard Libraries](https://github.com/cmvandrevala/csc_121_standard_libraries)
 * [Value vs. Reference](https://github.com/cmvandrevala/csc_121_value_vs_reference)
 
