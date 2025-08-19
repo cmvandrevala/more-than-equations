@@ -111,8 +111,8 @@ A driver function might display the following behavior when utilizing your `Groc
 ## 📝 Thought Provoking Questions
 
 1. What strategy did you use to store the counted digits and the number of overflows?
-2. What strategy did you use to test the counted digits and the number of overflows?
-3. Why do you think the `GroceryCounter` class in this lab relatively easy to unit test while the `Menu` class from the [[Oops! Shall We Try Again?]] lab was so difficult?
+2. What strategy did you use to unit test the counted digits and the number of overflows?
+3. Describe the unit tests that you had to write in order to cover the edge cases of the business logic.
 
 ## 💼 Add-Ons For the Portfolio
 
