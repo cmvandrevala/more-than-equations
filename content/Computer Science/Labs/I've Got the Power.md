@@ -107,6 +107,7 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/ive-got-the-power-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/ive-got-the-power-java-template)
 
 ## 📘 Works Cited
