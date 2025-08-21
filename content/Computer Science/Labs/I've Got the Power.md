@@ -99,7 +99,7 @@ optimizedDCPower(2, 3) == 8;
 1. Which of the three algorithms seem to run the fastest for large values of `n`? Why do you think that is?
 1. Do you notice a difference in performance between the divide and conquer algorithms, with and without a temporary variable? If so, what do you notice?
 1. What is the Big-O value for each of these algorithms? Does your data support this?
-1. Which of these functions has the largest memory footprint. Why do you think this?
+1. Which of these functions do you think has the largest memory footprint. Why do you think this? Note: you do not need to actually benchmark the code to get the memory footprint. You can make a hypothesis and support your answer with a few sentences of reasoning.
 
 ## 💼 Add-Ons For the Portfolio
 
