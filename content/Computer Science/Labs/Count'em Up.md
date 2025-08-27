@@ -65,7 +65,7 @@ A driver function might display the following behavior when utilizing your `Groc
 >   counter.ones();
 > }
 >
-> cout << counter.total() << endl; // This would print out $55.02
+> cout << counter.total() << endl; // This would print out $55.01
 > cout << counter.overflows() << endl; // This would print out 1
 >
 > counter.clear();
@@ -99,7 +99,7 @@ A driver function might display the following behavior when utilizing your `Groc
 >   counter.ones();
 > }
 >
-> System.out.println(counter.total()); // This would print out $55.02
+> System.out.println(counter.total()); // This would print out $55.01
 > System.out.println(counter.overflows()); // This would print out 1
 >
 > counter.clear();
