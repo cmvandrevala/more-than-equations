@@ -108,6 +108,7 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/the-hofstadter-g-sequence-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/the-hofstadter-g-sequence-java-template)
 
 ## 📘 Works Cited
