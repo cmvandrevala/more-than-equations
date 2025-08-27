@@ -96,12 +96,11 @@ gSequence(6) == 4
 
 ## 📝 Thought Provoking Questions
 
-1. Create a scatterplot showing the time it takes each function to run as a function of input. Then, plot a curve of best fit to each of the datasets along with their equations and $R^2$ values. Be sure to distinguish the two functions on your plot so that we can see how they relate. Post your plot for everyone to see.
-1. Sketch out a recursive trace for your naive implementation with an initial input value of 5. Use the convention from your textbook for your diagram.
-1. Are your functions examples of linear, binary, or multiple recursion? Why?
-1. Did the memoized implementation outperform the naive implementation? Why or why not?
-1. How large of an argument can you pass to each of your functions before they take more than ten seconds to run?
-1. Was there a large input that caused either of your functions to hang indefinitely or crash? If so, what was it?
+1. Create one or more scatterplots showing the time it takes each function to run as a function of input. Then, plot a curve of best fit to each of the datasets along with their equations and R^2 values. Be sure to distinguish the functions on your plots so that we can see how they relate. Post your plot(s) for everyone to see.
+1. According to your data, do your algorithms follow a linear, binary, or multiple recursive pattern? How do you know?
+1. According to your data, did the memoized algorithm offer any speedup over the naive implementation? How do you know?
+1. Was there a large input that caused either of your implementations to hang indefinitely or crash? If so, what was it?
+1. Did you use C++ or Java in this lab? This may or may not matter when comparing your results with other people!
 
 ## 💼 Add-Ons For the Portfolio
 
