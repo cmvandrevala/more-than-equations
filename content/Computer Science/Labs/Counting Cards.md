@@ -26,8 +26,6 @@ Test and comment on Mike Bostock's claim. Do you agree or disagree with his eval
 
 * Note that Mike Bostock wrote the code on his website in Javascript. I don't expect anyone in this class to know how to write Javascript. But I do think you can piece together the meaning of his code samples by reading and reviewing some documentation.
 * I would recommend creating a few arrays of differing sizes and running them through the shuffle algorithms for a few trials. A good starting point might be four arrays of different sizes with four trials apiece in each of the three functions (i.e. $4 \times 4 \times 3 = 48$ runs total).
-* You can use the built-in timing utilities in C++ and Java to do some basic benchmarking of your code.
-* Automation is your friend. Create some for loops to test all of these cases. Don't try to do it all by hand 😅
 * You should turn in your implemented algorithms, just like in any other lab.
 
 ## 🖥️ Example Output
