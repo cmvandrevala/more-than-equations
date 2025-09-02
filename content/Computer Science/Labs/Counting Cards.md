@@ -49,6 +49,7 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/counting-cards-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/counting-cards-java-template)
 
 ## 📘 Works Cited
