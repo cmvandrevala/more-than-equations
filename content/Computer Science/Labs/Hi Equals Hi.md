@@ -104,7 +104,7 @@ You might want to look at `isdigit` from `cctype` since that might be helpful fo
 
 ## 🔗 Useful Links
 
-N/A
+[C++ Project Template](https://github.com/cmvandrevala/hi-equals-hi-cpp-template)
 
 ## 📘 Works Cited
 
