@@ -38,13 +38,13 @@ Your validation function should return a boolean response. Thus, you might test 
 
 using namespace std;
 
-bool valid_password(string password) {
+string valid_password(string password) {
   // Your code goes here
 }
 
 int main() {
-  assert(!valid_password("some invalid password"));
-  assert(valid_password("some valid password"));
+  assert(valid_password("some invalid password") == "The password must contain at least 2 numbers");
+  assert(valid_password("Some$valid$pAssword$1234") == "The password is valid");
 }
 ```
 
