@@ -133,6 +133,7 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/according-to-my-calculations-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/according-to-my-calculations-java-template)
 
 ## 📘 Works Cited

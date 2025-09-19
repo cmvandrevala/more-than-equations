@@ -8,8 +8,8 @@ description: This problem set is from week six of the course.
 
 ```text
 push(1)
-push(7)
-pop()
+push(8)
+push(2)
 pop()
 push(7)
 push(7)
@@ -65,4 +65,4 @@ Not Balanced: "{}("
 Not Balanced: "[{(})]"
 ```
 
-What is the computational complexity of your algorithm?
+What is the computational complexity of your algorithm? Prove your answer.
