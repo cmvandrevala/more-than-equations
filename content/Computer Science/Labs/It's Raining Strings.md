@@ -87,10 +87,9 @@ Thank you for using the Business Sorting Program!
 
 ## 📝 Thought Provoking Questions
 
-1. What are some strategies that you can use to handle spaces in the business names?
-2. How might you store multiple strings / c-strings in a single variable?
-3. How might you sort strings / c-strings?
-4. How would you access a single row of a 2D array?
+1. How did you handle spaces in the business names?
+2. How did you handle special characters in the business names?
+3. How did you sort the business names?
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -100,7 +99,7 @@ When completing this lab, you probably used c-strings or the C++ string class to
 
 ## 🔗 Useful Links
 
-N/A
+* [C++ Project Template](https://github.com/cmvandrevala/its-raining-strings-cpp-template)
 
 ## 📘 Works Cited
 
