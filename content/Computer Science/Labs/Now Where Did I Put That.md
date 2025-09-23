@@ -37,7 +37,7 @@ Here are some examples of an input string, a search query, and the expected retu
 | ---- | ---- | ---- | ---- |
 | "The quick brown fox" | 'e' | 2 | char |
 | "The quick brown fox" | "e" | 2 | string |
-| "The quick brown fox" | ' ' | 3 | char |
+| "The quick brown fox" | Space Character | 3 | char |
 | "The quick brown fox" | "quick" | 4 | string |
 |  "The quick brown fox" | "quiet" | -1 | string |
 
@@ -60,7 +60,7 @@ If the user does not specify an option for case-sensitivity, the default should 
 Modify your functions to allow the caller to specify the starting position from which to search the string. If no starting position is specified, the search should start from the beginning of the string, just like before. A few example outputs are given below:
 
 | Input String | Search Query | Specified Starting Position | Returns | Search Query Type |
-| ---- | ---- | ---- | ---- |
+| ---- | ---- | ---- | ---- | ---- |
 | "The quick brown fox" | 'e' | None Specified | 2 | char |
 | "The quick brown fox" | 'e' | 0 | 2 | char |
 | "The quick brown fox" | 'e' | 1 | 2 | char |
