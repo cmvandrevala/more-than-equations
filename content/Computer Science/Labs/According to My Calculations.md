@@ -68,7 +68,6 @@ A full implementation of an infix expression calculator which takes into account
 
 * You do __NOT__ need to implement all of the possible mathematical operators. You only need to include addition, subtraction, multiplication, division, and grouping by parentheses.
 * You do __NOT__ need to validate if the mathematical expression is valid (e.g. check if the parentheses match). You can assume that the expressions are always valid.
-* You do __NOT__ need to implement your own stacks / queues from scratch. Feel free to use the stacks and queues from the C++ and Java libraries.
 * You do __NOT__ need to handle different types of whitespace. Do whatever is easiest for you - for example, you assume that there are no spaces between each character in the string and code accordingly.
 
 You __ARE__ allowed to make assumptions / simplifications when implementing this calculator to get a prototype working. You can tell me what those are when you answer the Thought-Provoking Questions.
