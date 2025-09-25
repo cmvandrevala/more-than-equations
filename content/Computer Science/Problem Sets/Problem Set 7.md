@@ -30,16 +30,23 @@ Use the binary tree shown above to answer the following questions.
 8. What is the right subtree of node (2)?
 9. What is the height of the tree?
 10. Is this a proper or improper binary tree?
-11. What is the sequence of elements if you performed a depth-first, pre-order tree traversal?
-12. What is the sequence of elements if you performed a depth-first, post-order tree traversal?
-13. What is the sequence of elements if you performed a depth-first, in-order tree traversal?
-14. What is the sequence of elements if you performed a breadth-first tree traversal?
-15. What is the sequence of elements if you performed an Euler tour?
+11. Is this a complete binary tree?
+12. What is the sequence of elements if you performed a depth-first, pre-order tree traversal?
+13. What is the sequence of elements if you performed a depth-first, post-order tree traversal?
+14. What is the sequence of elements if you performed a depth-first, in-order tree traversal?
+15. What is the sequence of elements if you performed a breadth-first tree traversal?
+16. What is the sequence of elements if you performed an Euler tour?
 
 ---
 
-16. Write the pseudocode for an algorithm that calculates the total number of nodes in a binary tree.
+Consider a binary tree data structure.
+
+17. Write the pseudocode for an algorithm that calculates the total number of nodes in a binary tree.
+18. What is the time complexity of your algorithm? Prove your answer.
 
 ---
 
-17. Write the pseudocode for an algorithm that takes two binary trees as arguments and returns `true` if they are structurally identical or `false` otherwise. Structurally identical means that the trees are made of nodes with the same values arranged in the same way.
+Two binary trees are structurally identical if the trees are made of nodes with the same values arranged in the same way.
+
+19. Write the pseudocode for an algorithm that takes two binary trees as arguments and returns `true` if they are structurally identical or `false` otherwise.
+20. What is the time complexity of your algorithm? Prove your answer.
