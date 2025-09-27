@@ -29,6 +29,7 @@ tags:
 * [Iterators](https://github.com/cmvandrevala/csc_122_iterators)
 * [Linked Lists](https://github.com/cmvandrevala/csc_122_linked_lists)
 * [Lvalues and Rvalues](https://github.com/cmvandrevala/csc_122_lvalues_and_rvalues)
+* [Multiple Inheritance](https://github.com/cmvandrevala/csc_122_multiple_inheritance)
 * [Neural Network](https://github.com/cmvandrevala/csc_122_neural_network)
 * [Operator Overloading](https://github.com/cmvandrevala/csc_122_operator_overloading)
 * [Pet Grooming](https://github.com/cmvandrevala/csc_122_pet_grooming)
