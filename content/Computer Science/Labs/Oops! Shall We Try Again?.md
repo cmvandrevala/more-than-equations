@@ -55,7 +55,7 @@ Write a generalized input-validation function. This function should take in one 
 ## 📋 Dev Notes
 
 * You can decide what arguments the function should take, as long as you satisfy the acceptance criteria.
-* You should test your function using a driver program - don't worry about automated tests for this problem. Recall that a driver program is a test application that exercises the function in a variety of scenarios.
+* You should test your function using a driver program - don't worry about writing automated unit tests for this problem. Recall that a driver program is a test application that exercises the function in a variety of scenarios.
 
 ## 🖥️ Example Output
 
@@ -121,6 +121,7 @@ You get to choose what the program does if the user aborts the menu. After you i
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/oops-shall-we-try-again-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/oops-shall-we-try-again-java-template)
 
 ## 📘 Works Cited
