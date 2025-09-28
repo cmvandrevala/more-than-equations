@@ -2,7 +2,9 @@
 title: Well That's Just Prime
 date: 2025-01-24
 tags:
+  - c-plus-plus
   - java
+  - csc-122
   - csc-214
 description: In this lab you will write a program that calculates the prime factors of a number and returns the result as an array.
 ---
@@ -31,30 +33,46 @@ Note that we do not include the number one in the list of prime factors for a nu
 
 ## 🎯 Problem Statement
 
-Write a function / method that calculates the prime factors of a given number, along with corresponding tests to ensure that it works as expected. Your function should return an `ArrayList` of integers.
+Write a `Factorizer` class with a method that calculates the prime factors of a given number. As always, your code should include a driver program and unit tests to ensure that it works as expected.
 
 ## ✅ Acceptance Criteria
 
-* If the user enters an integer less than or equal to one, the function / method should return an empty `ArrayList`.
+* If the user enters an integer less than or equal to one, the function / method should return an empty list of numbers.
 * If the user enters an integer greater than one, the function / method should return a list of prime factors for that number.
 * You cannot use any pre-built library functions to calculate the prime factors. You must implement a solution from scratch.
 
 ## 📋 Dev Notes
 
-* This assignment contains a test file with a couple of sample tests to get you started. You should write tests for your prime factors function to ensure that your code works as expected.
+* You can use any built-in data structure or one from the standard library to store your list of prime factors. For example:
+
+  * In C++ you could use a C-style array, an `Array`, a `Vector`, etc.
+  * In Java you could use a built-in array, an `ArrayList`, etc.
 
 ## 🖥️ Example Output
 
-In this example, the prime factors method takes a single integer as an argument and returns an `ArrayList` as per the Acceptance Criteria.
+You have the ability to choose the format of how you want to return your output. For example, in the examples below, I used a `Vector` in C++ and an `ArrayList` in Java.
 
-```java
-Factorizer factorizer = new Factorizer();
-
-factorizer.primeFactors(0); // will return the ArrayList []
-factorizer.primeFactors(1); // will return the ArrayList []
-factorizer.primeFactors(9); // will return the ArrayList [3, 3]
-factorizer.primeFactors(10); // will return the ArrayList [2, 5]
-```
+> [!tip]- C++
+>
+> ```cpp
+> Factorizer factorizer;
+>
+> factorizer.primeFactors(0); // will return the Vector []
+> factorizer.primeFactors(1); // will return the Vector []
+> factorizer.primeFactors(9); // will return the Vector [3, 3]
+> factorizer.primeFactors(10); // will return the Vector [2, 5]
+> ```
+>
+> [!tip]- Java
+>
+> ```java
+> Factorizer factorizer = new Factorizer();
+>
+> factorizer.primeFactors(0); // will return the ArrayList []
+> factorizer.primeFactors(1); // will return the ArrayList []
+> factorizer.primeFactors(9); // will return the ArrayList [3, 3]
+> factorizer.primeFactors(10); // will return the ArrayList [2, 5]
+> ```
 
 ## 📝 Thought Provoking Questions
 
@@ -67,33 +85,9 @@ factorizer.primeFactors(10); // will return the ArrayList [2, 5]
 
 A number is prime if its only factors are one and itself (thus, its only prime factor is itself). Write a function that takes a number as an input and returns whether the number is prime or not. The solution must utilize your prime factors function. You are allowed to tweak your prime factors function so that it can be used for this add-on, but the original acceptance criteria must still be satisfied.
 
-For example:
-
-```java
-Factorizer factorizer = new Factorizer();
-
-factorizer.isPrime(36) // Returns false
-factorizer.isPrime(12) // Returns false
-factorizer.isPrime(17) // Returns true
-factorizer.isPrime(1) // Returns false
-factorizer.isPrime(0) // Returns false
-```
-
 ### (One Credit) Is It Composite?
 
 A number is composite if it is not equal to one and it is not prime. Write a function that takes a number as an input and returns whether the number is composite or not. It might be helpful to first implement the "Is It Prime?" add-on and use it here.
-
-For example:
-
-```java
-Factorizer factorizer = new Factorizer();
-
-factorizer.isComposite(36) // Returns true
-factorizer.isComposite(12) // Returns true
-factorizer.isComposite(17) // Returns false
-factorizer.isComposite(1) // Returns false
-factorizer.isComposite(0) // Returns false
-```
 
 ### (Three Credits) Simplifying Fractions
 
@@ -101,19 +95,33 @@ We can use prime factors to simplify fractions. For example, consider the fracti
 
 Write a function called `reduce(...)` that takes two arguments - a numerator and a denominator - and returns a formatted string representing the reduced fraction. For example:
 
-```java
-Factorizer factorizer = new Factorizer();
-
-factorizer.reduce(36, 12) // Returns "3"
-factorizer.reduce(12, 12) // Returns "1"
-factorizer.reduce(12, 14) // Returns "6/7"
-factorizer.reduce(12, 37) // Returns "12/37"
-```
+> [!tip]- C++
+>
+> ```cpp
+> Factorizer factorizer;
+>
+> factorizer.reduce(36, 12) // Returns "3"
+> factorizer.reduce(12, 12) // Returns "1"
+> factorizer.reduce(12, 14) // Returns "6/7"
+> factorizer.reduce(12, 37) // Returns "12/37"
+> ```
+>
+> [!tip]- Java
+>
+> ```java
+> Factorizer factorizer = new Factorizer();
+>
+> factorizer.reduce(36, 12) // Returns "3"
+> factorizer.reduce(12, 12) // Returns "1"
+> factorizer.reduce(12, 14) // Returns "6/7"
+> factorizer.reduce(12, 37) // Returns "12/37"
+> ```
 
 The `reduce(...)` function must utilize your prime factors function. You are allowed to tweak your prime factors function so that it can be used for this add-on, but the original acceptance criteria must still be satisfied.
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/well-thats-just-prime-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/well-thats-just-prime-java-template)
 
 ## 📘 Works Cited
