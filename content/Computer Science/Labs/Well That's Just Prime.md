@@ -62,7 +62,7 @@ You have the ability to choose the format of how you want to return your output.
 > factorizer.primeFactors(9); // will return the Vector [3, 3]
 > factorizer.primeFactors(10); // will return the Vector [2, 5]
 > ```
->
+
 > [!tip]- Java
 >
 > ```java
@@ -105,7 +105,7 @@ Write a function called `reduce(...)` that takes two arguments - a numerator and
 > factorizer.reduce(12, 14) // Returns "6/7"
 > factorizer.reduce(12, 37) // Returns "12/37"
 > ```
->
+
 > [!tip]- Java
 >
 > ```java
