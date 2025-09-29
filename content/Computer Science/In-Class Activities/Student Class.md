@@ -45,7 +45,7 @@ int main() {
   Student student = Student("Bob", "Bobberson");
 
   assert(student.first_name == "Bob");
-  assert(student.number_of_credits == 0);
+  assert(student.get_number_of_credits() == 0);
 
   student.add_credits(6);
   student.add_credits(2);
