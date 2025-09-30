@@ -25,7 +25,6 @@ tags:
 * [Friend Keyword](https://github.com/cmvandrevala/csc_122_friend_keyword)
 * [Function Pointers](https://github.com/cmvandrevala/csc_122_function_pointers)
 * [Heaps](https://github.com/cmvandrevala/csc_122_heaps)
-* [Inheritance](https://github.com/cmvandrevala/csc_122_inheritance)
 * [Iterators](https://github.com/cmvandrevala/csc_122_iterators)
 * [Linked Lists](https://github.com/cmvandrevala/csc_122_linked_lists)
 * [Lvalues and Rvalues](https://github.com/cmvandrevala/csc_122_lvalues_and_rvalues)
