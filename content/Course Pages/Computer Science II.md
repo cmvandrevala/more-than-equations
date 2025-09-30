@@ -12,8 +12,8 @@ tags:
 
 ## Code Examples
 
-* [Arithmetic and Conditionals](https://github.com/cmvandrevala/csc_122_arithmetic_and_conditionals)
 * [Binary Search Trees](https://github.com/cmvandrevala/csc_122_binary_search_trees)
+* [C++ Review](https://github.com/cmvandrevala/csc_122_cpp_review)
 * [Compilation](https://github.com/cmvandrevala/csc_122_compilation)
 * [Consts](https://github.com/cmvandrevala/csc_122_consts)
 * [Copy Constructors](https://github.com/cmvandrevala/csc_122_copy_constructors)
@@ -29,12 +29,13 @@ tags:
 * [Iterators](https://github.com/cmvandrevala/csc_122_iterators)
 * [Linked Lists](https://github.com/cmvandrevala/csc_122_linked_lists)
 * [Lvalues and Rvalues](https://github.com/cmvandrevala/csc_122_lvalues_and_rvalues)
+* [Map, Filter, and Reduce](https://github.com/cmvandrevala/csc_122_map_filter_reduce)
 * [Multiple Inheritance](https://github.com/cmvandrevala/csc_122_multiple_inheritance)
 * [Neural Network](https://github.com/cmvandrevala/csc_122_neural_network)
 * [Operator Overloading](https://github.com/cmvandrevala/csc_122_operator_overloading)
-* [Pet Grooming](https://github.com/cmvandrevala/csc_122_pet_grooming)
 * [Pet Grooming (With Inheritance)](https://github.com/cmvandrevala/csc_122_pet_grooming_with_inheritance)
 * [Pet Grooming (With Polymorphism)](https://github.com/cmvandrevala/csc_122_pet_grooming_with_polymorphism)
+* [Pet Grooming](https://github.com/cmvandrevala/csc_122_pet_grooming)
 * [Pointer Arithmetic](https://github.com/cmvandrevala/csc_122_pointer_arithmetic)
 * [Queues](https://github.com/cmvandrevala/csc_122_queues)
 * [Recursion](https://github.com/cmvandrevala/csc_122_recursion)
