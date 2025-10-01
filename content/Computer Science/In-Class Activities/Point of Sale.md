@@ -1,7 +1,7 @@
 ---
 title: Point of Sale
-tags: [c-plus-plus, csc-121, classes]
-description: This activity will give you some practice writing classes.
+tags: [c-plus-plus, csc-121, csc-122, classes, composition]
+description: This activity will give you some practice writing and composing classes.
 ---
 
 ## 🔖 Background Information
@@ -10,28 +10,42 @@ N/A
 
 ## 🎯 Problem Statement
 
-A grocery store in your area uses five digit codes to store information about each item for sale. For example, the code "10342" might represent a "Granny Smith Apple" that is priced at 50 cents. At the checkout line, a teller will enter the code of each item that a person wants to buy into the point of sale program. Then, the system can display the total price of the items.
+A grocery store in your area uses five digit codes to store information about each item for sale. For example, the code "10342" might represent a "Granny Smith Apple" that is priced at 80 cents. At the checkout line, the point of sale program will take the shopping cart of a user and generate an itemized bill.
 
 ## ✅ Acceptance Criteria
 
-Write a class that allows a user to do the following:
-
-1. Enter a code corresponding to an item in the store (see the list below).
-2. Print out the total cost of all of the items that have been entered.
-3. Clear the current list of items.
+This is a table of grocery items, their store codes, and their current prices. You will use it in the exercises below.
 
 | Name               | Code  | Price    |
 | ------------------ | ----- | -------- |
-| Cucumber           | 00295 | 15 cents |
-| Granny Smith Apple | 10342 | 50 cents |
-| Banana             | 10557 | 45 cents |
-| Apricot            | 11221 | 90 cents |
-| Peach              | 12151 | 75 cents |
-| Celery             | 12157 | 80 cents |
+| Cucumber           | 00295 | 25 cents |
+| Granny Smith Apple | 10342 | 80 cents |
+| Banana             | 10557 | 55 cents |
+| Apricot            | 11221 | 95 cents |
+| Peach              | 12151 | 85 cents |
+| Celery             | 12157 | 90 cents |
+
+### Part 1
+
+Write a `ShoppingCart` class that does the following:
+
+1. A user should be able to add an item from the table above to their current list of items in the cart. You can choose if you add items by name or code. Additionally, you can choose how users can enter multiple items (e.g. 5 cucumbers, 3 apricots, etc.).
+2. A user should be able to print out a list of the current items in their cart.
+3. A user should be able to clear all of the items in their cart.
+
+### Part 2
+
+Write a `PointOfSale` class that does the following:
+
+1. It should be initialized with a `ShoppingCart` as a single argument in the constructor.
+2. It should print out an itemized bill for the customer which includes:
+    * The name of each item
+    * The grocery code of each item
+    * The quantity of each item
+    * The subtotal for each item
+    * The total for all of the groceries
 
 ## 📋 Dev Notes
-
-In this activity, we will be using a strategy called "ping pong" pair programming. In this setup, two people pair with each other while sharing a computer. Partner A writes an assert statement based on the acceptance criteria outlined above. Then, partner B makes that assert statement pass with the minimal amount of code possible. Afterwards, the partners switch (partner B writes a test and partner A makes it pass). Repeat this process until the program has been implemented.
 
 Think about how you might break this problem down into tiny pieces so that you can solve it effectively!
 
@@ -44,23 +58,39 @@ A user of your class might implement it as follows:
 
 using namespace std;
 
+class ShoppingCart {
+  // Your implementation goes here
+}
+
+class PointOfSale {
+  // Your implementation goes here
+}
+
 int main() {
-  PointOfSale pos;
+  ShoppingCart cart;
 
-  // This will print $0.00 to the console since there is nothing in the list
-  pos.total();
+  cart.addItem("Apricot", 5);
+  cart.addItem("Celery", 2);
 
-  pos.addCode("10342");
-  pos.addCode("10557");
-  pos.addCode("10557");
+  // This will print out that a user has 5 apricots and 2 celery in their cart.
+  cart.getCurrentItems();
 
-  // This will print $1.40 to the console
-  pos.total();
+  cart.clear();
+  cart.addItem("Apricot", 3);
+  cart.addItem("Banana", 1);
 
-  pos.clear()
+  // This will print out that a user has 3 apricots and 1 banana in their cart.
+  cart.getCurrentItems();
 
-  // This will print $0.00 to the console since there is nothing in the list
-  pos.total();
+  PointOfSale pos(cart);
+
+  // This line should print out a report similar to this:
+  //
+  // Apricots    11221    3 @ 95 cents = $2.85
+  // Bananas     10557    1 @ 55 cents = $0.55
+  // -----------------------------------------
+  // Total                               $3.40
+  pos.bill();
 }
 ```
 
