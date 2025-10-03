@@ -101,9 +101,11 @@ Write a program which will simulate the one-dimensional flow of heat in a thin r
 
 * Create a class called `HeatFlow` which will be the "brain" of your simulation. In the constructor, I should be able to specify the initial temperature of the rod, the number of sections in the rod, the constant K, and any number of sources or sinks at any locations that I wish. The specific form this should take is up to you.
   * The `HeatFlow` class should have a method called `tick()` which will calculate the temperatures in the rod at the next time step of the simulation.
+  * The `HeatFlow` class can contain any other attributes and methods that you need to make your program work.
 * Create a class called `HeatFlowPrinter` which will be in charge of printing the temperatures in the rod to the terminal.
   * The `HeatFlowPrinter` should have a method called `pretty_print()` which will print out the temperatures in the rod to the console in a nicely formatted way.
-* You are allowed to create any other classes that you feel are necessary to implement your code. You might consider classes to store the user configuration or run the simulation in a loop?
+  * The `HeatFlowPrinter` class can contain any other attributes and methods that you need to make your program work.
+* You are allowed to create any other classes and functions that you feel are necessary to implement your code. You might consider creating classes to store the user configuration or run the simulation in a loop?
 
 ## 📋 Dev Notes
 
@@ -155,7 +157,6 @@ printer.pretty_print();
 3. How do you verify that the sources and the sinks specified by the user never change temperature?
 4. What does your output look like when there is a single source or sink in the middle of the rod rather than at the end?
 5. What does your output look like when there is a source or sink at each end of the rod?
-6. Draw a UML class diagram and a UML sequence diagram of your program.
 
 ## 💼 Add-Ons For the Portfolio
 
