@@ -6,7 +6,7 @@ tags:
   - csc-122
   - heat-flow
   - arrays
-description: In this lab you will implement a dynamic array data structure.
+description: In this lab you will model the flow of heat in a one-dimensional rod.
 ---
 
 ## 🔖 Background Information
@@ -95,21 +95,19 @@ This lab is available courtesy of Professor Jason James [@jamesWhewItGetting2018
 
 ## 🎯 Problem Statement
 
-Write a class called `HeatFlow` which will simulate the one-dimensional flow of heat in a thin rod. A user should be able to specify different parameters of the simulation including the initial temperature of the rod, the length of the rod, the constant K, and any number of sources / sinks.
+Write a program which will simulate the one-dimensional flow of heat in a thin rod. A user should be able to specify different parameters of the simulation including the initial temperature of the rod, the length of the rod, the constant K, and any number of sources / sinks.
 
 ## ✅ Acceptance Criteria
 
-* Create a class called `HeatFlow`. In the constructor, I should be able to specify the initial temperature of the rod, the number of sections in the rod, the constant K, and any number of sources or sinks at any locations that I wish. The specific form this should take is up to you.
-* Create a method called `tick(...)` which will calculate the temperatures in the rod at the next time step of the simulation.
-* Create a method called `pretty_print(...)` which will print out the temperatures to the console in a nicely formatted way.
+* Create a class called `HeatFlow` which will be the "brain" of your simulation. In the constructor, I should be able to specify the initial temperature of the rod, the number of sections in the rod, the constant K, and any number of sources or sinks at any locations that I wish. The specific form this should take is up to you.
+  * The `HeatFlow` class should have a method called `tick()` which will calculate the temperatures in the rod at the next time step of the simulation.
+* Create a class called `HeatFlowPrinter` which will be in charge of printing the temperatures in the rod to the terminal.
+  * The `HeatFlowPrinter` should have a method called `pretty_print()` which will print out the temperatures in the rod to the console in a nicely formatted way.
+* You are allowed to create any other classes that you feel are necessary to implement your code. You might consider classes to store the user configuration or run the simulation in a loop?
 
 ## 📋 Dev Notes
 
 * You may or may not need to use dynamic memory allocation for this lab. You may or may not want to use structures from the standard library like `vector`. The nitty-gritty details of how you implement this simulation are totally up to you!
-* You can test your `HeatFlow` class using either a driver program or unit tests. This program works especially well with unit testing:
-  1. Set up a rod with some temperature distribution
-  2. Call tick
-  3. Assert that the temperatures are what you expect
 
 ## 🖥️ Example Output
 
@@ -122,24 +120,27 @@ initial_temperature = 10;
 number_of_sections = 5;
 K = 0.1
 
-HeatFlow h(initial_temperature, number_of_sections, K, sources_and_sinks);
-h.pretty_print();
+HeatFlow flow(initial_temperature, number_of_sections, K, sources_and_sinks);
+HeatFlowPrinter printer(flow)
+
+flow.tick();
+printer.pretty_print();
 
 // Prints out:
 // +------+------+------+------+------+
 // | 100  |  10  |  10  |  10  |  10  |
 // +------+------+------+------+------+
 
-h.tick();
-h.pretty_print();
+flow.tick();
+printer.pretty_print();
 
 // Prints out:
 // +------+------+------+------+------+
 // | 100  |  19  |  10  |  10  |  10  |
 // +------+------+------+------+------+
 
-h.tick();
-h.pretty_print();
+flow.tick();
+printer.pretty_print();
 
 // Prints out:
 // +------+--------+--------+------+------+
@@ -150,11 +151,11 @@ h.pretty_print();
 ## 📝 Thought Provoking Questions
 
 1. How do you calculate temperatures at each end of the rod since the end has only one neighbor instead of two?
-2. Do you need dynamic memory allocation in this problem? If so, how do you use it?
-3. Do you need to create a destructor for your `HeatFlow` class? If so, what needs to be cleaned up?
-4. How do you verify that the sources and the sinks never change temperature?
-5. What does your output look like when there is a single source or sink in the middle of the rod rather than at the end?
-6. What does your output look like when there is a source or sink at each end of the rod?
+2. Do you need to create a destructor for your `HeatFlow` class? If so, what needs to be cleaned up?
+3. How do you verify that the sources and the sinks specified by the user never change temperature?
+4. What does your output look like when there is a single source or sink in the middle of the rod rather than at the end?
+5. What does your output look like when there is a source or sink at each end of the rod?
+6. Draw a UML class diagram and a UML sequence diagram of your program.
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -178,7 +179,7 @@ We are often curious about how heat moves between layers of material with differ
 
 ## 🔗 Useful Links
 
-N/A
+* [C++ Project Template](https://github.com/cmvandrevala/go-with-the-flow-cpp-template)
 
 ## 📘 Works Cited
 
