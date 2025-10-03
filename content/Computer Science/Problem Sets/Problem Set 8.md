@@ -1,48 +1,30 @@
 ---
 title: Problem Set 8
 tags: [csc-216]
-description: This problem set is from week eight of the course.
+description: This problem set is from week eight of the course. It focuses on heaps and priority queues.
 ---
 
-1. Suppose I want to insert the values 8, 3, 4, 9, 2, 1, 10, 7, 8, 14 into a binary search tree in that order.
-
-* Sketch out the tree after all of the insertions have been made.
-* Is the tree balanced?
-* What is the output if I perform an in-order traversal of the tree?
+1. How long would it take to remove the $log(n)$ smallest elements from a min heap which contains $n$ entries, using the `remove_min` operation? Explain your answer.
 
 ---
 
-2. Suppose you take the binary search tree that you sketched out in Question 1 and delete the element 3.
-
-* Sketch out the new tree after the deletion is complete.
-* How many internal nodes does the tree contain?
-* What is the output if I perform an in-order traversal of the tree?
+2. At which positions of a min heap might the third smallest key be stored? It might be helpful to draw a picture of a min heap and highlight the positions.
 
 ---
 
-3. How many different shapes exist for a binary search tree made up of the elements 1, 2, and 3? Sketch them out.
+3. One of your classmates claims that a preorder traversal of a min heap will list its keys in increasing order. Draw an example of a min heap that proves them wrong.
 
 ---
 
-4. Write the pseudocode for an algorithm that finds the maximum element in a binary search tree.
+4. The following entries are inserted into a max heap in this order: 4, 14, 2, 5, 6, 1, 3, 0.
+
+* Sketch a diagram showing the final state of the heap as a tree.
+* Sketch out the array representation of the final state of the heap.
 
 ---
 
-5. Consider the AVL tree shown below.
+5. Consider a situation in which a user has numeric keys and wishes to have a priority queue that is maximum-oriented. How could a standard (min-oriented) priority queue be used for such a purpose? You are not allowed to change the internals of the min-oriented priority queue.
 
-```mermaid
-graph TB
-    54 --> 31
-    54 --> 82
-    31 --> 26
-    31 --> 47
-    82 --> 75
-    82 --> 90
-    47 --> 44
-    47 --> 50
-    90 --> 84
-    90 --> 93
-```
+---
 
-* Draw the AVL tree which results when you insert 52 into the original tree.
-* Draw the AVL tree which results when you delete 82 from the original tree.
+6. What is a location-aware entry in a priority queue? What problem does it solve?
