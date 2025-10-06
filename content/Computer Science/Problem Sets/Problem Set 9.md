@@ -1,27 +1,23 @@
 ---
 title: Problem Set 9
 tags: [csc-216]
-description: This problem set is from week nine of the course.
+description: This problem set covers hashmaps and hash functions.
 ---
 
-1. Suppose I want to insert the values 7, 8, 3, 1, 4, 9, 2 into a splay tree in that order. Sketch out the splay tree after each of the insertions have been made (i.e. seven diagrams total).
-
----
-
-2. Suppose I take the final tree from Problem 1 and then delete the values 9, 3, 4 in that order. Sketch out the splay tree after each of the deletions have been made (i.e. three diagrams total).
+1. Insert the integer keys [67, 13, 49, 24, 40, 33, 58] in order into a hash table of size 9 using the hash function h(k) = (11k + 4) mod 9. Collisions should be resolved via chaining, where collisions are stored at the end of a chain. Draw a picture of the hash table after all keys have been inserted.
 
 ---
 
-3. Suppose I want to insert the values 7, 8, 3, 1, 4, 9, 2 into a (2,4) tree in that order. Sketch out the (2,4) tree after each of the insertions have been made (i.e. seven diagrams total).
+2. Draw the 11-entry hash table that results from using the hash function h(k) = (3k + 5) mod 11 when inserting the sequence of keys [12, 44, 13, 88, 23, 94, 11, 39, 20, 16, 5], in that order. Assume that collisions are handled by quadratic probing, up to the point where the function fails.
 
 ---
 
-4. Suppose I take the final tree from Problem 3 and then delete the values 9, 3, 4 in that order. Sketch out the (2,4) tree after each of the deletions have been made (i.e. three diagrams total).
+3. Draw the 11-entry hash table that results from using the hash function h(k) = (3k + 5) mod 11 when inserting the sequence of keys [12, 44, 13, 88, 23, 94, 11, 39, 20, 16, 5], in that order. Assume that collisions are handled using a secondary hash function h'(k) = 7 - (k mod 7).
 
 ---
 
-5. Can we use a splay tree to sort n comparable elements in O(n log n) time in the worst case scenario? Why or why not?
+4. Explain why a hash table is not suited to implement an ordered map.
 
 ---
 
-6. Prove that if I insert the values from 1 to n into a splay tree in ascending order, I will end up with a linked list of values starting at n and decrementing down to 1 in reverse order.
+5. An interesting strategy for hashing with separate chaining is known as "power-of-two-choices" hashing. Two independent hash functions are computed for each key, and a newly inserted element is placed into the choice of the two indicated buckets that currently has the fewest entries. Write the pseudocode for the insert and get operations on a hashmap which uses the power of two choices hashing strategy.
