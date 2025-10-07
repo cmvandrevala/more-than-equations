@@ -2,7 +2,7 @@
 title: Magazine Clippings
 date: 2025-03-29
 tags: [c-plus-plus, java, csc-216, hashmaps]
-description: In this lab you will write a program that assesses whether you can construct a string using the characters from another string.
+description: In this lab you will write a program that assesses whether you can construct a string using the characters from other strings. We will test the limits of our program with a couple of works of Shakespeare.
 ---
 
 ## 🔖 Background Information
@@ -15,7 +15,7 @@ An old TV trope is the "cut and paste" ransom note. A scoundrel would cut out le
 
 ## 🎯 Problem Statement
 
-Write a function that can efficiently determine if you can create a note given one or more articles of text.
+Write a function that can efficiently determine if you can create a note given one or more articles of text. Then, use your program to determine if you can take all of the character's in Shakespeare's play __Othello__ [@shakespeareOthello2025], rearrange them, and reproduce Shakespeare's play __Romeo and Juliet__ [@shakespeareRomeoJuliet2025].
 
 ## ✅ Acceptance Criteria
 
@@ -26,10 +26,12 @@ Write a function that takes two arguments - a string which is the note that you 
 * You do NOT have to worry about the case of the characters (it is fine to use an upper case or lower case character interchangeably).
 * You DO need to worry about special characters and punctuation (e.g. periods, semicolons, question marks, etc.).
 
+Stress test your code by determining whether you can construct Shakespeare's play __Romeo and Juliet__ from Shakespeare's play __Othello__. Use a benchmarking utility to determine the time needed to run your algorithm.
+
 ## 📋 Dev Notes
 
-* You could technically brute force this solution with some nested for loops. However, the goal of this lab is to implement an __efficient__ solution. Use the hashmap data structure to your advantage!
-* You are allowed to use the built-in hashmap data structures in the language that you are working in.
+* You could brute force this solution with some nested for loops. However, the goal of this lab is to implement an *efficient* solution. Use the hashmap data structure to your advantage!
+* You are allowed to use the built-in hashmap data structures in the language that you are working in. You do NOT need to implement a hashmap from scratch in this problem.
 
 ## 🖥️ Example Output
 
@@ -54,6 +56,7 @@ Here are some sample inputs and outputs for a function `bool canCreateNote(strin
 1. What steps did you take to prepare your data? For example, did you combine the articles in some way? Did you filter out certain characters or whitespace?
 2. How did you efficiently compare the articles to the note? In other words, how did you utilize the hashmap data structure?
 3. Estimate the time complexity of your solution. Explain your reasoning.
+4. Can you reconstruct the play __Romeo and Juliet__ from the characters of the play __Othello__? How long did your function take to run with this input? Be sure to measure this time using a benchmarking utility!
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -61,8 +64,9 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/magazine-clippings-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/magazine-clippings-java-template)
 
 ## 📘 Works Cited
 
-N/A
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
