@@ -48,7 +48,7 @@ There might be other methods that you want to implement to help you test this cl
 
 ## 🖥️ Example Output
 
-You might create a driver program that utilizes your `Point` class. A code snippet from the program might look something like this:
+A code snippet from your driver program might look something like this:
 
 ```cpp
 Point p1 = Point(3.2, 9.8);
@@ -62,11 +62,7 @@ cout << p1 / p2 << endl; // Prints out a nicely formatted point such as (4.35, 4
 
 ## 📝 Thought Provoking Questions
 
-1. What type(s) do equality and inequality return?
-2. What type does distance return?
-3. What type does midpoint return?
-4. Do you like the names of the overloaded operators? Are there any that might cause confusion?
-5. Why didn't we overload operators for less than and greater than?
+1. Suppose I wanted to overload the greater than or less than operator for the `Point` class. What strategy would you use to order two points?
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -83,7 +79,7 @@ cout << p * -3 << endl;   // This should print out (-9.6, -29.4)
 
 A user should be able to multiply the point by an integer, a float, or a double. Update your unit tests and / or driver program to test this new functionality.
 
-### (Three Credits) Array Indexing
+### (Two Credits) Array Indexing
 
 Overload `operator[]` to return the x or y part of the point. For instance:
 
@@ -97,7 +93,7 @@ Update your unit tests and / or driver program to test this new functionality.
 
 ## 🔗 Useful Links
 
-N/A
+* [C++ Project Template](https://github.com/cmvandrevala/i-get-the-point-cpp-template)
 
 ## 📘 Works Cited
 
