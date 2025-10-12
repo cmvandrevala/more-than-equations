@@ -24,6 +24,8 @@ The `JobQueue` should implement the following methods:
 * `void insert(Job job)` - This inserts a new job into the `JobQueue`.
 * `void runHighestPriority()` - This calls the `execute()` method defined on a `Job`.
 
+If you are writing this submission in C++, you are allowed to overload the comparison operators on the `Job` class so that you can order two jobs. If you are writing this submission in Java, you are allowed to update the `Job` class so that it follows the `Comparable` interface. Otherwise, you should not change the `Job` class.
+
 ## 📋 Dev Notes
 
 Let's take a moment to break this problem down into smaller steps. Here is how I might implement the `JobQueue` class.
