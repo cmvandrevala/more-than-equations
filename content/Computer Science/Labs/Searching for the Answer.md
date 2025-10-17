@@ -26,7 +26,7 @@ Write a program that reads a text file from disk and then writes an inverted fil
 
 ## 📋 Dev Notes
 
-* I am going to test your code with a short essay, so make sure that it is an efficient implementation!
+I am going to test your code with a short essay, so make sure that it is an efficient implementation!
 
 ## 🖥️ Example Output
 
@@ -54,9 +54,10 @@ Note that I start indexing words from zero.
 
 ## 📝 Thought Provoking Questions
 
-1. Describe your algorithm for implementing the inverted file index.
-2. Estimate the time complexity of your solution. Explain your reasoning.
-3. Estimate the space complexity of your solution. Explain your reasoning.
+1. Describe your algorithm for implementing the inverted file index in a few sentences.
+2. Benchmark the runtime of your algorithm using some different sized inputs. Visualize yur results using an appropriate graph and post it in the discussion board.
+3. What is the time complexity of your algorithm based on your benchmarks?
+4. Estimate the space complexity of your algorithm. Explain your reasoning.
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -64,6 +65,7 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/searching-for-the-answer-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/searching-for-the-answer-java-template)
 
 ## 📘 Works Cited
