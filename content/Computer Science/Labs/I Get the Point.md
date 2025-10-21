@@ -40,7 +40,6 @@ Create a class called `Point` that is initialized with the x- and y-coordinates 
 * Override the `!=` operator on `Point` so that it determines if two points are not the same coordinate or different coordinates.
 * Override the `/` operator on `Point` so that it determines midpoint between the two points.
 * Override the `<<` operator on `Point` so that a user can stream a point as if it were a C++ string.
-* Test all of the methods on the class either through unit tests, a driver program, or both.
 
 ## 📋 Dev Notes
 
