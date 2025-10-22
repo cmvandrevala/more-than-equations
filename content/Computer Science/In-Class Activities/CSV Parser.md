@@ -10,7 +10,7 @@ A parser is a program that takes some input and turns it into structured data. F
 
 ## 🎯 Problem Statement
 
-Read through the code in the csvstream repository that gives an implementation of a CSV parser [@deorioAwdeorioCsvstream2024]. Then, answer the following questions with your group members:
+Read through the code in the csvstream repository that gives an implementation of a [CSV parser](https://github.com/awdeorio/csvstream/) [@deorioAwdeorioCsvstream2024]. Then, answer the following questions with your group members:
 
 1. In which file is the actual source code located? What are the other files doing in the project?
 2. Does this project include tests? If so, how does the author test their code?
