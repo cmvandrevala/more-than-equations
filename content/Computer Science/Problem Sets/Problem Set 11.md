@@ -1,8 +1,7 @@
 ---
-title: Problem Set 8b
+title: Problem Set 11
 tags: [csc-216]
-description: This problem set is from week eight of the course.
-draft: true
+description: This problem set covers operations on binary trees as well as AVL trees.
 ---
 
 1. Suppose I want to insert the values 8, 3, 4, 9, 2, 1, 10, 7, 8, 14 into a binary search tree in that order.
