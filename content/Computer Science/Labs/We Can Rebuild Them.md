@@ -123,6 +123,7 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/we-can-rebuild-them-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/we-can-rebuild-them-java-template)
 
 ## 📘 Works Cited
