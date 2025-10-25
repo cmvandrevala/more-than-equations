@@ -135,7 +135,7 @@ cout << gradebook.assignment_report("Lab 1");
 
 ## 🔗 Useful Links
 
-N/A
+* [C++ Project Template](https://github.com/cmvandrevala/you-get-an-a-cpp-template)
 
 ## 📘 Works Cited
 
