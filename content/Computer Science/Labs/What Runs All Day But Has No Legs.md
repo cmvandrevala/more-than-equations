@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: What Runs All Day But Has No Legs?
-draft: true
+date: 2025-10-25
+tags: [c-plus-plus, csc-122, wrapper-classes]
+description: In this lab, you will write a wrapper class.
 ---
 
 ## 🔖 Background Information
@@ -10,11 +11,11 @@ During the process of benchmarking, we want to determine how long a block of cod
 
 You are going to write a class which wraps the C++ time library and gives users an easy interface to create timers. When the programmer wants to use the `Timer` object to time 'something', they can call the `start(...)` method before the 'something' executes and then call the `stop(...)` method after the 'something' finishes. To determine how long the 'something' took, they can call the `elapsed(...)` method which will return the number of seconds that have elapsed.
 
-This problem is available courtey of {% cite jamesWhatRunsAll2022 %}.
+This problem is available courtey of Professor Jason James [@jamesWhatRunsAll2022].
 
 ## 🎯 Problem Statement
 
-Create a `Timer` object that allows a user to start a timer, stop a timer, and return the elapsed time.
+Create a `Timer` class that allows a user to start a timer, stop a timer, and return the elapsed time.
 
 ## ✅ Acceptance Criteria
 
@@ -22,7 +23,7 @@ Create a `Timer` object that allows a user to start a timer, stop a timer, and r
 * When you first create a `Timer` object, it should be in the 'stopped' state and the elapsed time should be zero.
 * The `elapsed(...)` method should return the elapsed time, reported in whole seconds.
 * Do not call the functions `localtime` or `asctime` from the standard C library `ctime` in this problem.
-* Write a driver program and / or set of unit tests that test the `Timer` class. Note, you might find it difficult (impossible?) to unit test every method in your class at the moment. That's ok! Test what you can and then reflect on your strategy in the Thought Provoking Questions below.
+* Write a driver program that tests the `Timer` class. You do NOT have to write unit tests for this program, and you will explain why in the Thought-Provoking Questions.
 
 ## 📋 Dev Notes
 
@@ -39,7 +40,7 @@ Create a `Timer` object that allows a user to start a timer, stop a timer, and r
 
 ## 🖥️ Example Output
 
-We might write a driver program called `timer.cpp` that tests the `Timer` class that we wrote using the algorithm above. The driver program might look something like:
+We might write a driver program that tests the `Timer` class that we wrote using the algorithm above. The driver program might look something like:
 
 ```cpp
 #include <iostream>
@@ -62,10 +63,9 @@ Comparing the times might check that they are within some tolerance of each othe
 ## 📝 Thought Provoking Questions
 
 1. What should the behavior be if you try to start your timer twice? Should it start from zero again or continue where it left off? Notice how I did not specify this in the acceptance criteria - you need to make a judgement call here!
-2. You might have noticed that you are unable to unit test all of the methods in your `Timer` class. Which methods are not tested or indirectly tested? Why was it difficult (impossible?) to test them?
-3. How will you store the elapsed time?
-4. How will you handle the case when a user tries to call `elapsed(...)` on an object which has never been started?
-5. How will you handle the case when a user tries to `stop(...)` a `Timer` object which has not been started?
+2. You might have noticed that you are unable to unit test the methods in your `Timer` class. Which methods are not tested or indirectly tested? Why was it difficult (impossible?) to test them?
+3. How did you handle the case when a user tries to call `elapsed(...)` on an object which has never been started?
+4. How did you handle the case when a user tries to `stop(...)` a `Timer` object which has not been started?
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -97,10 +97,14 @@ Your program should remain unchanged, otherwise.
 
 ### (Four Credits) Rolling Your Own Mocks
 
-You might have noticed that it was difficult to fully test the `Timer` object using an automated test suite because you did not directly control the system clock. One way that we can test our code is to wrap the components that we do not have control over in another object and then inject them into the `Timer` class. For example, you could wrap the C++ time library in a new class called `CPlusPlusTime` and then inject an instance of `CPlusPlusTime` into the `Timer` class in the constructor. This allows you to create a test implementation of `CPlusPlus` time which can be used for testing.
+You might have noticed that it was difficult (impossible?) to test the `Timer` object using an automated test suite because you did not directly control the system clock. One way that we can test our code is to wrap the components that we do not have control over in another object and then inject them into the `Timer` class. For example, you could wrap the C++ time library in a new class called `CPlusPlusTime` and then inject an instance of `CPlusPlusTime` into the `Timer` class in the constructor via an abstract base class. This allows you to create a test implementation of `CPlusPlus` time which can be used for testing.
 
 Write unit tests for the `Timer` class that leverage some hand-rolled mocks.
 
+## 🔗 Useful Links
+
+* [C++ Project Template](https://github.com/cmvandrevala/what-runs-all-day-but-has-no-legs-cpp-template)
+
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
