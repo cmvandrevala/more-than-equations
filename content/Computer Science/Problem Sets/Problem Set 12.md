@@ -1,8 +1,7 @@
 ---
-title: Problem Set 9b
+title: Problem Set 12
 tags: [csc-216]
-description: This problem set is from week nine of the course.
-draft: true
+description: This problem set covers splay trees, 2-4 trees, and red-black trees.
 ---
 
 1. Suppose I want to insert the values 7, 8, 3, 1, 4, 9, 2 into a splay tree in that order. Sketch out the splay tree after each of the insertions have been made (i.e. seven diagrams total).
@@ -21,8 +20,16 @@ draft: true
 
 ---
 
-5. Can we use a splay tree to sort n comparable elements in O(n log n) time in the worst case scenario? Why or why not?
+5. Suppose I want to insert the values 7, 8, 3, 1, 4, 9, 2 into a red-black tree in that order. Sketch out the red-black tree after each of the insertions have been made (i.e. seven diagrams total).
 
 ---
 
-6. Prove that if I insert the values from 1 to n into a splay tree in ascending order, I will end up with a linked list of values starting at n and decrementing down to 1 in reverse order.
+6. Suppose I take the final tree from Problem 5 and then delete the values 9, 3, 4 in that order. Sketch out the red-black tree after each of the deletions have been made (i.e. three diagrams total).
+
+---
+
+7. Is a subtree of a red-black tree itself a red-black tree? Prove your answer or give a counterexample.
+
+---
+
+8. Prove that if I insert the values from 1 to n into a splay tree in ascending order, I will end up with a linked list of values starting at n and decrementing down to 1 in reverse order.
