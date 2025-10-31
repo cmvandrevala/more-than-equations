@@ -9,7 +9,7 @@ description: This document describes the different portions of a portfolio in CS
 Portfolios are an opportunity to pull together many different concepts learned in class and create a single larger application. Each portfolio is divided into a few parts.
 
 * Complete a semester-long coding assignment (required)
-* Complete an ideation assignment (required)
+* Complete an ideation assignment / initial submission (required)
 * Complete a self-reflection (required)
 * Complete a peer code review (required)
 * Complete one or more add-ons that expand on existing lab problems (optional)
@@ -18,9 +18,13 @@ Portfolios are an opportunity to pull together many different concepts learned i
 
 I will assign you a problem that you will work on in each of the portfolios over the semester. This problem is more open-ended than the traditional labs that you complete during the semester, allowing you to add your own creative touch to the project. Your code will be graded in a [[Lab Grading Rubric|similar manner to the labs]], with points awarded for a working solution, rigorous tests, and clean code.
 
-### Ideation (Required)
+### Ideation / Initial Submission (Required)
 
-The ideation assignment is an opportunity to come up with a plan to tackle the portfolio. You will break the project down into manageable pieces and think about how you will accomplish each part of the assignment.
+Depending on the time we have and the modality of the class, I will ask you to complete an ideation assignment, an initial submission of the portfolio, or both.
+
+The ideation assignment is an opportunity to come up with a plan to tackle the portfolio. You will break the project down into manageable pieces and think about how you will accomplish each part of the assignment. This is generally done as an in-class activity and gives you the opportunity to determine the direction of the project.
+
+The initial submission is a "first draft" of your code. It is an initial attempt to implement the project which may or may not be complete. You will have an opportunity to get a peer review of your code before you submit your final draft of the code for the portfolio.
 
 ### Self-Reflection (Required)
 
@@ -50,10 +54,10 @@ The grade breakdown for each portfolios is as follows:
 
 | Part            | Percent |
 | --------------- | ------- |
-| Semester-Long Project    | 70%     |
-| Ideation        | 10%     |
-| Self-Reflection | 10%     |
-| Peer Review     | 10%     |
+| Semester-Long Project    | 60%     |
+| Ideation / Initial Submission        | 10%     |
+| Self-Reflection | 15%     |
+| Peer Review     | 15%     |
 
 You can complete add-ons for extra credit according to the following scale.
 
