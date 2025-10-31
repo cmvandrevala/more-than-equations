@@ -116,6 +116,7 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/a-map-in-a-tree-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/a-map-in-a-tree-java-template)
 
 ## 📘 Works Cited
