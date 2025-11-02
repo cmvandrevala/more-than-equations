@@ -1,7 +1,8 @@
 ---
-layout: lab
 title: Meet in the Middle
-draft: true
+date: 2025-11-02
+tags: [c-plus-plus, csc-122, streams, dynamic-memory]
+description: In this lab you will practice reading in data from a file and performing calculations on the dataset.
 ---
 
 ## 🔖 Background Information
@@ -10,7 +11,7 @@ One statistic of interest to many researchers is the median of a data set. The m
 
 If there are an odd number of data points, the median is found by sorting the data and then picking the point which has an equal number of points greater than and less then it. If there are an even number of data points, you should take the average of the two middle values after sorting the data set.
 
-This problem is provided courtesy of {% cite jamesSmackMiddleNowhere2022 %}.
+This problem is provided courtesy of Professor Jason James [@jamesSmackMiddleNowhere2022].
 
 ## 🎯 Problem Statement
 
@@ -21,6 +22,7 @@ Find the median of a set of pre-sorted numbers from a CSV file. You will not kno
 * The data file will be a comma-separated list of integers.
 * Your `main` program should allow a user to specify a filename. Then, the program will read in the data from the file and calculate the median of the data points.
 * Your `main` program should print the median to the console.
+* You cannot use containers from the C++ standard library (e.g. `vector`, `array`, etc.). Instead, you must implement your own dynamic data structure (e.g. a dynamic array).
 
 ## 📋 Dev Notes
 
@@ -47,11 +49,10 @@ The median of the dataset is 11.
 
 ## 📝 Thought Provoking Questions
 
-1. How do you count the number of data items which are in the file?
-2. Did you use dynamic memory allocation in this program? If so, how did you use it?
-3. Are you guaranteed to succeed if you allocate memory on the heap? When might this program fail to allocate memory on the heap?
-4. What is `nullptr` and how might it be used in your program?
-5. Does it matter if the data points are sorted in ascending or descending order when calculating the median? Why or why not?
+1. How do you keep track of the number of items in the file?
+2. When might your program fail to allocate memory on the heap?
+3. What is `nullptr` and how might it be used in your program?
+4. Does it matter if the data points are sorted in ascending or descending order when calculating the median? Why or why not?
 
 ## 💼 Add-Ons For the Portfolio
 
@@ -67,6 +68,10 @@ Update your `main` program to calculate the mode of the data set in addition to 
 
 In the original problem, you made the assumption that the values in the data file were pre-sorted. Now, we will drop that assumption. Update your `main` function to sort the data before doing any calculations. You should implement bubble sort as the sorting function on your data set (don't use a built-in sorting function). Otherwise, the output of your `main` program should not change.
 
+## 🔗 Useful Links
+
+* [C++ Project Template](https://github.com/cmvandrevala/meet-in-the-middle-cpp-template)
+
 ## 📘 Works Cited
 
-{% bibliography --cited %}
+[//]: <> (This is a placeholder for where the Works Cited will be rendered for this page.)
