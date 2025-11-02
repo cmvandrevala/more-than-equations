@@ -196,6 +196,7 @@ Your driver program might look like this:
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/a-simple-todo-list-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/a-simple-todo-list-java-template)
 
 ## 📘 Works Cited
