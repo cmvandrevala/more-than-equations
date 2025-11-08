@@ -85,6 +85,7 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/heads-i-win-tails-you-lose-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/heads-i-win-tails-you-lose-java-template)
 
 ## 📘 Works Cited
