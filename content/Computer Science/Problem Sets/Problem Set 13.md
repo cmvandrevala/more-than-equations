@@ -12,7 +12,7 @@ description: This problem set is from week thirteen of the course.
 
 ---
 
-3. Of the $n!$ possible inputs to a given comparison-based sorting algorithm on a list of $n$ elements, what is the absolute maximum number of inputs that could be correctly sorted with just $n$ comparisons? Justify your answer.
+3. Of the $n!$ possible inputs to a given comparison-based sorting algorithm on a list of $n$ elements, what is the absolute maximum number of inputs that could be correctly sorted with just $n$ comparisons? Prove your answer.
 
 ---
 
@@ -20,16 +20,4 @@ description: This problem set is from week thirteen of the course.
 
 ---
 
-5. For each of the following recurrences, give an expression for the runtime $T(n)$ if the recurrence can be solved with the Master Theorem. Otherwise, indicate that the Master Theorem does not apply.
-
-$$
-T(n) = 3 T(n/2) + n^2
-$$
-
-$$
-T(n) = 4 T(n/2) + n^2
-$$
-
-$$
-T(n) = T(n/2) + 2^n
-$$
+5. Suppose we are given two n-element sorted sequences, $A$ and $B$. Each of these sequences have distinct elements, but there might be repeated elements between the sequences. Write the pseudocode for an $O(n)$ time function that takes $A$ and $B$ as arguments and returns a new sorted sequence which is the intersection of $A$ and $B$.
