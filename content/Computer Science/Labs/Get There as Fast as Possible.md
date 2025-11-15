@@ -68,6 +68,7 @@ N/A
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/get-there-as-fast-as-possible-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/get-there-as-fast-as-possible-java-template)
 
 ## 📘 Works Cited
