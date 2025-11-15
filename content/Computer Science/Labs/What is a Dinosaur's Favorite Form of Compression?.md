@@ -71,6 +71,7 @@ N/A
 ## 🔗 Useful Links
 
 * [Huffman Coding](https://suhaan-bhandary.github.io/Huffman-Coding/)
+* [C++ Project Template](https://github.com/cmvandrevala/what-is-a-dinosaurs-favorite-form-of-compression-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/what-is-a-dinosaurs-favorite-form-of-compression-java-template)
 
 ## 📘 Works Cited
