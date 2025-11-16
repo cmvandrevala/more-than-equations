@@ -109,6 +109,7 @@ Implement a method called `sequence(int n)` which returns a list of triangle num
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/you-need-power-wisdom-and-courage-when-using-recursion-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/you-need-power-wisdom-and-courage-when-using-recursion-java-template)
 
 ## 📘 Works Cited
