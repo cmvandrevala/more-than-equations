@@ -144,6 +144,7 @@ Update your stack class to allow the user to specify what type of object will be
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/a-stack-of-dishes-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/a-stack-of-dishes-java-template)
 
 ## 📘 Works Cited
