@@ -1,6 +1,6 @@
 ---
 title: Queue-Tee Pie
-tags: [java, csc-214, queues]
+tags: [c-plus-plus, java, csc-122, csc-214, queues]
 description: In this lab, you will write a queue data structure.
 date: 2025-04-18
 ---
@@ -11,7 +11,7 @@ A queue is a data structure that follows a first-in first-out (FIFO) principle. 
 
 ## 🎯 Problem Statement
 
-Write a queue data structure that stores "cute" objects. A cute object is an object that conforms to the `Cutie` interface (as outlined in the Dev Notes). You can use an array "under the hood", meaning that your queue will have a maximum size.
+Write a queue data structure that stores "cute" objects. A cute object is an object that conforms to the `Cutie` interface / abstract base class (as outlined in the Dev Notes). You can use an array "under the hood", meaning that your queue will have a maximum size.
 
 ## ✅ Acceptance Criteria
 
@@ -24,64 +24,105 @@ Write a queue data structure that stores "cute" objects. A cute object is an obj
 ## 📋 Dev Notes
 
 * You cannot use the built-in queue in this solution.
-* You do not have to implement the `Cutie` interface from scratch. I have provided it here:
+* You do not have to implement the `Cutie` interface / abstract base class from scratch. I have provided it here:
 
-```java
-interface Cutie {
-  public String description();     // All cuties need to have a description of what makes them cute.
-  public Integer cutenessRating(); // All cuties get a cuteness rating out of ten.
-}
-```
+> [!tip]- C++
+>
+> ```cpp
+> class Cutie {
+>   private:
+>     string description;
+>     int cuteness_rating
+>
+>   public:
+>     Cutie(string description, int cuteness_rating) {
+>       this->description = description;
+>       this->cuteness_rating = cuteness_rating;
+>     }
+>
+>     virtual string get_description() = 0;
+>     virtual int get_cuteness_rating() = 0;
+> }
+> ```
 
-For example, I might create a cutie object like so:
-
-```java
-class Puppy implements Cutie {
-  public String description() {
-    return "A little puppy with big, sad eyes";
-  }
-
-  public Integer cutenessRating() {
-    return 11; // This puppy gets an 11 / 10 for its cuteness. Such a good boy!
-  }
-}
-```
-
-This object (and others) can be added to your queue.
+> [!tip]- Java
+>
+> ```java
+> interface Cutie {
+>   public String description();     // All cuties need to > have a description of what makes them cute.
+>   public Integer cutenessRating(); // All cuties get a cuteness rating out of ten.
+> }
+> ```
 
 ## 🖥️ Example Output
 
-Let's call our queue data structure `QueueTees`. Your driver program might look something like this:
+Suppose you wrote a queue data structure called `QueueTees`. You then created `Puppy`, `Kitty`, and `PygmyMarmoset` which all conform to that interface / abstract base class. Your driver program might look something like this:
 
-```java
-// Create a bunch of objects that conform to the Cutie interface
-Puppy puppy = new Puppy();
-Kitty kitty = new Kitty();
-PygmyMarmoset marmoset = new PygmyMarmoset();
+> [!tip]- C++
+>
+> ```cpp
+> int main() {
+>   // Create a bunch of objects that implement the Cutie base class
+>   Puppy puppy;
+>   Kitty kitty;
+>   PygmyMarmoset marmoset;
+>
+>   // Create a queue data structure
+>   QueueTees queue;
+>
+>   // The size of the queue should equal zero since there are no objects in it
+>   cout << queue.size();
+>
+>   // Add the cuties to the queue
+>   queue.enqueue(puppy);
+>   queue.enqueue(kitty);
+>   queue.enqueue(marmoset);
+>
+>   // The size of the queue should equal three since there are three objects in it
+>   cout << queue.size();
+>
+>   // The first dequeue should return the puppy
+>   queue.dequeue();
+>
+>   // The second dequeue should return the kitty
+>   queue.dequeue();
+>
+>   // The third dequeue should return the pygmy marmoset
+>   queue.dequeue();
+> }
+> ```
 
-// Create a queue data structure
-QueueTees queue = new QueueTees();
-
-// The size of the queue should equal zero since there are no objects in it
-queue.size();
-
-// Add the cuties to the queue
-queue.enqueue(puppy);
-queue.enqueue(kitty);
-queue.enqueue(marmoset);
-
-// The size of the queue should equal three since there are three objects in it
-queue.size();
-
-// The first dequeue should return the puppy
-queue.dequeue();
-
-// The second dequeue should return the kitty
-queue.dequeue();
-
-// The first dequeue should return the pygmy marmoset
-queue.dequeue();
-```
+> [!tip]- Java
+>
+> ```java
+> // Create a bunch of objects that conform to the Cutie interface
+> Puppy puppy = new Puppy();
+> Kitty kitty = new Kitty();
+> PygmyMarmoset marmoset = new PygmyMarmoset();
+>
+> // Create a queue data structure
+> QueueTees queue = new QueueTees();
+>
+> // The size of the queue should equal zero since there are no objects in it
+> System.out.println(queue.size());
+>
+> // Add the cuties to the queue
+> queue.enqueue(puppy);
+> queue.enqueue(kitty);
+> queue.enqueue(marmoset);
+>
+> // The size of the queue should equal three since there are three objects in it
+> System.out.println(queue.size());
+>
+> // The first dequeue should return the puppy
+> queue.dequeue();
+>
+> // The second dequeue should return the kitty
+> queue.dequeue();
+>
+> // The third dequeue should return the pygmy marmoset
+> queue.dequeue();
+> ```
 
 ## 📝 Thought Provoking Questions
 
@@ -92,22 +133,7 @@ queue.dequeue();
 
 ### (One Credit) Clear Method
 
-Create a method that clears all elements in the queue. The behavior of this method might look something like this in a driver program:
-
-```java
-QueueTees queue = new QueueTees();
-Puppy puppy = new Puppy();
-
-queue.enqueue(puppy);
-
-// The queue size should equal one
-queue.size();
-
-queue.clear();
-
-// The queue size should equal zero
-queue.size();
-```
+Create a method that clears all elements in the queue.
 
 ### (Three Credits) Generic Type for Queue
 
