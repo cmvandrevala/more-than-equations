@@ -115,6 +115,7 @@ Update your queue class to allow the user to specify what type of object will be
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/queue-tee-pie-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/queue-tee-pie-java-template)
 
 ## 📘 Works Cited
