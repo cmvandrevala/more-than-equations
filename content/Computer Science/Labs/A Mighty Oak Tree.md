@@ -113,7 +113,7 @@ Update your binary tree class to allow the user to specify what type of object w
 
 ## 🔗 Useful Links
 
-* [C++ Project Template](https://github.com/cmvandrevala/a-terribly-weighty-subject-cpp-template)
+* [C++ Project Template](https://github.com/cmvandrevala/a-mighty-oak-tree-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/a-mighty-oak-tree-java-template)
 
 ## 📘 Works Cited
