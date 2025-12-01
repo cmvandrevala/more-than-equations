@@ -21,12 +21,14 @@ The goal of this lab is to explore the C++ `std::sort` function with a variety o
     * The `greater` and `less` functions built into C++
     * A lambda comparing two integer arguments with cases for greater than and less than
     * A custom struct comparing two integer arguments with cases for greater than and less than
-3. Answer the Thought-Provoking Questions.
+3. You will submit the following:
+    * Your C++ script which includes the array and the different sorts.
+    * Answers to the Thought-Provoking Questions.
 
 ## 📋 Dev Notes
 
 * You might need to rescramble the integers after every test to make sure you are not skewing the output in any way.
-* You do NOT need to turn in any code for this lab. I am only interested in the answers to the Thought-Provoking Questions.
+* You do NOT need to write unit tests for this lab.
 
 ## 🖥️ Example Output
 
