@@ -1,6 +1,11 @@
 ---
 title: Marco Polo
-tags: [c-plus-plus, csc-121, classes, composition]
+tags:
+  - c-plus-plus
+  - csc-121
+  - classes
+  - composition
+  - csc-122
 description: This activity will test your knowledge of class composition.
 ---
 
