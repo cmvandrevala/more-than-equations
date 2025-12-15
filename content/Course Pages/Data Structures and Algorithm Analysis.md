@@ -43,3 +43,12 @@ tags:
 * [[Problem Set 13]]
 * [[Problem Set 14]]
 * [[Problem Set 15]]
+
+## Past Exams
+
+| Exam | Semester |
+|------|----------|
+| [Final Exam](/assets/exams/csc/216/fall-2025-final-exam.pdf) | Fall 2025 |
+| [Midterm Exam](/assets/exams/csc/216/fall-2025-midterm-exam.pdf) | Fall 2025 |
+| [Practice Final Exam](/assets/exams/csc/216/fall-2025-practice-final-exam.pdf) | Fall 2025 |
+| [Practice Midterm Exam](/assets/exams/csc/216/fall-2025-practice-midterm-exam.pdf) | Fall 2025 |
