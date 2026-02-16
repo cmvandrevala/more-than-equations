@@ -20,10 +20,11 @@ Allow a user to enter the names of any number of local businesses. When a user e
 * You are allowed to use methods from the standard library (e.g. `std::sort` or `std::vector`)
 * The user should be able to enter "y", "Y", "yes", or "Yes" to confirm that they want to enter another business name. Other inputs should exit the program gracefully.
 * The program should print a goodbye message when the user exits.
+* You do NOT need to write unit tests for this lab.
 
 ## 📋 Dev Notes
 
-N/A
+* You do NOT need to write unit tests for this lab. It is possible to test an infinite while loop using some advanced testing strategies. However, we will not cover those techniques in this class.
 
 ## 🖥️ Example Output
 
