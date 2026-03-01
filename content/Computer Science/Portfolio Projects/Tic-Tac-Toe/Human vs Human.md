@@ -1,6 +1,6 @@
 ---
 title: Human vs. Human Tic-Tac-Toe
-tags: [java, csc-214]
+tags: [c-plus-plus, csc-122, csc-214, java]
 description: This portfolio has you build your own console-based tic-tac-toe game that supports human versus human play.
 ---
 
@@ -66,8 +66,6 @@ The goal of the tic-tac-toe project is to build on previous submissions. For por
 ## 🖥️ Example Output
 
 ```bash
-$ gradle run
-
 Welcome to Tic-Tac-Toe!
 
     1  |  2  |  3
@@ -141,6 +139,7 @@ Goodbye!
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/tic-tac-toe-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/tic-tac-toe-java-template)
 
 ## 📘 Works Cited
