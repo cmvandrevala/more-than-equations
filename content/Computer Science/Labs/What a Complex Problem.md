@@ -121,10 +121,6 @@ $$
 
 Be sure that the method is tested either by your driver function or assertions.
 
-### (Two Credits) Header File
-
-Move your `ComplexNumber` class into a separate file from `main()` and create a corresponding header file. Then, `#include` the header file for your code in `main()`. This should not change the functionality of your code.
-
 ### (Two Credits) Multiplication and Division
 
 In the "Background Information" section, we defined multiplication and division of complex numbers. However, we did not implement them in the lab, originally.
