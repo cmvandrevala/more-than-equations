@@ -1,7 +1,7 @@
 ---
 title: What a Complex Problem
 date: 2025-03-04
-tags: [c-plus-plus, csc-121, classes]
+tags: [c-plus-plus, csc-121, csc-122, classes]
 description: In this lab, we will write a complex number class that can be used in a variety of calculations.
 ---
 
@@ -137,7 +137,7 @@ Implement two methods on the `ComplexNumber` class for multiplication and divisi
 
 ## 🔗 Useful Links
 
-N/A
+* [C++ Project Template](https://github.com/cmvandrevala/what-a-complex-problem-cpp-template)
 
 ## 📘 Works Cited
 
