@@ -77,12 +77,11 @@ Write a `ComplexNumber` class that implements operations on complex numbers. The
   * Each of these methods should take in no arguments or one argument of type `ComplexNumber`.
   * Each of these methods should have a return value of type `ComplexNumber` or `float`, as needed.
   * None of these methods should change the calling instance of `ComplexNumber` or any arguments.
-* Implement a `prettyPrint` method on the `ComplexNumber` class that prints the complex number out to the console in the form "a + bi".
+* Implement a `prettyPrint` method on the `ComplexNumber` class that returns a string of the complex number in the form "a + bi".
 
 ## 📋 Dev Notes
 
 * You need to think carefully about how you want to test this class. How can you implement unit tests on your custom class? Maybe, you could consider testing the real and imaginary part separately?
-* You do NOT have to put your `ComplexNumber` class into another file using headers. However, there is an add-on for the portfolio that you can do for extra credit.
 
 ## 🖥️ Example Output
 
@@ -107,7 +106,6 @@ cout << magnitude; // Returns 8.602325267
 1. Does it make sense to default any of the arguments in the constructor of `ComplexNumber` to a particular value? Why or why not?
 2. What are the types of values that are returned from each method in `ComplexNumber`?
 3. What happens if you try to initialize your `ComplexNumber` class with an integer instead of a float?
-4. Does `prettyPrint()` print anything besides the number in "a + bi" form (even an `endl`)? Why or why not?
 
 ## 💼 Add-Ons For the Portfolio
 
