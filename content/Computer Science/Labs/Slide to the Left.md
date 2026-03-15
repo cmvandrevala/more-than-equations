@@ -1,8 +1,8 @@
 ---
 title: Slide to the Left
-date: 2025-03-04
+date: 2026-03-15
 tags: [c-plus-plus, csc-122, arrays]
-description: In this lab you will create a function to rotate entries in an array.
+description: In this lab you will create a function that rotates entries in an array.
 ---
 
 ## 🔖 Background Information
@@ -11,21 +11,19 @@ N/A
 
 ## 🎯 Problem Statement
 
-Write a function called `arrayShift(...)` that takes in an array of integers, the size of the array, and a number of shifts. The function should update the array by shifting the values to the left by that number of shifts.
+Write a function called `arrayShift(...)` that takes an array of integers, the size of the array, and a number of shifts as its arguments. The function should update the array by shifting the values to the left by that number of shifts.
 
 ## ✅ Acceptance Criteria
 
-* Put the `arrayShift(...)` function in a library and import it into another file with a `main()` function.
-* Test your `arrayShift(...)` function using assert statements.
-* The first integer in the array should get moved to the last spot. In other words, the array should rotate around itself.
+When performing a rotation, the first integer in the array should get moved to the last spot. In other words, the array should rotate around itself.
 
 ## 📋 Dev Notes
 
-* You should use a C-style array for this lab. Do NOT use a C++ array object.
+* You should use a C-style array for this lab. Do NOT use built-in array or vector objects.
 
 ## 🖥️ Example Output
 
-Suppose I included my `arrayShift(...)` function in my `main()` program. The behavior might look like this:
+The of the behavior of the `arrayShift` function in the driver program might look like this:
 
 ```cpp
 int main() {
@@ -53,22 +51,21 @@ int main() {
 
 1. What happens when the number of shifts is equal to the size of the array?
 2. Why must we pass in the size of the int array into the `arrayShift(...)` function?
-3. How did you test arrays of values using assert statements?
-4. What strategy might you use to make this function work with arrays of characters as well as arrays of integers?
+3. What strategy might you use to make this function work with arrays of characters as well as arrays of integers?
 
 ## 💼 Add-Ons For the Portfolio
 
 ### (One Credit) Shift Left and Right
 
-Rename the function `arrayShift(...)` to `arrayShiftLeft(...)`. Then, add a second function called `arrayShiftRight(...)` to the library. It should take the same arguments as `arrayShiftLeft(...)`, but it rotates the values in the array to the right. Be sure to test this function using assert statements in your `main()` program.
+Rename the function `arrayShift(...)` to `arrayShiftLeft(...)`. Then, add a second function called `arrayShiftRight(...)` to the library. It should take the same arguments as `arrayShiftLeft(...)`, but it rotates the values in the array to the right.
 
 ### (Two Credits) Rotating C++ Vectors
 
-Create a new function called `vectorShift(...)` which takes a C++ vector and a number of shifts as arguments (notice that it does not take the size of the vector since you can use the built-in methods on vector to figure that out). This function should update the vector in the same way that `arrayShift(...)` updated arrays. Be sure to test your function in your `main()` program using assert statements.
+Create a new function called `vectorShift(...)` which takes a C++ vector and a number of shifts as arguments (notice that it does not take the size of the vector since you can use the built-in methods on vector to figure that out). This function should update the vector in the same way that `arrayShift(...)` updated arrays.
 
 ## 🔗 Useful Links
 
-N/A
+* [C++ Project Template](https://github.com/cmvandrevala/slide-to-the-left-cpp-template)
 
 ## 📘 Works Cited
 
