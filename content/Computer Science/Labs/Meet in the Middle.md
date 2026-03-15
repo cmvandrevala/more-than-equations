@@ -22,12 +22,13 @@ Find the median of a set of pre-sorted numbers from a CSV file. You will not kno
 * The data file will be a comma-separated list of integers.
 * Your `main` program should allow a user to specify a filename. Then, the program will read in the data from the file and calculate the median of the data points.
 * Your `main` program should print the median to the console.
-* You cannot use containers from the C++ standard library (e.g. `vector`, `array`, etc.). Instead, you must implement your own dynamic data structure (e.g. a dynamic array).
+* You cannot use containers from the C++ standard library (e.g. `vector`, `array`, etc.). Instead, you must implement your own dynamic data structure and / or use heap memory (e.g. a dynamic array).
 
 ## 📋 Dev Notes
 
 * You can assume that the data in the file is sorted beforehand - your function does not have to sort data before finding the median.
 * Note that even though the data points are all integers, the median itself might not be an integer.
+* You do NOT need to write any unit tests for this lab.
 
 ## 🖥️ Example Output
 
