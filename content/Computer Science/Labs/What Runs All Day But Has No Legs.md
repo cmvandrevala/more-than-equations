@@ -27,7 +27,7 @@ Create a `Timer` class that allows a user to start a timer, stop a timer, and re
 
 ## 📋 Dev Notes
 
-* There are a number of edge cases that you need to consider when writing your code and tests. The design of this code is largely up to you.
+* There are a number of edge cases that you need to consider when writing your code. The design of this code is largely up to you.
 * Put your `Timer` class in a separate file from the driver program / tests.
 * One way to test your `Timer` class in an end-to-end fashion might be:
   1. Initialize a `Timer` object.
