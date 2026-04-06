@@ -1,11 +1,11 @@
 ---
-title: Opportunistic Computer Player
+title: First Available Spot Computer Player
 tags:
   - c-plus-plus
   - csc-122
   - csc-214
   - java
-description: This portfolio has you expand on your previous game of tic-tac-toe by introducing an opportunistic computer player.
+description: This portfolio has you expand on your previous game of tic-tac-toe by introducing a computer player that always takes the first available spot.
 ---
 
 ## 🔖 Background Information
@@ -14,19 +14,11 @@ Tic-tac-toe is a game for two players who take turns marking the spaces in a thr
 
 ## 🎯 Problem Statement
 
-Add a new feature onto the existing game of tic-tac-toe that you wrote in [[Human vs Human]]. A player can choose if they want to play against another human player or an opportunistic computer player. They should also be able to choose whether the opportunistic computer player goes first or second.
+Add a new feature onto the existing game of tic-tac-toe that you wrote in [[Human vs Human]]. A player can choose if they want to play against another human player or a computer player that takes the first available spot on the board. They should also be able to choose whether the computer player goes first or second.
 
 ## ✅ Acceptance Criteria
 
-You should implement an opportunistic computer player in your game of tic-tac-toe with the following behavior. It should check these rules in the order that they are listed, on each of its turns.
-
-1. If it is the first move of the game (i.e. the board is empty), the opportunistic computer player marks one of the four corner spaces.
-2. If it is the second move of the game AND the center space is available, the opportunistic computer player marks the center space.
-3. If the opportunistic player can move in a space where it would win the game, it takes tht spot.
-4. If the opportunistic player can move in a space where it would block its opponent from winning, it takes that spot.
-5. The opportunistic player moves in a random spot on the board.
-
-As a player, when I start the program, I should see a menu asking if I want to play against a human or computer player. If I choose the computer option, I should be able to select if the computer goes first or second.
+You should implement a computer player that takes the first available spot in your game of tic-tac-toe. As a player, when I start the program, I should see a menu asking if I want to play against a human or computer player. If I choose the computer option, I should be able to select if the computer goes first or second.
 
 Your program should not crash from user input!
 
@@ -39,8 +31,6 @@ You MUST build these new features on top of your previous submission. Thus, you 
 ## 🖥️ Example Output
 
 ```bash
-$ gradle run
-
 Welcome to Tic-Tac-Toe!
 
 What kind of game would you like to play?
@@ -53,41 +43,41 @@ What is your selection? 3
 
 Great! The computer will go first.
 
-    1  |  2  |  3
+    X  |  2  |  3
   -----+-----+-----
     4  |  5  |  6
   -----+-----+-----
-    7  |  8  |  X
+    7  |  8  |  9
 
 What is your move?  3
 
-    1  |  2  |  O
+    X  |  X  |  O
   -----+-----+-----
-    X  |  5  |  6
+    4  |  5  |  6
   -----+-----+-----
-    7  |  8  |  X
+    7  |  8  |  9
 
 What is your move?  258
 
 That is not a valid move! Try again.
 
-What is your move?  2
+What is your move?  9
 
-    X  |  O  |  O
+    X  |  X  |  O
   -----+-----+-----
     X  |  5  |  6
   -----+-----+-----
-    7  |  8  |  X
+    7  |  8  |  O
 
 What is your move?  6
 
-    X  |  O  |  O
+    X  |  X  |  O
   -----+-----+-----
     X  |  5  |  O
   -----+-----+-----
-    X  |  8  |  X
+    7  |  8  |  O
 
-Player X wins!
+Player O wins!
 
 Would you like to play again (yes/no)? no
 

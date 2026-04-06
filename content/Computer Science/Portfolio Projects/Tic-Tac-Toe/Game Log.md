@@ -1,6 +1,10 @@
 ---
 title: Game Log for Tic-Tac-Toe
-tags: [java, csc-214]
+tags:
+  - c-plus-plus
+  - csc-122
+  - csc-214
+  - java
 description: This portfolio has you expand on your previous game of tic-tac-toe by introducing a running log of which player won the game. Based on this log, you will shuffle the turn order of the tic-tac-toe players.
 ---
 
@@ -130,6 +134,7 @@ Writing the game log to disk. Please see game.txt for the final statistics!
 
 ## 🔗 Useful Links
 
+* [C++ Project Template](https://github.com/cmvandrevala/tic-tac-toe-cpp-template)
 * [Java Project Template](https://github.com/cmvandrevala/tic-tac-toe-java-template)
 
 ## 📘 Works Cited

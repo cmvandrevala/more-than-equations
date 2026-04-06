@@ -1,6 +1,10 @@
 ---
 title: Human vs. Human Tic-Tac-Toe
-tags: [c-plus-plus, csc-122, csc-214, java]
+tags:
+  - c-plus-plus
+  - csc-122
+  - csc-214
+  - java
 description: This portfolio has you build your own console-based tic-tac-toe game that supports human versus human play.
 ---
 
