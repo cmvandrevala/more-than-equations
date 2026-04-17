@@ -83,6 +83,7 @@ export default ((userOpts?: Partial<Options>) => {
           aria-controls={id}
         >
           <svg
+            role="img"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -105,6 +106,7 @@ export default ((userOpts?: Partial<Options>) => {
         >
           <h2>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h2>
           <svg
+            role="img"
             xmlns="http://www.w3.org/2000/svg"
             width="14"
             height="14"
@@ -131,6 +133,7 @@ export default ((userOpts?: Partial<Options>) => {
           <li>
             <div class="folder-container">
               <svg
+                role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 width="12"
                 height="12"
