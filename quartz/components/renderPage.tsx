@@ -263,7 +263,7 @@ export function renderPage(
     <html lang={lang} dir={direction}>
       <Head {...componentData} />
       <body data-slug={slug}>
-        <div id="quartz-root" class="page">
+        <main id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">
@@ -290,7 +290,7 @@ export function renderPage(
             {RightComponent}
             <Footer {...componentData} />
           </Body>
-        </div>
+        </main>
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")
