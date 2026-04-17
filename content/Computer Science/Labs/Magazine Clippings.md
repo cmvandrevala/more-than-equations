@@ -10,7 +10,7 @@ description: In this lab you will write a program that assesses whether you can 
 An old TV trope is the "cut and paste" ransom note. A scoundrel would cut out letters from a magazine or newspaper and paste them together into a note which would be sent to some victim. The idea was that the note is untraceable since they are not using their own handwriting. For example:
 
 <p align="center">
-  <img src="https://static.tvtropes.org/pmwiki/pub/images/ransom_note_2433.jpg">
+  <img src="https://static.tvtropes.org/pmwiki/pub/images/ransom_note_2433.jpg" alt="An image of letters cut out from a magazine and rearranged into a message.">
 </p>
 
 ## 🎯 Problem Statement
