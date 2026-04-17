@@ -41,6 +41,7 @@ export default ((opts?: Partial<Options>) => {
         >
           <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>
           <svg
+            role="img"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
