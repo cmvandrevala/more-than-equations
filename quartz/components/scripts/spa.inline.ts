@@ -99,7 +99,7 @@ async function _navigate(url: URL, isBack: boolean = false) {
     announcer.textContent = title
   }
   announcer.dataset.persist = ""
-  html.body.appendChild(announcer)
+  html.body.children[0].appendChild(announcer)
 
   // morph body
   await micromorph(document.body, html.body)
