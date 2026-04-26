@@ -108,6 +108,7 @@ Update your `Node` class to allow the user to specify what type of object will b
 ## 🔗 Useful Links
 
 * [C++ Project Template](https://github.com/cmvandrevala/links-in-a-chain-cpp-template)
+* [Java Project Template](https://github.com/cmvandrevala/links-in-a-chain-java-template)
 
 ## 📘 Works Cited
 
