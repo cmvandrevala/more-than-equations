@@ -45,4 +45,5 @@ tags:
 
 | Exam | Semester |
 |------|----------|
+| [Exam 1 (With Solutions)](/assets/exams/phy/202/summer-2024-exam-1-with-solutions.pdf) | Summer 2024 |
 | [Exam 1 (With Solutions)](/assets/exams/phy/202/summer-2025-exam-1-with-solutions.pdf) | Summer 2025 |
