@@ -40,3 +40,9 @@ tags:
 - [[Polarization Lesson Plan]]
 - [[Ideal Lenses Lesson Plan]]
 - [[Ideal Mirrors Lesson Plan]]
+
+## Past Exams
+
+| Exam | Semester |
+|------|----------|
+| [Exam 1 (With Solutions)](/assets/exams/phy/202/summer-2025-exam-1-with-solutions.pdf) | Summer 2025 |
