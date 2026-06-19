@@ -49,3 +49,5 @@ tags:
 | [Exam 1 (Partial Solutions)](/assets/exams/phy/202/summer-2025-exam-1-with-solutions.pdf) | Summer 2025 |
 | [Exam 2 (With Solutions)](/assets/exams/phy/202/summer-2024-exam-2-with-solutions.pdf) | Summer 2024 |
 | [Exam 2 (No Solutions)](/assets/exams/phy/202/summer-2025-exam-2-without-solutions.pdf) | Summer 2025 |
+| [Exam 3 (No Solutions)](/assets/exams/phy/202/summer-2024-exam-3-without-solutions.pdf) | Summer 2024 |
+| [Exam 3 (No Solutions)](/assets/exams/phy/202/summer-2025-exam-3-without-solutions.pdf) | Summer 2025 |
