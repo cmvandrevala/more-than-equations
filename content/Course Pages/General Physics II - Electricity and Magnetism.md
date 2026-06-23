@@ -52,5 +52,5 @@ tags:
 | [Exam 3 (No Solutions)](/assets/exams/phy/202/summer-2024-exam-3-without-solutions.pdf) | Summer 2024 |
 | [Exam 3 (No Solutions)](/assets/exams/phy/202/summer-2025-exam-3-without-solutions.pdf) | Summer 2025 |
 | [Final Exam (No Solutions)](/assets/exams/phy/202/practice-final-exam-without-solutions.pdf) | Practice |
-| [Final Exam (No Solutions)](/assets/exams/phy/202/summer-2024-final-exam-with-solutions.pdf) | Summer 2024 |
+| [Final Exam (With Solutions)](/assets/exams/phy/202/summer-2024-final-exam-with-solutions.pdf) | Summer 2024 |
 | [Final Exam (No Solutions)](/assets/exams/phy/202/summer-2025-final-exam-without-solutions.pdf) | Summer 2025 |
