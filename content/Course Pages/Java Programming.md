@@ -34,6 +34,9 @@ tags:
 
 ### Tic-Tac-Toe
 
-* [[Human vs Human]]
+* [[Adjacent Computer Player]]
+* [[First Available Spot Computer Player]]
 * [[Game Log]]
+* [[Human vs Human]]
 * [[Opportunistic Computer Player]]
+* [[Trap Cell]]
