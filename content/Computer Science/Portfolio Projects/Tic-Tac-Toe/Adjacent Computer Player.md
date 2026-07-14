@@ -111,7 +111,7 @@ What is your move?  8
   -----+-----+-----
     O  |  X  |  9
 
-The computer moved randomly in spot 9.
+The computer moved in spot 9.
 
     X  |  O  |  X
   -----+-----+-----
