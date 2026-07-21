@@ -49,13 +49,13 @@ Here are some examples of an input string, a search query, and the expected retu
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Case Sensitivity
+### (1/4 Point) Case Sensitivity
 
 Update the functions to allow the caller to decide whether they want the search to be case-sensitive or not. There are a few ways to do this, but one easy way might be to allow the user to specify a flag as an argument that dictates whether the search is case-sensitive or case-insensitive.
 
 If the user does not specify an option for case-sensitivity, the default should be case-sensitive search, just like in the original program.
 
-### (Two Credits) Starting Position
+### (1/2 Point) Starting Position
 
 Modify your functions to allow the caller to specify the starting position from which to search the string. If no starting position is specified, the search should start from the beginning of the string, just like before. A few example outputs are given below:
 
@@ -68,7 +68,7 @@ Modify your functions to allow the caller to specify the starting position from 
 | "The quick brown fox" | 'e' | 3 | -1 | char |
 | "The quick brown fox" | 'e' | 500 | -1 | char |
 
-### (Three Credits) Single Wildcard Character
+### (1 Point) Single Wildcard Character
 
 Allow the caller to use a single wildcard. The wildcard characters we'll use are *to match any sequence of (zero or more) characters and ?to match any single character. (Note, to allow them to search for a*or a ?in a string, you must fashion an escape-sequence — like we use to print tabs and newlines. I'd recommend the /character.)
 
@@ -83,7 +83,7 @@ Allow the caller to use a single wildcard. The wildcard characters we'll use are
 
 As always, if a user does not specify a wildcard symbol, the program's original behavior should not be changed.
 
-### (Four Credits) Multiple Wildcard Characters
+### (1 Point) Multiple Wildcard Characters
 
 Modify your functions to allow the caller to use multiple wildcard symbols in the same string (i.e. the * symbol). Doing this add-on assumes that the "Single Wildcard Character" add-on is also complete. A few example outputs are given below:
 

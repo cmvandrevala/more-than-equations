@@ -95,11 +95,11 @@ Goodbye!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Header File
+### (1/4 Point) Header File
 
 Move any business logic to print a board into a separate file from `main()` and create a corresponding header file. Then, `#include` the header file for your code in `main()`. This should not change the functionality of your code.
 
-### (Two Credits) Prevent Overwriting Taken Cells
+### (1/2 Point) Prevent Overwriting Taken Cells
 
 Right now, your program does not check to see if a cell is taken before marking it with an "X". In this add-on, check to make sure that the cell is not taken before marking it. If a cell is already taken, prompt the user for another mark.
 
@@ -135,7 +135,7 @@ What is your move?  4
     7  |  8  |  9
 ```
 
-### (Two Credits) Swapping Marks
+### (1/2 Point) Swapping Marks
 
 You need to complete "Prevent Overwriting Taken Cells" before attempting this add-on.
 
@@ -197,15 +197,15 @@ What is your move? exit
 Goodbye!
 ```
 
-### (Three Credits) Choosing a Mark
+### (1/2 Point) Choosing a Mark
 
 Update your code to allow a user to choose a one character long mark for the board. If you implemented the "Swapping Marks" add-on from above, they should be able to choose a one character long mark for both player one and player two. The game should display the player's choice for mark instead of X and O. Also, the game should prompt the player to choose another mark if it is not exactly one character.
 
-### (Four Credits) Random Computer Player
+### (1 Point) Random Computer Player
 
 Update your code so that player two is a computer player that makes random moves on the board. You do not have to ask the user if they want to play against a human or a computer; you can assume that they will always play against the random computer player.
 
-### (Five Credits) Win, Lose, or Draw
+### (1 Point) Win, Lose, or Draw
 
 Update your code so that the game ends when a player gets three in a row. You should print out which player won the game (player one or player two) or if the game ended in a tie.
 

@@ -21,6 +21,7 @@ Write a stack data structure that stores `Dish` objects. Like the post linked ab
 * If I try to push an object onto the stack while it is full, I should see a message telling me the stack is full, and the stack should remain unchanged.
 * I should be able to `peek` at the stack structure (i.e. view the top object of the stack without removing it from the stack).
 * I should be able to get the current size of the stack via a `size` method (i.e. how many elements are in the stack?).
+* You do not have to implement a generic stack structure. You can instead have it store `Dish` objects directly. There is an extra credit opportunity to make the stack generic.
 
 ## 📋 Dev Notes
 
@@ -134,11 +135,11 @@ Your driver program that tests the stack data structure might look something lik
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Clear Method
+### (1/4 Point) Clear Method
 
 Create a method that clears all elements in the stack.
 
-### (Three Credits) Generic Type for Stack
+### (1/2 Point) Generic Stack
 
 Update your stack class to allow the user to specify what type of object will be stored in the stack. You can use generics to specify the type of object. The behavior of your stack should not change otherwise.
 

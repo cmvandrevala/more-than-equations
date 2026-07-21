@@ -18,6 +18,7 @@ Write a binary tree data structure that stores `Squirrel` objects.
 * The nodes of the binary tree data structure should be objects.
 * I should be able to create a node and attach it to an existing node in the tree. Moreover, I should be able to specify whether I want to connect the new node as the "left" or "right" child.
 * I should be able to traverse the tree, starting from the root and moving to the leaves. Moreover, I should be able to move to the two child nodes of a given node using the `left` and `right` methods.
+* You do not have to implement a generic tree structure. You can instead have each `Node` object store a `Squirrel` directly. There is an extra credit opportunity to make the nodes generic.
 
 ## 📋 Dev Notes
 
@@ -107,9 +108,9 @@ You could create a driver program that tests the binary tree data structure. It 
 
 ## 💼 Optional Extra Credit
 
-### (Three Credits) Generic Type for Binary Tree
+### (1/2 Point) Generic Node
 
-Update your binary tree class to allow the user to specify what type of object will be stored in the tree. You can use a template to specify the type of object. The behavior of your binary tree should not change otherwise.
+Update your `Node` class to allow the user to specify what type of object will be stored in the tree. You can use a template to specify the type of object. The behavior of your binary tree should not change otherwise.
 
 ## 🔗 Useful Links
 

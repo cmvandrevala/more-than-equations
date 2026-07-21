@@ -114,11 +114,11 @@ I might create a driver program that utilizes the `TodoList` class as follows:
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Reject Blank Tasks
+### (1/4 Point) Reject Blank Tasks
 
 Add a validation to your code that ensures that a user cannot enter a blank task. It is up to you to decide whether the method will reject the input silently or return an error message. Either way, the program should continue gracefully after the empty string input.
 
-### (Two Credits) Reject Duplicate Tasks
+### (1/2 Point) Reject Duplicate Tasks
 
 Add a validation to your code that ensures that the following conditions are met:
 
@@ -127,7 +127,7 @@ Add a validation to your code that ensures that the following conditions are met
 
 It is up to you whether the method will reject the input silently or return an error message. Either way, the program should continue gracefully after the input.
 
-### (Three Credits) Tagged Tasks
+### (1 Point) Tagged Tasks
 
 Update your code so that users can associate one or more tags with a task. Then, a user should be able to filter tasks by tag.
 

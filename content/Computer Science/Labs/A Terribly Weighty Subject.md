@@ -85,7 +85,7 @@ That being said, the final number of pounds might be a decimal number.
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Singular vs Plural Units
+### (1/4 Point) Singular vs Plural Units
 
 Currently, the program will output the word "lbs", whether or not your final units are singular or plural (e.g. "1 lbs"). Add in logic to make it so your program correctly outputs the unit "lb" if the value is singular or "lbs" if the value is plural. The output should not change otherwise.
 
@@ -103,7 +103,11 @@ Thank you! Converting ounces to pounds.
 Thank you for using the OCP!
 ```
 
-### (Two Credits) Validate User Input
+### (1/4 Point) Convert to Ounces
+
+Create a function / method that takes two arguments - an integer number of pounds and an integer number of ounces. The function should return a string that calculates the total number of ounces from the arguments. Be sure to add additional test cases that cover this new function and include it in your driver program.
+
+### (1/2 Point) Validate User Input
 
 Currently, if a user enters an invalid input, the program will crash or display a strange result. We want to add some validation to the code so that invalid user inputs are handled gracefully.
 
@@ -136,10 +140,6 @@ Thank you! Converting ounces to pounds.
 
 Thank you for using the OCP!
 ```
-
-### (Two Credits) Convert to Ounces
-
-Create a function / method that takes two arguments - an integer number of pounds and an integer number of ounces. The function should return a string that calculates the total number of ounces from the arguments. Be sure to add additional test cases that cover this new function and include it in your driver program.
 
 ## 🔗 Useful Links
 

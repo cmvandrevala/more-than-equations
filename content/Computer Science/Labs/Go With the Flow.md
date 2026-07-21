@@ -160,11 +160,11 @@ printer.pretty_print();
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Dynamic Memory Allocation from Scratch
+### (1/2 Point) Dynamic Memory Allocation from Scratch
 
 Reimplement your code so that you do not use any data structures from the C++ standard library (e.g. you cannot use `vector`). Instead, you need to dynamically allocate the memory for each time step of the simulation from scratch. Your output should be identical to what you had before.
 
-### (Two Credit) Discretized Thermal Equation
+### (1/2 Point) Discretized Thermal Equation
 
 The equation that I gave you at the beginning of the lab is just an approximation of the full time-dependent heat equation, discretized by the finite difference method. The full equation has the form:
 
@@ -174,7 +174,7 @@ $$
 
 where $ \kappa $ is the thermal conductivity of the material $ \Delta x $ is the distance between each section of the rod, and $ \Delta t $ is the length of time between each time step in the simulation. Update your code to replace the single constant K with $ \kappa $, $ \Delta x $, and $ \Delta t $.
 
-### (Three Credits) Insulating Layer
+### (1 Point) Insulating Layer
 
 We are often curious about how heat moves between layers of material with different thermal conductivities. Update your code so that you can specify a thermal conductivity $ \kappa $ for each section, individually. Then, write a simulation that shows how heat flows between two metal rods with large $ \kappa $, separated by a small insulating layer with small $ \kappa $.
 

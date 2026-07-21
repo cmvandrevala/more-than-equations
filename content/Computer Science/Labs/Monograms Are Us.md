@@ -54,7 +54,7 @@ Thank you for using the Monogram Program!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Optional Punctuation
+### (1/4 Point) Optional Punctuation
 
 Update your program to ask the user if they want to separate their monogram by periods or spaces. Then, output the monogram with the given option. Your output might look something like this:
 
@@ -88,7 +88,7 @@ Thank you for using the Monogram Program!
 
 You do not need to validate random inputs - you can always assume that the user will provide a valid input for the option of spaces versus periods.
 
-### (Two Credits) Validate Initials
+### (1/2 Point) Validate Initials
 
 Sometimes, a user might mess up and enter two characters instead of one for one of their initials. Update your program to check the inputs provided by the users. If the input is a single character, proceed with the program as before. However, if the input is two or more characters, display a helpful error message and gracefully exit the program. Your output might looks something like this:
 
@@ -102,7 +102,7 @@ What are your initials (first, middle, and last)? AA B C
 Invalid input - an initial can only be one letter!
 ```
 
-### (Three Credits) Different Styles of Monogram
+### (1 Point) Different Styles of Monogram
 
 Another common monogram form places the middle initial first, then the first initial, and finally the last initial. The middle and last initials are placed on one line and the first initial is placed lower down.
 

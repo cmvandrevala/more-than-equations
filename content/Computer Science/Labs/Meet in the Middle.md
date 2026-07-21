@@ -57,15 +57,15 @@ The median of the dataset is 11.
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Mean
+### (1/2 Point) Mean
 
 Update your `main` program to calculate the mean (average) of the data set in addition to the median. As you write this code, think about how you can refactor the functionality of median to reuse shared behavior.
 
-### (Two Credits) Mode
+### (1/2 Point) Mode
 
 Update your `main` program to calculate the mode of the data set in addition to the median. As you write this code, think about how you can refactor the functionality of median to reuse shared behavior.
 
-### (Three Credits) Median Plus Bubble Sort
+### (1 Point) Median Plus Bubble Sort
 
 In the original problem, you made the assumption that the values in the data file were pre-sorted. Now, we will drop that assumption. Update your `main` function to sort the data before doing any calculations. You should implement bubble sort as the sorting function on your data set (don't use a built-in sorting function). Otherwise, the output of your `main` program should not change.
 

@@ -94,7 +94,7 @@ Thank you for using the Business Sorting Program!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) C-strings Versus String Class
+### (1/2 Point) C-strings Versus String Class
 
 When completing this lab, you probably used c-strings or the C++ string class to store the business names. Refactor your code to use c-strings if you used the string class and vice versa. The output of the program should be identical to what you had before.
 

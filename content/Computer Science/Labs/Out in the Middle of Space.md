@@ -103,7 +103,7 @@ Thank you for using the Point Conversion Program!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Validation of User's Choice
+### (1/4 Point) Validation of User's Choice
 
 When prompted to select either spherical or Cartesian coordinates, users might make a selection that is neither of those two options. Add in some validation logic that checks their input and re-prompts them for a value if it is invalid. Otherwise, the program should run as it did before.
 

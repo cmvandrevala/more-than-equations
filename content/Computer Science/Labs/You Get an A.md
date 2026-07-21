@@ -71,7 +71,7 @@ cout << gradebook.report();
 
 ## 💼 Optional Extra Credit
 
-### (Two Credits) Average Grade for a Student
+### (1/2 Point) Average Grade for a Student
 
 Update the report to calculate the average grade for each student. The average grade will just be the total number of points that they have earned for all assignments divided by the total number of points possible on all assignments. If a grade has not been entered for a particular assignment, don't include it in the average grade calculation. The output of your program might looks something like:
 
@@ -101,7 +101,7 @@ cout << gradebook.report();
 // Sammerson,Sam,DEF456,95,none,95.000
 ```
 
-### (Two Credits) Assignment Breakdown
+### (1/2 Point) Assignment Breakdown
 
 Create a new method on `Gradebook` called `assignment_report(...)` that takes an assignment as an argument and returns a breakdown of the scores. It should display all of the student scores for an assignment as well as the average score. If a score has not been entered for a student, display a placeholder and do not include it in the average score calculation. Your output might look something like this:
 

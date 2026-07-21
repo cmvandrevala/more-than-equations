@@ -43,23 +43,23 @@ I am not expecting any specific output on the console. Rather, I want to see the
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Remove Headers
+### (1/4 Point) Remove Headers
 
 Copy the cheese data into a new file called `cheese_without_headers.csv`. This new CSV file should not have any headers. In other words, copy everything except the first row.
 
-### (Two Credits) Remove Ids
+### (1/4 Point) Remove Ids
 
 Copy the cheese data into a new file called `cheese_without_ids.csv`. This CSV file should have all of the information from the original except for the first column. There should be no `CheeseId` column in this new file.
 
-### (Two Credits) Average Moisture Percent
+### (1/2 Point) Average Moisture Percent
 
 Calculate the average moisture percent of all of the cheeses listed in the dataset. Include this new piece of information in the `output.txt` file from before. The column representing this information is `MoisturePercent`.
 
-### (Two Credits) Missing IDs
+### (1/2 Point) Missing IDs
 
 This cheese dataset does not start from ID 1. Instead, it skips a couple hundred cheeses and starts from ID 200 onwards. Even from there, some IDs are still missing. Calculate which IDs are missing and write that information to a new file called `missing_ids.txt`. The column that contains this data is `CheeseId`.
 
-### (Five Credits) Lactic Cheeses
+### (1 Point) Lactic Cheeses
 
 Calculate the number of cheeses which are described as "lactic" and include this new piece of information in the `output.txt` file from before. The column that contains this data is `FlavourEn`.
 

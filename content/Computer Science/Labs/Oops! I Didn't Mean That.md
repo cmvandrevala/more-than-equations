@@ -64,7 +64,7 @@ int main()
 
 ## 💼 Optional Extra Credit
 
-### (Two Credits) Set Container
+### (1/2 Point) Set Container
 
 A set is a type of container that stores unique elements. Create another function called `remove_duplicates_via_set<T>(...)` that performs the same job as `remove_duplicates<T>(...)`, but uses a set in its implementation.
 

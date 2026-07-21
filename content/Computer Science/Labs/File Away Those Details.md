@@ -152,7 +152,7 @@ Thank you for using the Number Statistics Program!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Variable Number of Spaces
+### (1/2 Point) Variable Number of Spaces
 
 Update your program so that it can handle files with a variable number of spaces between each number. The output of the program should be identical to the original. For example, the data file might contain:
 
@@ -160,7 +160,7 @@ Update your program so that it can handle files with a variable number of spaces
 1 2        3 4 5 6  7 8 9    0
 ```
 
-### (One Credit) Newlines
+### (1/2 Point) Newlines
 
 Update your program so that it can handle files with newlines between numbers. The output of the program should be identical to the original. For example, the data file might contain:
 

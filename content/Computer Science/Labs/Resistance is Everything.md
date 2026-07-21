@@ -88,7 +88,7 @@ Thank you for using the RCP!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Algebraic Exploration
+### (1/4 Point) Algebraic Exploration
 
 The formulae that were given above for the equivalent resistance calculations are what you would see in most introductory electronic circuits textbooks. However, they are not necessarily optimal for implementation on a computer. Specifically, the equation for the series configuration is fine, but the one for the parallel configuration is not optimal. The equation for the parallel configuration requires three divisions, and division can be slow on a computer.
 
@@ -96,7 +96,7 @@ Rearrange the equation for the parallel configuration to require only one divisi
 
 Hint: Start with the equation $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ and solve for $R_{eq}$. Simplify the right side of the equation and then take the inverse of both sides.
 
-### (One Credit) Multiple Prompts
+### (1/4 Point) Multiple Prompts
 
 It can be cumbersome for a user to enter two values in one prompt. Refactor your program to use two prompts instead of one:
 
@@ -119,7 +119,7 @@ If they are placed in parallel, they will total 9.333333 ohms.
 Thank you for using the RCP!
 ```
 
-### (Two Credits) User Entered Units
+### (1/2 Point) User Entered Units
 
 Sometimes, people like to enter units of "ohms" as part of their input. Refactor the program to do the following:
 

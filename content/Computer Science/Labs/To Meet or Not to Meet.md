@@ -73,7 +73,7 @@ Thank you for using the Room Capacity Program!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Check for Zero / Negative Inputs
+### (1/4 Point) Check for Zero / Negative Inputs
 
 If the user enters a value of zero or less, this causes issues later in the execution. A maximum occupancy of zero will result in an infinitely high percentage. A maximum occupancy or current number of people less than zero will result in a negative percentage. Both of these are non-physical.
 
@@ -107,7 +107,7 @@ This meeting is LEGAL - proceed with the congregation!
 Thank you for using the Room Capacity Program!
 ```
 
-### (One Credit) Check for Non-Numeric Inputs
+### (1/4 Point) Check for Non-Numeric Inputs
 
 If the user enters a non-numeric character for the maximum occupancy or current number of people, the program is going to crash or display some strange behavior.
 
@@ -141,7 +141,7 @@ This meeting is LEGAL - proceed with the congregation!
 Thank you for using the Room Capacity Program!
 ```
 
-### (Three Credits) Real-Time Updates
+### (1 Point) Real-Time Updates
 
 It would be nice to be able to track people as they enter the room. Implement a loop that allows a user to keep a tally of the number of people who have entered the meeting thus far. The user can exit the loop by typing "exit". Your output might look something like this:
 

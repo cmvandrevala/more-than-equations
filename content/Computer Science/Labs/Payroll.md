@@ -71,13 +71,13 @@ Thank you for using the Payroll Program!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Customized Pay Rate
+### (1/4 Point) Customized Pay Rate
 
 It is unrealistic for every employee of the company to earn $16.78 per hour. Add a prompt to ask the user what their pay rate is. Then, use that pay rate in all of the calculations.
 
 The output of your program should not change otherwise.
 
-### (One Credit) Validations for Pay Rate
+### (1/4 Point) Validations for Pay Rate
 
 You must first complete the add-on called "Customized Pay Rate" before you can attempt this add-on.
 
@@ -85,13 +85,13 @@ Right now, an employee can accidentally type a negative number for the pay rate.
 
 The output of your program should not change otherwise.
 
-### (One Credit) Validations for Number of Children
+### (1/4 Point) Validations for Number of Children
 
 Right now, an employee can accidentally type a negative number for the number of children. Update your code so that if an employee types a negative number for the number of children, it automatically treats the number of children as zero. Is this the best strategy? Probably not. But the employee will see zero children on their report and know something went wrong.
 
 The output of your program should not change otherwise.
 
-### (Two Credits) Validations for Negative Pay
+### (1/2 Point) Validations for Negative Pay
 
 After taxes are deducted from an employee's paycheck, there could be a situation where there is not enough money left for union dues or insurance payments. In this situation, don't subtract union dues or insurance payments from the paycheck. Instead, print out how much the employee owes in dues / payments in addition to their payment. An example output looks like:
 
@@ -121,7 +121,7 @@ The employee still owes:
 Thank you for using the Payroll Program!
 ```
 
-### (Four Credits) Life Insurance Plans
+### (1 Point) Life Insurance Plans
 
 Employees can now add a life insurance plan to their payroll calculation. The packages available are: (1) no plan, (2) the single plan, (3) the married plan, and (4) the married with children plan. In addition to prompting the user for the number of hours that they worked and the number of children that they have, prompt the user with a menu of life insurance options. If the user enters a valid life insurance option, proceed with the calculation, including the life insurance costs outlined below. If the user does not enter a valid life insurance plan, print out an error message and prompt them for another selection.
 

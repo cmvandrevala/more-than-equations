@@ -109,7 +109,7 @@ cout << magnitude; // Returns 8.602325267
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Calculate the Phase
+### (1/4 Point) Calculate the Phase
 
 Add a method to your `ComplexNumber` class called `phase` which calculates the phase of the number. The phase of the number is given by:
 
@@ -119,7 +119,7 @@ $$
 
 Be sure that the method is tested either by your driver function or assertions.
 
-### (Two Credits) Multiplication and Division
+### (1/4 Point) Multiplication and Division
 
 In the "Background Information" section, we defined multiplication and division of complex numbers. However, we did not implement them in the lab, originally.
 

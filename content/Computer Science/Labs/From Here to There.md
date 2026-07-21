@@ -59,7 +59,7 @@ Thank you for using the 2D Distance Program.
 
 ## 💼 Optional Extra Credit
 
-### (Two Credits) Two or Three-Dimensional Points
+### (1/2 Point) Two or Three-Dimensional Points
 
 Update your program to allow users to find the distance between two points in a 2D or 3D Cartesian coordinate system. The program should prompt the user to determine whether they want to find the distance in 2D or 3D, and then continue as expected.
 
@@ -111,7 +111,7 @@ $$
 d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}
 $$
 
-### (Three Credits) Cosine Similarity
+### (1 Point) Cosine Similarity
 
 The cosine similarity is another way that you might measure the relationship between two points. Imagine each of the points is a vector. In order to calculate the cosine similarity, first you calculate the dot product of the two vectors and then you divide by the magnitude of each vector.
 

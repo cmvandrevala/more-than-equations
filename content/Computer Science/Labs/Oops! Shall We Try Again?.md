@@ -85,7 +85,7 @@ The value chosen by the user is 45
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Default Values
+### (1/4 Point) Default Values
 
 Sometimes, a user wants to accept a default value rather than specify something specific. Update your function to allow a caller to specify an optional default value. Additionally, update the prompt to give the user the option to use the default value. There are many ways to do this, but one idea might look something like:
 
@@ -98,7 +98,7 @@ The value chosen by the user is 100
 
 Otherwise, the output of the program should be identical to what you had beforehand.
 
-### (Two Credits) Abort the Entry
+### (1/2 Point) Abort the Entry
 
 Sometimes, a user decides that they want to exit out of a prompt rather than provide an input. Update your function to allow a user to abort from the menu without specifying any value. There are many ways to do this, but one idea might look something like:
 

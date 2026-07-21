@@ -70,7 +70,7 @@ int main() {
 
 ## 💼 Optional Extra Credit
 
-### (Two Credits) Number and Suffix Together
+### (1/2 Point) Number and Suffix Together
 
 Update your function to pass in another argument called `include_number`. If the argument is set to true, the output will be the number prepended to the suffix. If the argument is set to false, the output will be just the suffix, as it was before. For example:
 

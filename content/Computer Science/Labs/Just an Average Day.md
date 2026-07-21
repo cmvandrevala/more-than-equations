@@ -49,19 +49,19 @@ public int averageUsingStream(int[] nums) { ... }
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Evens Only
+### (1/4 Point) Evens Only
 
 Write a function that takes an array of integers and filters out any odd numbers. You must use the Java Stream API for this solution and test it using JUnit.
 
-### (One Credit) Odds Only
+### (1/4 Point) Odds Only
 
 Write a function that takes an array of integers and filters out any even numbers. You must use the Java Stream API for this solution and test it using JUnit.
 
-### (One Credit) Add Five
+### (1/4 Point) Add Five
 
 Write a function that takes an array of integers and returns a new array of integers where all of the numbers have been incremented by five. You must use the Java Stream API for this solution and test it using JUnit.
 
-### (One Credit) Square Numbers
+### (1/4 Point) Square Numbers
 
 Write a function that takes an array of integers and returns a new array of integers where all of the numbers have been squared. You must use the Java Stream API for this solution and test it using JUnit.
 

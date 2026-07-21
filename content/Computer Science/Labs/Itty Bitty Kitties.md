@@ -74,7 +74,7 @@ Have a cat-tastic day!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) More Emoticons
+### (1/4 Point) More Emoticons
 
 Add the following emoticons to your program.
 
@@ -86,11 +86,11 @@ Add the following emoticons to your program.
 | surprised      | ／(=๏ x ๏=)＼         |
 | mouse          | …ᘛ⁐̤ᕐᐷ                |
 
-### (Two Credits) Case-Insensitive Matches
+### (1/2 Point) Case-Insensitive Matches
 
 Right now, your code will replace "cat" with an emoticon, but it will not replace "Cat" with a capital "C". Update your code to replace the first instance of each word, regardless of its capitalization. The program should run identical to before, otherwise.
 
-### (Three Credits) Multiple Instances of Each Word
+### (1/2 Point) Multiple Instances of Each Word
 
 A user might enter a sentence with multiple instances of each word. Update your program to convert all instances of a word to the emoticon. For example:
 

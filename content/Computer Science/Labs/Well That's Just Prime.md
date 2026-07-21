@@ -81,15 +81,15 @@ You have the ability to choose the format of how you want to return your output.
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Is It Prime?
+### (1/4 Point) Is It Prime?
 
 A number is prime if its only factors are one and itself (thus, its only prime factor is itself). Write a function that takes a number as an input and returns whether the number is prime or not. The solution must utilize your prime factors function. You are allowed to tweak your prime factors function so that it can be used for this add-on, but the original acceptance criteria must still be satisfied.
 
-### (One Credit) Is It Composite?
+### (1/4 Point) Is It Composite?
 
 A number is composite if it is not equal to one and it is not prime. Write a function that takes a number as an input and returns whether the number is composite or not. It might be helpful to first implement the "Is It Prime?" add-on and use it here.
 
-### (Three Credits) Simplifying Fractions
+### (1/2 Point) Simplifying Fractions
 
 We can use prime factors to simplify fractions. For example, consider the fraction $12/26$. We can factor the top of the fraction into $12 = 2 \times 2 \times 3$ and the bottom of the fraction into $26 = 2 \times 13$. Since there is a common value of $2$ in the top and bottom, we can cancel it out and get a new fraction of $6/13$.
 

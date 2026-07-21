@@ -95,15 +95,15 @@ Here is an example of how you might use the `TriangleNumberCalculator` class.
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Multiplication
+### (1/4 Point) Multiplication
 
 Implement a method called `int multiply(int n, int m)` which multiplies the nth and mth triangular numbers. Be sure to test your method!
 
-### (One Credit) Division
+### (1/4 Point) Division
 
 Implement a method called `double divide(int n, int m)` which divides the nth and mth triangular numbers. Be sure to test your method!
 
-### (Two Credits) Sequence
+### (1/2 Point) Sequence
 
 Implement a method called `sequence(int n)` which returns a list of triangle numbers up to the Nth number: $T_1, T_2, T_3, ..., T_N$. Be sure to test your method!
 

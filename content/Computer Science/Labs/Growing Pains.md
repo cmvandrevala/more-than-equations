@@ -67,13 +67,13 @@ array.get_element_at_index(37); // Returns 37
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Arithmetic Growth
+### (1/4 Point) Arithmetic Growth
 
 Not all dynamic arrays are created equal! There are different strategies that you can use to determine how much the array grows when it runs out of space as well as when you should actually resize the array. Each of these implementations has different pros and cons.
 
 Create a new `ArithmeticDynamicArray` class that is almost identical to the original, but it takes an optional integer argument upon construction. When the dynamic array runs out of space, resize it by the given number rather than by one. To the end user, the behavior of the array should look pretty much the same as the original. But under the hood, your array will not be resizing itself on every call to `append_element(int element)` (unless the user inputted a value of one).
 
-### (Two Credits) Geometric Growth
+### (1/4 Point) Geometric Growth
 
 Not all dynamic arrays are created equal! There are different strategies that you can use to determine how much the array grows when it runs out of space as well as when you should actually resize the array. Each of these implementations has different pros and cons.
 

@@ -64,7 +64,7 @@ Thank you for using the 2D Midpoint Program.
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) A More Natural Input - Thought Provoking Questions
+### (1/4 Point) A More Natural Input - Thought Provoking Questions
 
 Students are complaining that their teacher makes them use standard ordered pair notation when writing points in class, but your program makes them enter points without the notation. In this add-on, we will not be updating the code itself, but rather thinking about what it would take to update the code to accept points in the canonical ordered-pair style - parenthesis surrounding the coordinates and a comma between them.
 
@@ -75,7 +75,7 @@ Answer the following questions:
 3. How can you distinguish between parentheses, commans, and numbers when you retrieve the input from the user?
 4. What might happen if a user enters their points using a different style of brackets? For example, [1, 3] vs. (1, 3) vs. {1, 3}? How might you support all of these types of inputs?
 
-### (Two Credits) A More Natural Input - Code
+### (1/2 Point) A More Natural Input - Code
 
 Students are complaining that their teacher makes them use standard ordered pair notation when writing points in class, but your program makes them enter points without the notation. Update your program to force the user to enter the end points of the segment in the canonical ordered-pair style - parenthesis surrounding the coordinates and a comma between them. The program should not change, otherwise.
 
@@ -101,7 +101,7 @@ Thank you for using the 2D Midpoint Program.
 
 Note: add-ons can be done in any order. Although it is not required, it might be helpful to do the one-credit add-on before attempting this one.
 
-### (Three Credits) Different Options for Inputs
+### (1 Point) Different Options for Inputs
 
 Some students want to use other delimiiters when they type points into your program. The list of styles that they want to support are:
 

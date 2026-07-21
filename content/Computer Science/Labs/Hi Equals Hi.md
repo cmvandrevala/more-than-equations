@@ -58,7 +58,7 @@ The comparison of "String two" and "string one" returns 1.
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Skip Spaces
+### (1/4 Point) Skip Spaces
 
 Add a defaulted argument to your function which will allow the caller to request that you skip spaces when doing the comparison. Otherwise, the output of the function should be identical to what you had before. Some sample values are:
 
@@ -71,7 +71,7 @@ Add a defaulted argument to your function which will allow the caller to request
 | " My Cool String" | "mycoolstring" | Equal |
 | "Another string" | "mycoolstring" | Not Equal |
 
-### (Two Credits) Maximum Number of Characters
+### (1/2 Point) Maximum Number of Characters
 
 Add a defaulted argument to your function which will allow the caller to request that you stop at a certain maximum number of characters when doing the comparison. For example, if the user specifies the number five, the function will only compare the first five characters of each inputted string when doing the comparison. Otherwise, the comparison should be identical to what the program did beforehand. If the user does not specify a default, the function should compare the entire strings.
 
@@ -83,7 +83,7 @@ You need to handle a number of edge cases for this feature:
 
 Note: If a user enters "5", they are not stopping at the character with index 5. They are stopping after the first 5 characters.
 
-### (Three Credits) Ordered Numbers
+### (1 Point) Ordered Numbers
 
 Modify your function so that numbers at the start of the strings are compared / ordered properly, even when they are not justified with leading zeroes. Otherwise, the output of the function should be identical to what you had before. For example:
 

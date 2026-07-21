@@ -69,7 +69,7 @@ Comparing the times might check that they are within some tolerance of each othe
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Pretty Print the Time
+### (1/4 Point) Pretty Print the Time
 
 Create a `pretty_print(...)` method on the `Timer` class that prints the elapsed time to the console in a nice format. This time should be printed using hours, minutes, and seconds as follows in the table below.
 
@@ -86,7 +86,7 @@ Create a `pretty_print(...)` method on the `Timer` class that prints the elapsed
 
 Your program should remain unchanged, otherwise.
 
-### (Two Credits) Addition and Subtraction
+### (1/2 Point) Addition and Subtraction
 
 In this add-on, you are going to give users the ability to add or subtract the elapsed times from two timers. The return value will be a new timer with a new elapsed time.
 
@@ -95,7 +95,7 @@ In this add-on, you are going to give users the ability to add or subtract the e
 
 Your program should remain unchanged, otherwise.
 
-### (Four Credits) Rolling Your Own Mocks
+### (1 Point) Rolling Your Own Mocks
 
 You might have noticed that it was difficult (impossible?) to test the `Timer` object using an automated test suite because you did not directly control the system clock. One way that we can test our code is to wrap the components that we do not have control over in another object and then inject them into the `Timer` class. For example, you could wrap the C++ time library in a new class called `CPlusPlusTime` and then inject an instance of `CPlusPlusTime` into the `Timer` class in the constructor via an abstract base class. This allows you to create a test implementation of `CPlusPlus` time which can be used for testing.
 

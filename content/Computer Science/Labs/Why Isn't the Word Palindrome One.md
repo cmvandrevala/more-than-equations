@@ -59,7 +59,7 @@ int main() {
 
 ## 💼 Optional Extra Credit
 
-### (Two Credits) Phrase Palindromes
+### (1/2 Point) Phrase Palindromes
 
 A phrase palindrome is a palindrome that ignores punctuation and whitespace in addition to capitalization. Some examples of phrase palindromes are:
 
@@ -71,7 +71,7 @@ A phrase palindrome is a palindrome that ignores punctuation and whitespace in a
 
 Update the `is_palindrome` function to detect phrase palindromes as well as regular palindromes. You should not change the function signature - in other words, you should not add more arguments or change the return type. Your changes should leave any existing functionality unchanged.
 
-### (Three Credits) Single Pass
+### (1 Point) Single Pass
 
 Many solutions involve copying the string argument, reversing it, and then comparing the two strings. This works find for small strings, but it can be very inefficient for large strings. Instead, it would be better to iterate over each character of the string and compare it to its corresponding character at the opposite end of the string.
 

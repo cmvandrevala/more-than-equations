@@ -65,7 +65,7 @@ cout << p1 / p2 << endl; // Prints out a nicely formatted point such as (4.35, 4
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Multiplication by a Constant
+### (1/4 Point) Multiplication by a Constant
 
 Overload `operator*` to multiply the point by a constant. For instance:
 
@@ -78,7 +78,7 @@ cout << p * -3 << endl;   // This should print out (-9.6, -29.4)
 
 A user should be able to multiply the point by an integer, a float, or a double. Update your unit tests and / or driver program to test this new functionality.
 
-### (Two Credits) Array Indexing
+### (1/2 Point) Array Indexing
 
 Overload `operator[]` to return the x or y part of the point. For instance:
 

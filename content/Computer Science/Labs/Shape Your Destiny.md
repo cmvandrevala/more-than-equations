@@ -82,7 +82,7 @@ N/A
 
 ## 💼 Optional Extra Credit
 
-### (Two Credits) Parallelogram
+### (1/2 Point) Parallelogram
 
 A rectangle is a type of parallelogram, and a parallelogram is a type of polygon. Update your classes and interfaces to include a parallelogram in the structure. Be sure to unit test where appropriate!
 

@@ -80,7 +80,7 @@ Thank you for using the Time Interval Calculation Program.
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Inclusive Versus Exclusive Time Interval
+### (1/4 Point) Inclusive Versus Exclusive Time Interval
 
 Update your program to allow a user to decide if they want to include the starting time in the final output (inclusive) or omit it (exclusive). If a user chooses "exclusive", the program should return the same calculation as before. However, if the user chooses "inclusive" the final answer should be the time interval plus one minute (since it includes the starting time).
 
@@ -111,7 +111,7 @@ The inclusive time interval can be written as:
 Thank you for using the Time Interval Calculation Program.
 ```
 
-### (Two Credits) Validation of Times
+### (1/2 Point) Validation of Times
 
 Update your code to ensure that a time entered by a user is a valid 24 hour time. For example, a user could not enter "26:99" as a time.
 
@@ -149,7 +149,7 @@ The inclusive time interval can be written as:
 Thank you for using the Time Interval Calculation Program.
 ```
 
-### (Three Credits) Times on Two Different Days
+### (1 Point) Times on Two Different Days
 
 Update your program to allow a user to enter times on two different days. This might look something like this:
 
@@ -171,7 +171,7 @@ The time interval can be written as:
 Thank you for using the Time Interval Calculation Program.
 ```
 
-### (Four Credits) AM / PM Format
+### (1 Point) AM / PM Format
 
 Update your code to allow a user to enter the times in AM / PM format or in 24 hour format. Your program might look something like this:
 

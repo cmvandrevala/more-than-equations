@@ -66,15 +66,15 @@ public static void main(String args[]) {
 
 ## 💼 Optional Extra Credit
 
-### (Two Credits) Linear Search Analysis
+### (1/2 Point) Linear Search Analysis
 
 Write me a short analysis that calculates the worst-case scenario running time for linear search on a randomized list of fuzzies. It should include mathematical expressions that categorize your algorithm.
 
-### (Two Credits) Binary Search Analysis
+### (1/2 Point) Binary Search Analysis
 
 Write me a short analysis that calculates the worst-case scenario running time for binary search on a randomized list of fuzzies. It should include mathematical expressions that categorize your algorithm.
 
-### (Four Credits) Cold Pricklies
+### (1 Point) Cold Pricklies
 
 Cold pricklies have gotten into the list of warm fuzzies, and it is your job to get rid of them! For this add-on, you are allowed to change any of the files in the project, including `Fuzzy` and `FuzzyListGenerator`.
 

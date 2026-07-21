@@ -67,7 +67,7 @@ Thank you for using the DSP!
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Critical Hit
+### (1/4 Point) Critical Hit
 
 In Dungeons and Dragons, if you roll a 20 on a 20-sided die, that is called a natural 20. In combat, a natural 20 corresponds to a critical hit. Modify your program so that if the user is rolling a 1d20, the program tells them that they got a natural 20 and a critical hit. The output of the program might look something like this:
 
@@ -93,7 +93,7 @@ You rolled a natural 20! Critical hit!
 Thank you for using the DSP!
 ```
 
-### (Two Credits) Constant Modifier
+### (1/2 Point) Constant Modifier
 
 Oftentimes, a player wants to roll some dice and add a constant modifier to the result. For example, I might want to roll three six-sided dice and then add the number 4 to the result. This would be written as "3d6 + 4". Note that the maximum, minimum, and average values will all increase by the amount of the constant modifier.
 
@@ -124,7 +124,7 @@ You rolled a 10.
 Thank you for using the DSP!
 ```
 
-### (Three Credits) A More Natural UI
+### (1 Point) A More Natural UI
 
 Traditional gamers using your program might find the interaction a bit clumsy since they are used to the notation that you print in the report (NdS) instead of entering N at one prompt and S at another. It is in their guide / rulebooks as NdS, it is on their character sheets as NdS, and it is even in their heads as NdS, but they can't use it here!
 
@@ -168,7 +168,7 @@ You rolled a 21!
 Thank you for using the DSP!
 ```
 
-### (Four Credits) Dice Combinations
+### (1 Point) Dice Combinations
 
 You need to complete "A More Natural UI" before you can do this add-on.
 

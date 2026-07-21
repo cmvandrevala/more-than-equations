@@ -55,11 +55,11 @@ int main() {
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Shift Left and Right
+### (1/4 Point) Shift Left and Right
 
 Rename the function `arrayShift(...)` to `arrayShiftLeft(...)`. Then, add a second function called `arrayShiftRight(...)` to the library. It should take the same arguments as `arrayShiftLeft(...)`, but it rotates the values in the array to the right.
 
-### (Two Credits) Rotating C++ Vectors
+### (1/2 Point) Rotating C++ Vectors
 
 Create a new function called `vectorShift(...)` which takes a C++ vector and a number of shifts as arguments (notice that it does not take the size of the vector since you can use the built-in methods on vector to figure that out). This function should update the vector in the same way that `arrayShift(...)` updated arrays.
 

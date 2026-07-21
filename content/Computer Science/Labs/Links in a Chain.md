@@ -18,6 +18,7 @@ Write a singly linked list data structure that stores `Link` objects.
 * The nodes of the linked list data structure should be objects.
 * I should be able to create a node and attach it to an existing node in the list.
 * I should be able to traverse the list, starting from the HEAD and moving to the end.
+* You do not have to implement a generic tree structure. You can instead have each `Node` object store a `Link` directly. There is an extra credit opportunity to make the nodes generic.
 
 ## 📋 Dev Notes
 
@@ -101,7 +102,7 @@ A driver program might look something like this:
 
 ## 💼 Optional Extra Credit
 
-### (Three Credits) Generic Type for the Linked List
+### (1 Point) Generic Linked List
 
 Update your `Node` class to allow the user to specify what type of object will be stored in the list. You can use a template to specify the type of object. The behavior of your singly linked list should not change otherwise.
 

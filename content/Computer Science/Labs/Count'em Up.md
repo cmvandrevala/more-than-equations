@@ -116,19 +116,19 @@ A driver function might display the following behavior when utilizing your `Groc
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Custom Starting Value
+### (1/4 Point) Custom Starting Value
 
 Update the constructor for the `GroceryCounter` class to take in a starting value for the counter. Be sure to validate the value to make sure that it falls in the acceptable range of 0000 to 9999. If it does fall in the acceptable range, continue with the execution of the program as before.
 
-### (Two Credits) Custom Counter Maximum
+### (1/2 Point) Custom Counter Maximum
 
 Update the constructor for the `GroceryCounter` class to take in a customized maximum counter value. This value does not need to be bound by 0000 to 9999 - it can be as large as a user wants. Validate that the user enters a positive integer value. Your `GroceryCounter` class should use the new maximum counter value instead of 9999 when doing its calculations.
 
-### (Two Credits) Decrement Values
+### (1/2 Point) Decrement Values
 
 Update the `GroceryCounter` class with four new methods: `decrementTens()`, `decrementOnes()`, `decrementTenths()`, and `decrementHundreths()`. These four methods should decrement the associated digit by one. Be sure to correctly handle the underflow edge case where a number is decremented below zero.
 
-### (Three Credits) Customized Increment
+### (1/2 Point) Customized Increment
 
 Update the `GroceryCounter` class with a new method called `increment(int amount)`. This allows a user to increment the counter by any arbitrary integer value. Remember, you still need to handle overflows, just like before!
 

@@ -48,7 +48,7 @@ public static void main(String[] args) {
 
 ## 💼 Optional Extra Credit
 
-### (Three Credits) Lists to HashMap
+### (1/2 Point) Lists to HashMap
 
 Create a new method called `hashmapify(...)` that takes two arguments. The first argument should be a `List<String>` and the second should be a `List` of elements, all having some generic type. The method should create a `HashMap` where the keys come from the first argument and the values come from the second. If the two list arguments do not have the same size, throw an exception.
 

@@ -20,6 +20,7 @@ Write a queue data structure that stores "cute" objects. A cute object is an obj
 * I should be able to `enqueue(...)` and `dequeue(...)` a `Cutie` object to the queue data structure.
 * If I try to enqueue an object onto the queue while it is full, I should see a message telling me the queue is full. The queue should remain unchanged.
 * I should be able to get the current size of the queue via a `size(...)` method (i.e. how many elements are in the queue).
+* You do not have to implement a generic queue structure. You can instead have it store `Cutie` objects directly. There is an extra credit opportunity to make the queue generic.
 
 ## 📋 Dev Notes
 
@@ -131,11 +132,11 @@ Suppose you wrote a queue data structure called `QueueTees`. You then created `P
 
 ## 💼 Optional Extra Credit
 
-### (One Credit) Clear Method
+### (1/4 Point) Clear Method
 
 Create a method that clears all elements in the queue.
 
-### (Three Credits) Generic Type for Queue
+### (1/2 Point) Generic Queue
 
 Update your queue class to allow the user to specify what type of object will be stored in the queue. You can use a class template to specify the type of object. The behavior of your queue should not change otherwise.
 
