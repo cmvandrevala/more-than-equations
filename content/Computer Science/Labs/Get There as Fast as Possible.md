@@ -62,7 +62,7 @@ Consider the directed graph shown above. Some sample outputs of your algorithm w
 2. What is the time complexity of Dijkstra's algorithm?
 3. Suppose you naively tried to solve this problem with a brute force algorithm. What is its time complexity?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

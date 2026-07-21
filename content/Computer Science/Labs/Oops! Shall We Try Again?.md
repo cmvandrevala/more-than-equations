@@ -83,7 +83,7 @@ The value chosen by the user is 45
 3. What type of value is returned by your function? Why?
 4. Are there any edge cases that you can think of that might make your program crash? What might they be?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Default Values
 

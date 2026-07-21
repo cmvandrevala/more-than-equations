@@ -40,7 +40,7 @@ removeDuplicates([1, 1, 3, 3, 5, 5]) // Returns [1, 3, 5]
 
 1. How would you have solved this problem if you were not allowed to use a set data structure (or any built-in methods to automatically remove duplicates)? Would your solution be better or worse than the set solution? Why?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

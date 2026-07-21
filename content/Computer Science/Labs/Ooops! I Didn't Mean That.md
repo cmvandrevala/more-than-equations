@@ -62,7 +62,7 @@ int main()
 2. How did you access the item at a specific position in the vector?
 3. How did you detect that an element was repeated?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Two Credits) Set Container
 

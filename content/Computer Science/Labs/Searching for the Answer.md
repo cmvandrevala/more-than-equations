@@ -59,7 +59,7 @@ Note that I start indexing words from zero.
 3. What is the time complexity of your algorithm based on your benchmarks?
 4. Estimate the space complexity of your algorithm. Explain your reasoning.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

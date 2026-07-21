@@ -47,7 +47,7 @@ public int averageUsingStream(int[] nums) { ... }
 4. What does the `filter` function do in a stream?
 5. What does the `reduce` function do in a stream?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Evens Only
 

@@ -63,7 +63,7 @@ And so on...
 5. How did you choose to store your output? Why did you pick this method?
 6. How might the performance of your simulation change if you had to simulate three dimensions instead of one?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

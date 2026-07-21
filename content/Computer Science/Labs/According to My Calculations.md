@@ -126,7 +126,7 @@ I might expect to see the `Calculator` class used like this:
 2. How would you implement exponential expressions in your calculator? Note: you do not have to actually implement them, just tell me what you think you would have to do.
 3. One way to think about certain computer science problems is that you are taking some data and passing it through a series of transformations. For example, you might take some initial input from a user, then mark it as "raw", then clean up whitespace, then check it for errors, etc. How does this program fit that model of a series of data transformations?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

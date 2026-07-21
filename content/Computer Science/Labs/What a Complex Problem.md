@@ -107,7 +107,7 @@ cout << magnitude; // Returns 8.602325267
 2. What are the types of values that are returned from each method in `ComplexNumber`?
 3. What happens if you try to initialize your `ComplexNumber` class with an integer instead of a float?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Calculate the Phase
 

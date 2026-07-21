@@ -55,7 +55,7 @@ N/A
 6. How might you generate a tree with the largest possible depth via the `tree` command?
 7. In Unix-like operating systems, all the files on all the devices generally exist in a single hierarchy. In other words, there is one root directory called `/`, and every file on the system is located under it somewhere. How does this relate to the idea of a tree data structure?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

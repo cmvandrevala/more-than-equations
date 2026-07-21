@@ -68,7 +68,7 @@ int main() {
 1. How many tests do you need to write to thoroughly test the `number_suffix` function?
 2. How many digits of the inputted integer do you need to check to determine the suffix?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Two Credits) Number and Suffix Together
 

@@ -150,7 +150,7 @@ Thank you for using the Number Statistics Program!
 2. What strategies might you use to make sure that your program does not run out of memory space as you read a large data file?
 3. When finding the largest or smallest item in a list, what value should you start with as your assumed value?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Variable Number of Spaces
 

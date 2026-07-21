@@ -53,7 +53,7 @@ int main() {
 2. Why must we pass in the size of the int array into the `arrayShift(...)` function?
 3. What strategy might you use to make this function work with arrays of characters as well as arrays of integers?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Shift Left and Right
 

@@ -80,7 +80,7 @@ N/A
 1. Suppose I added more shape-based classes to the structure like `Kite` or `Rhombus`. Eventually, we would get to a point where a shape like a `Square` is geometrically also a `Rectangle`, a `Rhombus`, and a `Kite`. Would you be able to model this relationship with our inheritance tree? Why or why not?
 2. Suppose I wanted to change the abstract `Shape` class in the inheritance tree versus change the `Polygon` interface. Which would be easier to do? Why?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Two Credits) Parallelogram
 

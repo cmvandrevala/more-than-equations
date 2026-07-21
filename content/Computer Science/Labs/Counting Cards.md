@@ -43,7 +43,7 @@ There is only one overarching question this week.
 * Do you have any comments or recommendations on how to improve performance further?
 * Etc...
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

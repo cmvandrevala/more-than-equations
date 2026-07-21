@@ -58,7 +58,7 @@ Here are some sample inputs and outputs for a function `bool canCreateNote(strin
 3. Estimate the time complexity of your solution. Explain your reasoning.
 4. Can you reconstruct the play __Romeo and Juliet__ from the characters of the play __Othello__? How long did your function take to run with this input? Be sure to measure this time using a benchmarking utility!
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

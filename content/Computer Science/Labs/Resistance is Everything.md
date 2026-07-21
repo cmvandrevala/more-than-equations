@@ -86,7 +86,7 @@ Thank you for using the RCP!
 5. What happens if a user types in a negative value for one of the resistances? You do not need to write any code to handle this error case. Just try it out in your program and report what happens.
 6. What happens if a user types in zero for one of the resistances? You do not need to write any code to handle this error case. Just try it out in your program and report what happens.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Algebraic Exploration
 

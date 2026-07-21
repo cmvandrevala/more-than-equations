@@ -65,7 +65,7 @@ Thank you for using the DSP!
 2. What strategy did you use to make sure the seeded value for the random number generator was different every time the program was run?
 3. Suppose you created a for loop which calls `rand()` on each iteration. Will the random numbers be the same or different from each other? Feel free to test this out in a short C++ program.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Critical Hit
 

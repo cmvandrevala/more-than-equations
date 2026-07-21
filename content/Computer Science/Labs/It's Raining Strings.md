@@ -92,7 +92,7 @@ Thank you for using the Business Sorting Program!
 2. How did you handle special characters in the business names?
 3. How did you sort the business names?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) C-strings Versus String Class
 

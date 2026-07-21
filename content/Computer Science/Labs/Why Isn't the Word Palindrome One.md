@@ -57,7 +57,7 @@ int main() {
 3. How might you handle even versus odd length words?
 4. Does your program consider "34743" a palindrome? Why or why not?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Two Credits) Phrase Palindromes
 

@@ -69,7 +69,7 @@ Thank you for using the Payroll Program!
 2. Are there any inputs for the hours worked and / or number of dependents that would cause your program to crash?
 3. Are there any inputs for the hours worked and / or number of dependents that would cause your program to return an erroneous output?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Customized Pay Rate
 

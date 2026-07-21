@@ -105,7 +105,7 @@ You could create a driver program that tests the binary tree data structure. It 
 1. How is a binary tree with one long branch related to a linked list?
 2. Why are we so interested in keeping binary trees balanced (i.e. approximately equal numbers of nodes on the left and right)?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Three Credits) Generic Type for Binary Tree
 

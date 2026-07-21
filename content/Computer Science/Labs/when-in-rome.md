@@ -65,7 +65,7 @@ numeral.toRoman(37) // This should return "XXXVII"
 2. Are there any useful patterns that you can exploit when thinking about how to convert Arabic numbers to Roman numerals?
 3. What is the maximum integer that your program can convert to Roman numerals?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Three Credits) From Roman Numerals
 

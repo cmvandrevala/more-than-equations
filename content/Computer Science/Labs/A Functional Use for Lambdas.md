@@ -61,7 +61,7 @@ For each of the cases listed in the acceptance criteria, answer the following qu
 1. What does the expression return when you print it out to the console?
 2. Does the expression change the original array?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

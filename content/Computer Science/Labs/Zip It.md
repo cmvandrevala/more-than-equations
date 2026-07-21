@@ -46,7 +46,7 @@ public static void main(String[] args) {
 1. How would your code change if you decided to use method overloading rather than generics in this problem?
 2. What happens if you try to zip a `List<String>` and `List<Integer>` in your code?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Three Credits) Lists to HashMap
 

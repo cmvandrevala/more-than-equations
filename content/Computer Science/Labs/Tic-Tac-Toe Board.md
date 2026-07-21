@@ -93,7 +93,7 @@ Goodbye!
 1. What structure are you using to store the cell coordinates (i.e. array, vector, etc.)?
 2. How might you translate a numeric position (1 - 9) into a zero-based position like in a vector or array?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Header File
 

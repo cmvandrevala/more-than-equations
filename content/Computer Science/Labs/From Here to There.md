@@ -57,7 +57,7 @@ Thank you for using the 2D Distance Program.
 2. How did you test this program to make sure that it works as expected? Specifically, how many pairs of points do you think you need to check to make sure that everything is correct? Do you need to pick pairs of points with particular attributes (e.g. different quadrants, along different axes, etc)?
 3. What sorts of erroneous inputs might a user enter in your program? Reminder: you do not need to actually handle these inputs in your code.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Two Credits) Two or Three-Dimensional Points
 

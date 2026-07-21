@@ -65,7 +65,7 @@ Do problems 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 16, 17, 18, 19
 4. How can you avoid placing a duplicate item into a list? To clarify, I am not asking how you can remove duplicate items from a list, but rather how can you avoid having any duplicates in the list in the first place.
 5. What strategy did you use to wrap the problem list to multiple lines if the output was too long?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Support Additional Separators
 

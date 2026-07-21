@@ -79,7 +79,7 @@ And so on...
 1. Create some nice visualizations of your results and attach them to your discussion post (Excel or some other graphing software is totally fine). You get to decide the best way to represent your data. Be sure to label your axes and title your plots!
 2. Based on your results, do you agree that flipping a biased coin $n$ times returns an expected value of $np$ heads as outlined in the Background Information section? Why or why not?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

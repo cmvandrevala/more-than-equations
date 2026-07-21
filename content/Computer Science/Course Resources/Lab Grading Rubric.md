@@ -12,6 +12,7 @@ The rubric for how I grade labs is presented below. Each lab is worth ten points
 | Code is Well Tested | 3 | 30% |
 | Clean and Organized Code | 2 | 20% |
 | Assignment-Specific Requirements | 2 | 20% |
+| Extra Credit |||
 
 Note that the Thought-Provoking Questions included with each lab are graded separately on a ten point scale.
 
@@ -61,3 +62,9 @@ Most assignments have additional requirements included within them. For example,
 | 0 | Student has not accomplished the assignment-specific requirements as outlined in the problem statement. |
 | 1 | Student has partially completed the assignment-specific requirements as outlined in the problem statement. |
 | 2 | Student has fully accomplished the assignment-specific requirements as outlined in the problem statement. |
+
+## Extra Credit (Optional)
+
+At the bottom of each lab assignment is a set of extra credit opportunities. You can complete these optional add-ons for some extra credit points on your lab assignment. When you complete this extra credit, do not start the lab over from scratch. Instead, make additions / changes to your code and submit the final version of the with everything included. If you decide to complete multiple extra credit features for one lab, you will still submit ONE program with all of the add-ons implemented.
+
+Each extra credit for a lab is given a point value to indicate approximately how difficult it is. Roughly speaking, a quarter of a point is easy, half a point is moderate, and one or more points is difficult. It is your choice which problems / credits you want to complete. You are allowed to do multiple add-ons from a single problem.

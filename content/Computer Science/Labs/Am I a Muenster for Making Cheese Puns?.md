@@ -41,7 +41,7 @@ I am not expecting any specific output on the console. Rather, I want to see the
 2. How many times does your program have to read through the dataset in order to calculate everything in the Acceptance Criteria? How might you alter your code so that it only has to read through the dataset once?
 3. Suppose that the cheese dataset was way too big to store all at once in memory or in a single variable. In other words, you could only read the file, one line at a time. What strategy might you use to calculate the number of organic cheese that have a moisture percentage greater than 41.0%?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Remove Headers
 

@@ -117,7 +117,7 @@ I might expect to see an `AVLTree` class used like this:
 2. Do the serialized values follow any pattern? It might be good to reflect on depth-first and breadth-first searches here!
 3. Suppose you were serializing a binary search tree without rebalancing rather than an AVL tree. On average, would you expect to see more or fewer "nil" values in the serialized output? Why?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

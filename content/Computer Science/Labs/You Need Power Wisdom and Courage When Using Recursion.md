@@ -93,7 +93,7 @@ Here is an example of how you might use the `TriangleNumberCalculator` class.
 3. What is the biggest argument you can enter into `TriangleNumberCalculator#subtract(int n)` before you get a stack overflow error?
 4. How do your results for questions 1 - 3 relate to each other? Is this what you expected?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Multiplication
 

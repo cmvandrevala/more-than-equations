@@ -114,7 +114,7 @@ A driver function might display the following behavior when utilizing your `Groc
 2. What strategy did you use to unit test the counted digits and the number of overflows?
 3. Describe the unit tests that you had to write in order to cover the edge cases of the business logic.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Custom Starting Value
 

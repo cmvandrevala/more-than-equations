@@ -158,7 +158,7 @@ printer.pretty_print();
 4. What does your output look like when there is a single source or sink in the middle of the rod rather than at the end?
 5. What does your output look like when there is a source or sink at each end of the rod?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Dynamic Memory Allocation from Scratch
 

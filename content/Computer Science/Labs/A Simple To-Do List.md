@@ -112,7 +112,7 @@ I might create a driver program that utilizes the `TodoList` class as follows:
 1. How did you handle invalid inputs to your program?
 2. What was your testing strategy for this code? What did you test and how?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Reject Blank Tasks
 

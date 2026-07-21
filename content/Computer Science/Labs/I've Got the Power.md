@@ -101,7 +101,7 @@ optimizedDCPower(2, 3) == 8;
 1. What is the Big-O value for each of these algorithms? Does your data support this?
 1. Which of these functions do you think has the largest memory footprint. Why do you think this? Note: you do not need to actually benchmark the code to get the memory footprint. You can make a hypothesis and support your answer with a few sentences of reasoning.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

@@ -69,7 +69,7 @@ cout << gradebook.report();
 4. What does your report look like if there is no student data or assignment data?
 5. What happens if you try to enter grade information for a student or assignment that does not exist? Note: you do not have to implement a bunch of validations for user input at this time. I am just curious as to what would happen in your program.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Two Credits) Average Grade for a Student
 

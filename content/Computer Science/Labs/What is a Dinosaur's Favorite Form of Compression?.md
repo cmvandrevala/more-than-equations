@@ -64,7 +64,7 @@ This might read the table from disk and use it to return "Hello World".
 1. Would your code work for text written in Japanese? Why or why not?
 2. If a character shows up more frequently in the text, it tends to have a smaller sized code. Why is this a good thing?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

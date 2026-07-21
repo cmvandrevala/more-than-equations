@@ -55,7 +55,7 @@ The median of the dataset is 11.
 3. What is `nullptr` and how might it be used in your program?
 4. Does it matter if the data points are sorted in ascending or descending order when calculating the median? Why or why not?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Mean
 

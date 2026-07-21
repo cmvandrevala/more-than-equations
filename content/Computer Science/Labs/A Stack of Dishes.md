@@ -132,7 +132,7 @@ Your driver program that tests the stack data structure might look something lik
 1. Right now, your stack data structure is bounded by a maximum size since it is built on top of an array. How might you create a stack with no theoretical maximum size?
 2. Right now, your stack is restricted to store `Dish` objects only. How might you change your stack class to select which type of object you want it to store?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Clear Method
 

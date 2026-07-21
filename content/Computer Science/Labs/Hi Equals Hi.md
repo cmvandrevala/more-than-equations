@@ -56,7 +56,7 @@ The comparison of "String two" and "string one" returns 1.
 4. Why do you think the return value of `strcmp` is "greater than zero", "less than zero", and "equal to zero" rather than -1, 0, 1 specifically?
 5. What cases might you need to consider to test your function thoroughly? How many times should you have to run the driver to do this testing?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Skip Spaces
 

@@ -72,7 +72,7 @@ Have a cat-tastic day!
 1. Did you define functions for substituting emoticons for words? If so, which values did you pass by value versus reference?
 2. As you write this code, you might notice that there is a lot of repeated business logic. How might you encapsulate this logic in functions?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) More Emoticons
 

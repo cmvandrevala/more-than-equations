@@ -64,7 +64,7 @@ public static void main(String args[]) {
 4. Suppose the sorted list of fuzzies was one billion fuzzies big. Approximately how many iterations would you need to search for a specified fuzzy using binary search in the worst case scenario?
 5. How might you change your code if I asked you to search on multiple conditions? For example, I want you to find me the fuzzy that is blue in color, wears a red hat, and has a handlebar moustache.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Two Credits) Linear Search Analysis
 

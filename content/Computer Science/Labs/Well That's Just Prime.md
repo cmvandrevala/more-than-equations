@@ -79,7 +79,7 @@ You have the ability to choose the format of how you want to return your output.
 1. What strategy did you use to test your function? Which test cases did you include?
 2. Where did you "draw the line" and stop writing tests? After all, you can't write tests for every integer. Why did you decide to stop there?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Is It Prime?
 

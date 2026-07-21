@@ -63,7 +63,7 @@ cout << p1 / p2 << endl; // Prints out a nicely formatted point such as (4.35, 4
 
 1. Suppose I wanted to overload the greater than or less than operator for the `Point` class. What strategy would you use to order two points?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Multiplication by a Constant
 

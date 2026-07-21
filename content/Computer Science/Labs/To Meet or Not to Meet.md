@@ -71,7 +71,7 @@ Thank you for using the Room Capacity Program!
 2. How many tests would be required to make sure your program works for all cases?
 3. Are there any edge cases where the code will crash or give a weird output? Note, you do not need to fix these edge cases at this time. You just need to think through them here.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Check for Zero / Negative Inputs
 

@@ -65,7 +65,7 @@ array.get_element_at_index(37); // Returns 37
 4. What are some downsides to using a dynamic array over a traditional array? Wouldn't it be better to use a dynamic array every place where we use a traditional one?
 5. How did you test your code?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Arithmetic Growth
 

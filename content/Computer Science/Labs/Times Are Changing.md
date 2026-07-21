@@ -78,7 +78,7 @@ Thank you for using the Time Interval Calculation Program.
 1. The goal of functions is to encapsulate small chunks of behavior to make it easier to read, understand, and reuse code. How many functions did you write for this program? What does each of your functions do in the program?
 2. Suppose you wanted to allow a user to give inputs in AM / PM time as well as 24 hour time. How might you change your program to allow this? Think about your program as a series of data transformations. You do NOT need to implement this feature - I just want you to think about it for now.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Inclusive Versus Exclusive Time Interval
 

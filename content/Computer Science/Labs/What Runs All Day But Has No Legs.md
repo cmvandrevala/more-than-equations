@@ -67,7 +67,7 @@ Comparing the times might check that they are within some tolerance of each othe
 3. How did you handle the case when a user tries to call `elapsed(...)` on an object which has never been started?
 4. How did you handle the case when a user tries to `stop(...)` a `Timer` object which has not been started?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Pretty Print the Time
 

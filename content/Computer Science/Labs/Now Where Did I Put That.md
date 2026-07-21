@@ -47,7 +47,7 @@ Here are some examples of an input string, a search query, and the expected retu
 2. Why might we want to return the number -1 if no index is found? Why not a string message? Why not throw an exception?
 3. How does the compiler distinguish which of your functions is being used for a particular call since they both have the same name?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Case Sensitivity
 

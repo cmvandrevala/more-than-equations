@@ -102,7 +102,7 @@ gSequence(6) == 4
 1. Was there a large input that caused either of your implementations to hang indefinitely or crash? If so, what was it?
 1. Did you use C++ or Java in this lab? This may or may not matter when comparing your results with other people!
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 N/A
 

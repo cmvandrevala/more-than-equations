@@ -52,7 +52,7 @@ Thank you for using the Monogram Program!
 2. How are you going to test this program to make sure that it works as expected? Specifically, how many sets of initials do you need to test?
 3. What sorts of erroneous inputs might a user enter in your program? Reminder: you do not need to actually handle these inputs in your code.
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Optional Punctuation
 

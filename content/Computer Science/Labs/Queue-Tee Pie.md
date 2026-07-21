@@ -129,7 +129,7 @@ Suppose you wrote a queue data structure called `QueueTees`. You then created `P
 1. How might you create a queue with no theoretical maximum size?
 2. Right now, your queue is restricted to store `Cutie` objects only. How might you change your queue class to store a variety of different types of objects?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (One Credit) Clear Method
 

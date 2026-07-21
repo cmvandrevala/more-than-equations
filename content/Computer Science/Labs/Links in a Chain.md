@@ -99,7 +99,7 @@ A driver program might look something like this:
 1. Does your linked list data structure have a maximum size?
 2. What is your strategy for appending a `Link` to the end of the list?
 
-## 💼 Add-Ons For the Portfolio
+## 💼 Optional Extra Credit
 
 ### (Three Credits) Generic Type for the Linked List
 
