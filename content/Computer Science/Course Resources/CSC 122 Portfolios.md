@@ -41,8 +41,6 @@ You will hand in your portfolios as an assignment on Blackboard, similar to how 
 
 The grade breakdown for each portfolios is as follows:
 
-The grade breakdown for each portfolios is as follows:
-
 | Part            | Percent |
 | --------------- | ------- |
 | Semester-Long Project    | 60%     |
