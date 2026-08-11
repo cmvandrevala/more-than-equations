@@ -46,6 +46,7 @@ tags:
 
 ## In-Class Activities
 
+* [[Adding Two Numbers]]
 * [[And Bingo Was His Name-O!]]
 * [[ASCII Plot - Part 1]]
 * [[ASCII Plot - Part 2]]
@@ -62,6 +63,7 @@ tags:
 * [[Point of Sale]]
 * [[Rock-Paper-Scissors - Part 1]]
 * [[Rock-Paper-Scissors - Part 2]]
+* [[Rolling Dice]]
 * [[Student Class]]
 * [[Triangular Numbers]]
 * [[Truth Table Exercises]]
