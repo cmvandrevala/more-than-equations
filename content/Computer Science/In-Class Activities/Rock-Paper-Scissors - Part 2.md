@@ -1,5 +1,5 @@
 ---
-title: Rock, Paper, Scissors: Part 2
+title: "Rock, Paper, Scissors: Part 2"
 tags:
   - c-plus-plus
   - csc-121
