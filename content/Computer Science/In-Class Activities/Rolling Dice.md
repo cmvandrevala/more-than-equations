@@ -31,7 +31,25 @@ N/A
 
 ## 🖥️ Example Output
 
-N/A
+You should generate a different set of numbers every time you run the program. For example:
+
+```bash
+$ ./random.out
+
+25
+32
+-6
+-12
+2
+
+$ ./random.out
+
+31
+98
+-2
+-22
+27
+```
 
 ## 📘 Works Cited
 

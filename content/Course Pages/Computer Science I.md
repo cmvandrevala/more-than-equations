@@ -52,6 +52,7 @@ tags:
 * [[ASCII Plot - Part 2]]
 * [[ASCII Shapes]]
 * [[Falling for You]]
+* [[Fizz Buzz]]
 * [[Hangman - Part 1]]
 * [[Hangman - Part 2]]
 * [[Happy Birthday]]
