@@ -66,6 +66,7 @@ tags:
 * [[Rock-Paper-Scissors - Part 2]]
 * [[Rolling Dice]]
 * [[Student Class]]
+* [[The First N Numbers]]
 * [[Triangular Numbers]]
 * [[Truth Table Exercises]]
 
