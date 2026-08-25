@@ -35,4 +35,4 @@ mcs.delete_first();  // deletes the element at the front of the structure and re
 mcs.delete_last();   // deletes the element at the end of the structure and returns it to the user
 ```
 
-Write the pseudocode for a function called `void swap_ends(MyCoolStructure mcs)` which swaps the first and last items in the data structure. What is the Big-$\Theta$ time complexity of this function?
+Write the pseudocode for a function called `void swap_ends(MyCoolStructure mcs)` which swaps the first and last items in the data structure. What is the Big-$\Theta$ time complexity of this function? Justify your answer with a proof.
