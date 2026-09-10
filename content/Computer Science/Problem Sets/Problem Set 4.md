@@ -51,7 +51,9 @@ $$
 
 ---
 
-(2 points) ✨ Optional extra credit ✨ The coupon collector's problem is a probabilistic experiment in which a person repeatedly draws a random number between $0$ and $n$ (with replacement) until each number in the collection has been selected at least once. If you get really lucky, you will only need $n$ draws to get all $n$ numbers. However, it is more likely that you will need more than $n$ draws to see all $n$ numbers.
+## ✨ Optional Extra Credit ✨
+
+(2 points) The coupon collector's problem is a probabilistic experiment in which a person repeatedly draws a random number between $0$ and $n$ (with replacement) until each number in the collection has been selected at least once. If you get really lucky, you will only need $n$ draws to get all $n$ numbers. However, it is more likely that you will need more than $n$ draws to see all $n$ numbers.
 
 10. Write the pseudocode for a function that performs this simulation for some input $n$ and returns the number of draws needed to get all of the numbers.
 11. Suppose I asked you to calculate the time complexity of your coupon collector's problem algorithm. This is a complicated problem because you have to take into account the probabilities of selecting a given combination of elements after some number of draws. What is the time complexity of the algorithm? Prove your answer.
