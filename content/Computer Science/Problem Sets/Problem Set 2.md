@@ -40,6 +40,6 @@ mcs.delete_last();   // deletes the element at the end of the structure and retu
 ```
 
 * Write the pseudocode for a function called `void swap_ends(MyCoolStructure mcs)` which swaps the first and last items in the data structure.
-* What is the Big-$\Theta$ time complexity of this function? Justify your answer with a proof.
+* What is the Big-O time complexity of this function? Justify your answer with a proof.
 
 8. What is the difference between "wall time", "user cpu time", and "kernel cpu time" in the context of benchmarking code?
