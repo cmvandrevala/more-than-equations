@@ -54,7 +54,7 @@ I might create a driver program that utilizes the `TodoList` class as follows:
 >  list.add("Prepare a lesson for CSC 122");
 >  list.add("Sow beet seeds");
 >
->  list.complete("Buy eggs")
+>  list.complete("Buy eggs");
 >
 >   // Pretty prints a list of each of the four tasks above
 >   list.all();
@@ -86,7 +86,7 @@ I might create a driver program that utilizes the `TodoList` class as follows:
 >     list.add("Prepare a lesson for CSC 122");
 >     list.add("Sow beet seeds");
 >
->     list.complete("Buy eggs")
+>     list.complete("Buy eggs");
 >
 >     // Pretty prints a list of each of the four tasks above
 >     list.all();
