@@ -29,17 +29,19 @@ A robust implementation of `tree` can be a bit complicated, but a GitHub user na
 
 ## 🎯 Problem Statement
 
-Read through the C++ or Java implementation of the tree function as written by Newton in his [tree repository](https://github.com/kddnewton/tree) [@newtonKddnewtonTree2025]. Then, run his code on your computer and capture the output in a screenshot. Finally, answer the Thought Provoking Questions.
+Read through the C++ or Java implementation of the tree function as written by Newton in his [tree repository](https://github.com/kddnewton/tree) [@newtonKddnewtonTree2025]. Then, complete the following:
+
+1. Run his code on your computer and capture the output in a screenshot.
+2. Benchmark the execution of the code on a variety of different directory structures.
+3. Answer the Thought Provoking Questions.
 
 ## ✅ Acceptance Criteria
 
-* Read through the code in the [tree repository](https://github.com/kddnewton/tree), taking time to understand it fully.
-* Clone the repository and run one of the implementations of `tree` on your computer. Take a snapshot of your output and submit that for your lab assignment.
-* Answer the Thought-Provoking Questions
+Read through the code in the [tree repository](https://github.com/kddnewton/tree), taking time to understand it fully. Then, complete the tasks outlined in the Problem Statement.
 
 ## 📋 Dev Notes
 
-N/A
+Benchmarking this code is quite difficult because you have to think about all of the different edge cases you might run into! Take time to think about a strategy for benchmarking the code rather than just diving in and doing it randomly.
 
 ## 🖥️ Example Output
 
@@ -47,13 +49,14 @@ N/A
 
 ## 📝 Thought Provoking Questions
 
-1. How does the command work? Give a high-level description of how the command displays a tree in the console.
-2. Is the filesystem displayed by the `tree` command an example of a binary tree or a general tree?
-3. What is the root node of the tree displayed by the `tree` command?
-4. What are the leaf nodes of the tree displayed by the `tree` command?
-5. What does it mean if two files are sibling nodes in the tree displayed by the `tree` command?
-6. How might you generate a tree with the largest possible depth via the `tree` command?
-7. In Unix-like operating systems, all the files on all the devices generally exist in a single hierarchy. In other words, there is one root directory called `/`, and every file on the system is located under it somewhere. How does this relate to the idea of a tree data structure?
+1. Report the results of your benchmarking trials. Be sure to visualize them in a way that your classmates can understand and interpret.
+2. How does the command work? Give a high-level description of how the command displays a tree in the console.
+3. Is the filesystem displayed by the `tree` command an example of a binary tree or a general tree?
+4. What is the root node of the tree displayed by the `tree` command?
+5. What are the leaf nodes of the tree displayed by the `tree` command?
+6. What does it mean if two files are sibling nodes in the tree displayed by the `tree` command?
+7. How might you generate a tree with the largest possible depth via the `tree` command?
+8. In Unix-like operating systems, all the files on all the devices generally exist in a single hierarchy. In other words, there is one root directory called `/`, and every file on the system is located under it somewhere. How does this relate to the idea of a tree data structure?
 
 ## 💼 Optional Extra Credit
 
