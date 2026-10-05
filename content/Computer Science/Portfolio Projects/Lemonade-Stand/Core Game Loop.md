@@ -1,8 +1,6 @@
 ---
 title: Lemonade Stand
 tags:
-  - c-plus-plus
-  - csc-122
   - csc-214
   - java
 description: This portfolio has you build your own console-based game where you sell drinks and snacks from a virtual lemonade stand.
@@ -195,7 +193,7 @@ What would you like to do?
 
 ## 🔗 Useful Links
 
-N/A
+* [Java Project Template](https://github.com/cmvandrevala/lemonade-stand-java-template)
 
 ## 📘 Works Cited
 
