@@ -4,7 +4,7 @@ tags: [csc-216]
 description: This problem set is from week eight of the course. It focuses on heaps and priority queues.
 ---
 
-1. How long would it take to remove the $log(n)$ smallest elements from a min heap which contains $n$ entries, using the `remove_min` operation? Explain your answer.
+1. How long would it take to remove the $log(n)$ smallest elements from a min heap which contains $n$ entries, using the `remove_min` operation? Prove your answer.
 
 ---
 
