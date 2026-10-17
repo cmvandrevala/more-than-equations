@@ -19,19 +19,21 @@ Write a function that can efficiently determine if you can create a note given o
 
 ## ✅ Acceptance Criteria
 
-Write a function that takes two arguments - a string which is the note that you want to write as well as an array of  strings which represent all of the magazine articles that you have to cut and paste letters from. The function should return `true` if the note can be constructed by using the letters from magazine articles and `false` otherwise.
+1. Write a hashmap data structure.
+2. Write a function that takes two arguments - a string which is the note that you want to write as well as an array of  strings which represent all of the magazine articles that you have to cut and paste letters from. The function should return `true` if the note can be constructed by using the letters from magazine articles and `false` otherwise. Your function will use the hashmap data structure "under the hood".
 
-* Each letter from the magazine articles can only be used once in the note.
-* You do NOT have to worry about whitespace.
-* You do NOT have to worry about the case of the characters (it is fine to use an upper case or lower case character interchangeably).
-* You DO need to worry about special characters and punctuation (e.g. periods, semicolons, question marks, etc.).
+    * Each letter from the magazine articles can only be used once in the note.
+    * You do NOT have to worry about whitespace.
+    * You do NOT have to worry about the case of the characters (it is fine to use an upper case or lower case character interchangeably).
+    * You DO need to worry about special characters and punctuation (e.g. periods, semicolons, question marks, etc.).
 
-Stress test your code by determining whether you can construct Shakespeare's play __Romeo and Juliet__ from Shakespeare's play __Othello__. Use a benchmarking utility to determine the time needed to run your algorithm.
+3. Use a benchmarking utility to determine the time needed to run your algorithm for various sizes of inputs.
+4. Stress test your code by determining whether you can construct Shakespeare's play __Romeo and Juliet__ from Shakespeare's play __Othello__.
 
 ## 📋 Dev Notes
 
 * You could brute force this solution with some nested for loops. However, the goal of this lab is to implement an *efficient* solution. Use the hashmap data structure to your advantage!
-* You are allowed to use the built-in hashmap data structures in the language that you are working in. You do NOT need to implement a hashmap from scratch in this problem.
+* Friendly reminder - you are NOT allowed to use the built-in hashmap data structures in the language that you are working in. You need to implement a hashmap from scratch in this problem. The hashing strategy that you use is up to you.
 
 ## 🖥️ Example Output
 
@@ -53,10 +55,10 @@ Here are some sample inputs and outputs for a function `bool canCreateNote(strin
 
 ## 📝 Thought Provoking Questions
 
-1. What steps did you take to prepare your data? For example, did you combine the articles in some way? Did you filter out certain characters or whitespace?
-2. How did you efficiently compare the articles to the note? In other words, how did you utilize the hashmap data structure?
-3. Estimate the time complexity of your solution. Explain your reasoning.
-4. Can you reconstruct the play __Romeo and Juliet__ from the characters of the play __Othello__? How long did your function take to run with this input? Be sure to measure this time using a benchmarking utility!
+1. What steps did you take to prepare your data in the `canCreateNote` function? For example, did you combine the articles in some way? Did you filter out certain characters or whitespace?
+2. How did you efficiently compare the articles to the note? In other words, how did you utilize your hashmap data structure?
+3. Plot the time taken to run your `canCreateNote` function with different sizes of inputs. Think carefully about how to best represent this analysis in a visualization - maybe use a heatmap?
+4. Can you reconstruct the play __Romeo and Juliet__ from the characters of the play __Othello__?
 
 ## 💼 Optional Extra Credit
 
