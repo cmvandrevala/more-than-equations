@@ -16,7 +16,7 @@ description: This problem set is from week thirteen of the course.
 
 ---
 
-4. Suppose you are throwing a fancy dinner party with $n$ guests total. When a guest walks through the front door, they check their coat in and continue to the party. However, the coat check mixes up all of the coats during dinner, so that afterward each guest receives a random coat when they prepare to leave. In other words, each guest gets their own coat with probability $1/n$. What is the expected number of guests who get their correct coat?
+4. Suppose you are throwing a fancy dinner party with $n$ guests total. When a guest walks through the front door, they check their coat in and continue to the party. However, the coat check mixes up all of the coats during dinner, so that afterward each guest receives a random coat when they prepare to leave. In other words, each guest gets their own coat with probability $1/n$. What is the expected number of guests who get their correct coat? Prove your answer.
 
 ---
 
